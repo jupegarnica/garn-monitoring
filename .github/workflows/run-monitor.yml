@@ -39,4 +39,4 @@ jobs:
           force-add: 'false'
           files: logs/*
           name:  monitor
-          email: jupegarnica@gmail.com
+          email: ${{ secrets.SMTP_TO }}
