@@ -5,3 +5,10 @@
     at async get (request.ts:40:25)
     at async monitor (monitor.ts:12:7)
     at async monitoring-once.ts:3:1
+2020-12-04 08:43 ERROR    :  Http: error sending request for url (http://fail.jupegarnica.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known
+    at processResponse (core.js:223:11)
+    at Object.jsonOpAsync (core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+    at async get (request.ts:40:25)
+    at async monitor (monitor.ts:12:7)
+    at async monitoring-once.ts:3:1
