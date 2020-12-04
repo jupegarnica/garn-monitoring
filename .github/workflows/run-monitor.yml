@@ -6,8 +6,8 @@ name: Cron monitor
 on:
   workflow_dispatch:
   schedule:
-  - cron: "* * * * *"
-  # - cron: "*/10 * * * *"
+  # - cron: "* * * * *"
+  - cron: "*/10 * * * *"
 
 jobs:
   monitor:
