@@ -1,0 +1,39 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will install Deno and run tests across stable and nightly builds on Windows, Ubuntu and macOS.
+# For more information see: https://github.com/denolib/setup-deno
+
+name: Deno
+
+on:
+  schedule:
+  - cron: "* * * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest # runs a test on Ubuntu, Windows and macOS
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Setup Deno
+        uses: denolib/setup-deno@c7d7968ad4a59c159a777f79adddad6872ee8d96
+        with:
+          deno-version: v1.5 # tests across multiple Deno versions
+
+      - name: Run monitoring
+        run: deno run -A monitoring-once.ts
+      - name: push
+        uses: github-actions-x/commit@v2.7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: 'new log'
+          force-add: 'false'
+          files: logs/*
+          name:  monitor
+          email: jupegarnica@email.com 
