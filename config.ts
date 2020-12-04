@@ -4,6 +4,7 @@ config({ safe: false, export:true  })
 
 export const URLS: string[] = [
   'http://jupegarnica.com',
+  'http://fail.jupegarnica.com',
   'http://valencia.io',
 ];
 
