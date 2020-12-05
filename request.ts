@@ -33,6 +33,22 @@ function throwForNotValidCodes(response: { status: number }) {
   }
 }
 
+// async function fetchWithTimeout(resource:string, options:any) {
+//   const { timeout = 10} = options;
+
+//   const controller = new AbortController();
+//   const id = setTimeout(() => controller.abort(), timeout);
+
+//   const response = await fetch(resource, {
+//     ...options,
+//     signal: controller.signal
+//   });
+//   clearTimeout(id);
+
+//   return response;
+// }
+
+
 export async function get(
   url: string,
   options: IOptions = defaultOptions,

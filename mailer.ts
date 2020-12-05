@@ -13,7 +13,7 @@ interface Email {
 
 const queue: Email[] = [];
 
-const sendDebounced = debounce(sendInBulk, 1000 * 5);
+const sendDebounced = debounce(sendInBulk, 1000 * 15);
 
 export function sendEmail(email: Email): void {
   queue.push(email);

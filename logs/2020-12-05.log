@@ -85,3 +85,39 @@
 }
 2020-12-05 14:22 DEBUG    :  🔻 fetching from https://shop.datsme.life:444/api/v1/products
 2020-12-05 14:22 DEBUG    :  ✅ success from https://shop.datsme.life:444/api/v1/products, delay: 720 ms
+2020-12-05 15:08 DEBUG    :  🔻 fetching from ups
+2020-12-05 15:08 ERROR    :  ❌ fail from ups ->  message: relative URL without a base
+{}
+2020-12-05 15:08 DEBUG    :  🔻 fetching from http://fail.jupegarnica.com
+2020-12-05 15:08 ERROR    :  ❌ fail from http://fail.jupegarnica.com ->  message: error sending request for url (http://fail.jupegarnica.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known
+{
+  "name": "Http"
+}
+2020-12-05 15:08 DEBUG    :  🔻 fetching from http://valencia.io/hello
+2020-12-05 15:08 ERROR    :  ❌ fail from http://valencia.io/hello ->  message: undefined
+{
+  "_bodySource": {},
+  "_stream": null,
+  "url": "http://valencia.io/hello",
+  "statusText": "Not Found",
+  "status": 404,
+  "headers": {},
+  "redirected": false,
+  "type": "default"
+}
+2020-12-05 15:08 DEBUG    :  🔻 fetching from fail.jupegarnica.com
+2020-12-05 15:08 ERROR    :  ❌ fail from fail.jupegarnica.com ->  message: relative URL without a base
+{}
+2020-12-05 15:08 DEBUG    :  🔻 fetching from http://jupegarnica.com
+2020-12-05 15:08 DEBUG    :  ✅ success from http://jupegarnica.com, delay: 322 ms
+2020-12-05 15:08 DEBUG    :  🔻 fetching from http://valencia.io
+2020-12-05 15:08 DEBUG    :  ✅ success from http://valencia.io, delay: 406 ms
+2020-12-05 15:08 DEBUG    :  🔻 fetching from https://datsme.life
+2020-12-05 15:08 DEBUG    :  ✅ success from https://datsme.life, delay: 2574 ms
+2020-12-05 15:08 DEBUG    :  🔻 fetching from https://shop.datsme.life/es/products
+2020-12-05 15:08 ERROR    :  ❌ fail from https://shop.datsme.life/es/products ->  message: error sending request for url (https://shop.datsme.life/es/products): error trying to connect: invalid certificate: UnknownIssuer
+{
+  "name": "Http"
+}
+2020-12-05 15:08 DEBUG    :  🔻 fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-05 15:08 DEBUG    :  ✅ success from https://shop.datsme.life:444/api/v1/products, delay: 714 ms

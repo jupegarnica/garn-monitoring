@@ -1,17 +1,17 @@
 urls:
-  - ups
-  - http://fail.jupegarnica.com
-  - http://valencia.io/hello
-  - fail.jupegarnica.com
+  # - ups
+  # - http://fail.jupegarnica.com
+  # - http://valencia.io/hello
+  # - fail.jupegarnica.com
 
   - http://jupegarnica.com
   - http://valencia.io
-  - http://198.211.122.70
-  - http://198.211.122.70:8080/api/v1/products
+  # - http://198.211.122.70
+  # - http://198.211.122.70:8080/api/v1/products
 
-  - https://datsme.life
-  - https://shop.datsme.life/es/products
-  - https://shop.datsme.life:444/api/v1/products
+  # - https://datsme.life
+  # - https://shop.datsme.life/es/products
+  # - https://shop.datsme.life:444/api/v1/products
 
 
 smtp:
