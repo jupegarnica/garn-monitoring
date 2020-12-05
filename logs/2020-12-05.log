@@ -1,0 +1,151 @@
+2020-12-05 10:01 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:01 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:01 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:01 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:03 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:03 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:04 DEBUG    :  [31m❌[39m fail from http://fail.sdfs.com
+2020-12-05 10:04 ERROR    :  Http: error sending request for url (http://fail.sdfs.com/): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+    at processResponse (core.js:223:11)
+    at Object.jsonOpAsync (core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+    at async get (request.ts:40:25)
+    at async monitor (monitor.ts:13:7)
+    at async monitoring-once.ts:3:1
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:04 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:04 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:05 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:05 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:06 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:06 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://jupegarnica.com
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://valencia.io
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com, delay: 538
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://jupegarnica.com, delay: 265
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://valencia.io, delay: 259
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:07 DEBUG    :  [31m❌[39m fail from http://fail.sdfs.com
+2020-12-05 10:07 ERROR    :  {"_bodySource":{},"_stream":null,"url":"http://fail.sdfs.com","statusText":"Service Unavailable","status":503,"headers":{},"redirected":false,"type":"default"}
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://jupegarnica.com, delay: 263 ms
+2020-12-05 10:07 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:07 DEBUG    :  [32m✔[39m success from http://valencia.io, delay: 446 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com, delay: 497 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://jupegarnica.com, delay: 254 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://valencia.io, delay: 269 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://fail.sdfs.com, delay: 655 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://jupegarnica.com, delay: 432 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://valencia.io, delay: 252 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://fail.sdfs.com
+2020-12-05 10:08 DEBUG    :  [31m❌[39m fail from http://fail.sdfs.com
+2020-12-05 10:08 ERROR    :  fail from http://fail.sdfs.com
+{
+  "_bodySource": {},
+  "_stream": null,
+  "url": "http://fail.sdfs.com",
+  "statusText": "Service Unavailable",
+  "status": 503,
+  "headers": {},
+  "redirected": false,
+  "type": "default"
+}
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://jupegarnica.com
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://jupegarnica.com, delay: 260 ms
+2020-12-05 10:08 DEBUG    :  [34m⬇[39m fetching from http://valencia.io
+2020-12-05 10:08 DEBUG    :  [32m✔[39m success from http://valencia.io, delay: 264 ms
+2020-12-05 10:11 DEBUG    :  ⬇ fetching from http://fail.sdfs.com
+2020-12-05 10:11 DEBUG    :  ✔ success from http://fail.sdfs.com, delay: 516 ms
+2020-12-05 10:11 DEBUG    :  ⬇ fetching from http://jupegarnica.com
+2020-12-05 10:11 DEBUG    :  ✔ success from http://jupegarnica.com, delay: 304 ms
+2020-12-05 10:11 DEBUG    :  ⬇ fetching from http://valencia.io
+2020-12-05 10:11 DEBUG    :  ✔ success from http://valencia.io, delay: 484 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://fail.sdfs.com
+2020-12-05 10:13 DEBUG    :  ✔ success from http://fail.sdfs.com, delay: 588 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://jupegarnica.com
+2020-12-05 10:13 DEBUG    :  ✔ success from http://jupegarnica.com, delay: 253 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://valencia.io
+2020-12-05 10:13 DEBUG    :  ✔ success from http://valencia.io, delay: 305 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://fail.sdfs.com
+2020-12-05 10:13 DEBUG    :  ✔ success from http://fail.sdfs.com, delay: 582 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://jupegarnica.com
+2020-12-05 10:13 DEBUG    :  ✔ success from http://jupegarnica.com, delay: 252 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://valencia.io
+2020-12-05 10:13 DEBUG    :  ✔ success from http://valencia.io, delay: 262 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://fail.sdfs.com
+2020-12-05 10:13 DEBUG    :   success from http://fail.sdfs.com, delay: 526 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://jupegarnica.com
+2020-12-05 10:13 DEBUG    :   success from http://jupegarnica.com, delay: 254 ms
+2020-12-05 10:13 DEBUG    :  ⬇ fetching from http://valencia.io
+2020-12-05 10:13 DEBUG    :   success from http://valencia.io, delay: 262 ms
+2020-12-05 10:13 DEBUG    :   fetching from http://fail.sdfs.com
+2020-12-05 10:13 DEBUG    :  ✅ success from http://fail.sdfs.com, delay: 600 ms
+2020-12-05 10:13 DEBUG    :   fetching from http://jupegarnica.com
+2020-12-05 10:13 DEBUG    :  ✅ success from http://jupegarnica.com, delay: 278 ms
+2020-12-05 10:13 DEBUG    :   fetching from http://valencia.io
+2020-12-05 10:13 DEBUG    :  ✅ success from http://valencia.io, delay: 268 ms
+2020-12-05 10:14 DEBUG    :  🔻 fetching from http://fail.sdfs.com
+2020-12-05 10:14 DEBUG    :  ✅ success from http://fail.sdfs.com, delay: 645 ms
+2020-12-05 10:14 DEBUG    :  🔻 fetching from http://jupegarnica.com
+2020-12-05 10:14 DEBUG    :  ✅ success from http://jupegarnica.com, delay: 476 ms
+2020-12-05 10:14 DEBUG    :  🔻 fetching from http://valencia.io
+2020-12-05 10:14 DEBUG    :  ✅ success from http://valencia.io, delay: 609 ms

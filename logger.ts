@@ -56,7 +56,7 @@ await log.setup({
     },
     debug: {
       level: 'DEBUG',
-      handlers: ['console'],
+      handlers: ['console', 'file'],
     },
   },
 });
