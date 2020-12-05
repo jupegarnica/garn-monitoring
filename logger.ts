@@ -2,7 +2,22 @@ import * as log from 'https://deno.land/std@0.79.0/log/mod.ts';
 import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { asString } from './helper.ts';
+import { sendEmail } from './mailer.ts';
 
+export class EmailHandler extends log.handlers.BaseHandler {
+  format(logRecord: LogRecord): string {
+    let msg = super.format(logRecord);
+
+    return msg.replaceAll('\n', '<br>');
+  }
+
+  async log(msg: string): Promise<void> {
+    await sendEmail({
+      subject: `garn-monitor logs`,
+      content: msg,
+    });
+  }
+}
 
 function formatLogFileName(date: Date = new Date()): string {
   return format(date, 'yyyy-MM-dd');
@@ -23,45 +38,51 @@ const defaultFormatter = ({
   datetime,
   levelName,
   msg,
-  args
+  args,
 }: LogRecord) => {
   let text = `${formatDate(datetime)} ${formatLogLevel(
     levelName,
-    )}:  ${msg}`;
+  )}:  ${msg}`;
 
-    args.forEach((arg) => {
-      text += `\n${asString(arg)}`;
+  args.forEach((arg) => {
+    text += `\n${asString(arg)}`;
+  });
 
-    });
-
-    return text;
-
-  }
+  return text;
+};
 
 await log.setup({
   handlers: {
-    console: new log.handlers.ConsoleHandler('DEBUG',{formatter: defaultFormatter}),
+    console: new log.handlers.ConsoleHandler('DEBUG', {
+      formatter: defaultFormatter,
+    }),
 
     file: new log.handlers.FileHandler('DEBUG', {
       filename: `logs/${formatLogFileName()}.log`,
       mode: 'a', // 'a', 'w', 'x'
       formatter: defaultFormatter,
     }),
+    email: new EmailHandler('NOTSET', {
+      formatter: defaultFormatter,
+    }),
+    email2: new EmailHandler('NOTSET'),
   },
 
   loggers: {
     default: {
       level: 'WARNING',
-      handlers: ['console', 'file'],
+      handlers: ['email', 'file'],
     },
     debug: {
       level: 'DEBUG',
-      handlers: ['console', 'file'],
+      handlers: ['console', 'file', 'email'],
+    },
+    email: {
+      level: 'DEBUG',
+      handlers: ['email2'],
     },
   },
 });
-
-
 
 const mainLogger = Deno.env.get('DEBUG') ? 'debug' : 'default';
 export const logger = log.getLogger(mainLogger);

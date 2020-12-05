@@ -7,6 +7,7 @@ import { get } from './request.ts';
 
 export async function monitor() {
   const urls = config.URLS;
+  console.clear();
   for (const url of urls) {
     try {
       logger.debug(`${'🔻'} fetching from ${url}`);
@@ -17,13 +18,7 @@ export async function monitor() {
         `${'✅'} success from ${url}, delay: ${delay} ms`,
       );
     } catch (error) {
-      logger.debug(`${'❌'} fail from ${url}`);
-      logger.error(`fail from ${url}`, error);
-
-      await sendEmail({
-        subject: `Error fetching to ${url}`,
-        content: asString(error.message),
-      });
+      logger.error(`${'❌'} fail from ${url} ->  message: ${ error.message }`, error);
     }
   }
 }
