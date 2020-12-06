@@ -11,7 +11,7 @@ services:
       SMTP_PASSWORD: ${SMTP_PASSWORD}
       SMTP_FROM: ${SMTP_FROM}
       SMTP_TO: ${SMTP_TO}
-      DEBUG: ${DEBUG}
+      LOG_LEVEL: ${LOG_LEVEL}
     working_dir: /app
     # command: deno run -A monitoring-once.ts
     command: deno run -A monitoring-continuous.ts

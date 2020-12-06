@@ -1,7 +1,7 @@
-import * as config from './config.ts';
+import {RUN_EVERY} from './config.ts';
 import { runEvery } from './helper.ts';
 import { monitor } from './monitor.ts';
 
-runEvery(config.DELAY, async (index:number) => {
+runEvery(RUN_EVERY, async (index:number) => {
   await monitor();
 });

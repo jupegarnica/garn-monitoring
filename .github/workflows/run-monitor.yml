@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
   # - cron: "* * * * *"
-  - cron: "*/10 * * * *"
+  - cron: "0 * * * *"
 
 jobs:
   monitor:

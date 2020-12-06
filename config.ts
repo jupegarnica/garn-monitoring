@@ -11,6 +11,6 @@ if (!conf.urls?.length) {
 }
 
 export const URLS: string[] = conf.urls
-export const DELAY = 1000 * 60 * 1; // 1 min
-export const REQUEST_TIMEOUT = 1000 * 10;
+export const RUN_EVERY = 1000 * 60 * 1; // 1 min
+export const REQUEST_TIMEOUT = 1000 * 5;
 export const SMTP = conf.smtp;
