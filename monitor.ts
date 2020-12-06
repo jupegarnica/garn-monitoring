@@ -1,13 +1,10 @@
 import * as config from './config.ts';
-import { asString } from './helper.ts';
 import { logger } from './logger.ts';
-import { sendEmail } from './mailer.ts';
 import { get } from './request.ts';
 // import { blue, green, red } from "https://deno.land/std@0.79.0/fmt/colors.ts";
 
 export async function monitor() {
   const urls = config.URLS;
-  console.clear();
   for (const url of urls) {
     try {
       logger.debug(`${'🔻'} fetching from ${url}`);

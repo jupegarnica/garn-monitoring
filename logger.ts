@@ -71,11 +71,11 @@ await log.setup({
   loggers: {
     default: {
       level: 'WARNING',
-      handlers: ['email', 'file'],
+      handlers: ['email', 'file', 'console'],
     },
     debug: {
       level: 'DEBUG',
-      handlers: ['console', 'file', 'email'],
+      handlers: ['console', 'file'],
     },
     email: {
       level: 'DEBUG',

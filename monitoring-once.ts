@@ -4,5 +4,5 @@ await monitor();
 
 
 setTimeout(() => {
-    Deno.exit(-1)
+    Deno.exit(0)
 }, 1000 * 120);
