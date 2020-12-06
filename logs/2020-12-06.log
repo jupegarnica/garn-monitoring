@@ -1,0 +1,16 @@
+2020-12-06 18:13 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 18:13 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 18:13 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 18:13 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 18:13 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-06 18:13 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 65 ms
+2020-12-06 18:13 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-06 18:13 INFO     :  ⭐ success from http://valencia.io -- ⏳ 133 ms
+2020-12-06 18:13 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-06 18:13 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 304 ms
+2020-12-06 18:13 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-06 18:13 INFO     :  ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1451 ms
+2020-12-06 18:13 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-06 18:13 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3450 ms
+2020-12-06 18:13 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-06 18:13 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 791 ms
