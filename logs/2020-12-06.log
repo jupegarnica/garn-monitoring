@@ -1,0 +1,12 @@
+2020-12-06 09:15 DEBUG    :  🔻 fetching from http://jupegarnica.com
+2020-12-06 09:15 DEBUG    :  ✅ success from http://jupegarnica.com, delay: 377 ms
+2020-12-06 09:15 DEBUG    :  🔻 fetching from http://valencia.io
+2020-12-06 09:15 DEBUG    :  ✅ success from http://valencia.io, delay: 727 ms
+2020-12-06 09:15 DEBUG    :  🔻 fetching from http://198.211.122.70
+2020-12-06 09:15 DEBUG    :  ✅ success from http://198.211.122.70, delay: 154 ms
+2020-12-06 09:15 DEBUG    :  🔻 fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-06 09:15 DEBUG    :  ✅ success from http://198.211.122.70:8080/api/v1/products, delay: 1025 ms
+2020-12-06 09:15 DEBUG    :  🔻 fetching from https://datsme.life
+2020-12-06 09:15 DEBUG    :  ✅ success from https://datsme.life, delay: 2538 ms
+2020-12-06 09:15 DEBUG    :  🔻 fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-06 09:15 DEBUG    :  ✅ success from https://shop.datsme.life:444/api/v1/products, delay: 745 ms

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  strapi:
+    container_name: garn-monitoring
+    image:  hayd/alpine-deno:1.5.4
+    environment:
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USERNAME: ${SMTP_USERNAME}
+      SMTP_PASSWORD: ${SMTP_PASSWORD}
+      SMTP_FROM: ${SMTP_FROM}
+      SMTP_TO: ${SMTP_TO}
+      DEBUG: ${DEBUG}
+    working_dir: /app
+    # command: deno run -A monitoring-once.ts
+    command: deno run -A monitoring-continuous.ts
+    volumes:
+      - .:/app
