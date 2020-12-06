@@ -30,3 +30,23 @@
 2020-12-06 19:11 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3410 ms
 2020-12-06 19:11 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
 2020-12-06 19:11 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 826 ms
+2020-12-06 22:16 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 22:16 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 22:16 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 22:16 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-06 22:16 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-06 22:16 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 61 ms
+2020-12-06 22:16 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-06 22:16 INFO     :  ⭐ success from http://valencia.io -- ⏳ 66 ms
+2020-12-06 22:16 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-06 22:16 ERROR    :  ❌ fail from http://198.211.122.70 --  message: TIMEOUT 5000
+{
+  "message": "TIMEOUT 5000",
+  "__CANCEL__": true
+}
+2020-12-06 22:16 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-06 22:16 INFO     :  ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 3266 ms
+2020-12-06 22:16 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-06 22:16 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3536 ms
+2020-12-06 22:16 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-06 22:16 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 853 ms
