@@ -1,0 +1,5 @@
+2020-12-06 15:59 ERROR    :  ❌ fail from http://198.211.122.70 ->  message: TIMEOUT 10000
+{
+  "message": "TIMEOUT 10000",
+  "__CANCEL__": true
+}
