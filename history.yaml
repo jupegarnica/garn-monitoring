@@ -1,64 +1,28 @@
 urls:
-  'http://jupegarnica.com':
-    updateAt: 1607331292737
-    createdAt: 1607282333616
-    allRequest: 33
-    totalDelay: 363
-    averageDelay: 11
-    lastDelay: 363
-  'http://valencia.io':
-    updateAt: 1607331293538
-    createdAt: 1607282334111
-    allRequest: 33
-    totalDelay: 786
-    averageDelay: 23.818181818181817
-    lastDelay: 786
-  'http://198.211.122.70':
-    updateAt: 1607331293743
-    createdAt: 1607282334636
-    allRequest: 18
-    totalDelay: 189
-    averageDelay: 10.5
-    lastDelay: 189
-  'http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607331294920
-    createdAt: 1607282335939
-    allRequest: 18
-    totalDelay: 1160
-    averageDelay: 64.44444444444444
-    lastDelay: 1160
-  'https://datsme.life':
-    updateAt: 1607331297839
-    createdAt: 1607282338793
-    allRequest: 18
-    totalDelay: 2900
-    averageDelay: 161.11111111111111
-    lastDelay: 2900
-  'https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607331298875
-    createdAt: 1607282339799
-    allRequest: 18
-    totalDelay: 1020
-    averageDelay: 56.666666666666664
-    lastDelay: 1020
   'http://localhost:8000/':
-    updateAt: 1607361886889
-    createdAt: 1607328833614
-    allRequest: 114
-    totalDelay: 25
-    averageDelay: 0.21929824561403508
-    lastDelay: 25
-  'http://localhost:8000/404':
-    updateAt: 1607361886928
-    createdAt: 1607328833622
-    allRequest: 114
-    totalDelay: 6
-    averageDelay: 0.05263157894736842
-    lastDelay: 6
-  'http://localhost:8000/timeout':
-    updateAt: 1607361886948
-    createdAt: 1607328833628
-    allRequest: 77
-    totalDelay: 5
-    averageDelay: 0.06493506493506493
+    updateAt: 1607367176579
+    createdAt: 1607363005921
+    allRequest: 56
+    allFailed: 48
+    downtimePercentage: 0.8571428571428571
+    totalDelay: 636
+    averageDelay: 11.357142857142858
     lastDelay: 5
+  'http://localhost:8000/404':
+    updateAt: 1607367176597
+    createdAt: 1607363005940
+    allRequest: 56
+    allFailed: 56
+    downtimePercentage: 1
+    totalDelay: 222
+    averageDelay: 3.9642857142857144
+    lastDelay: 3
+  'http://localhost:8000/timeout':
+    updateAt: 1607367176607
+    createdAt: 1607363035958
+    allRequest: 53
+    allFailed: 53
+    downtimePercentage: 1
+    totalDelay: 150184
+    averageDelay: 2833.6603773584907
+    lastDelay: 2

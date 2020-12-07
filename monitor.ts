@@ -6,16 +6,24 @@ import {
   writeYaml,
 } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
 
-async function setHistory(url: string, delay: number) {
+async function setHistory(
+  url: string,
+  delay: number,
+  failed = false,
+) {
   const history = (await readYaml('./history.yaml')) ?? {};
   history.urls = history?.urls || {};
   const data = history.urls[url] || {};
   const allRequest = data.allRequest ? data.allRequest + 1 : 1;
-  const totalDelay = (data.delay || 0) + delay;
+  const allFailed = (failed ? (data.allFailed || 0) + 1 : data.allFailed || 0);
+  const totalDelay = (data.totalDelay || 0) + delay;
+  const downtimePercentage = allFailed / allRequest;
   const newData = {
     updateAt: Date.now(),
     createdAt: data.createdAt || Date.now(),
     allRequest,
+    allFailed,
+    downtimePercentage,
     totalDelay,
     averageDelay: totalDelay / allRequest,
     lastDelay: delay,
@@ -33,18 +41,25 @@ export async function monitor() {
       now = Number(new Date());
       logger.info(`${'⏳'} fetching from ${url}`);
       await get(url);
-      logger.info(
-        `${'⭐'} success from ${url}`,
+      delay = Number(new Date()) - (now ?? 0);
+      const stats = await setHistory(url, delay, false);
+
+      logger.info(`${'⭐'} success from ${url}`,
+      `took ${stats.lastDelay}ms`,
+      `average delay ${stats.averageDelay}ms`,
+
       );
     } catch (error) {
+      delay = Number(new Date()) - (now ?? 0);
+      const stats = await setHistory(url, delay, true);
+
       logger.error(
         `${'❌'} fail from ${url} --  message: ${error.message}`,
-        error,
+        `Downtime ${stats.downtimePercentage * 100 }%`,
+        'error:',
+         error,
       );
-    } finally {
-      delay = Number(new Date()) - (now ?? 0);
 
-      await setHistory(url, delay);
     }
   }
 }

@@ -10,6 +10,7 @@ export async function get(url: string): Promise<any> {
 
   const response: any = await soxa
     .get(url, {
+      timeout:REQUEST_TIMEOUT,
       cancelToken: new CancelToken(
         (c: Function) => (cancel = c),
       ),
