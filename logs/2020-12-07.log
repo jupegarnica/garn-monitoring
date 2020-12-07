@@ -734,3 +734,49 @@
 2020-12-07 15:14 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3098 ms
 2020-12-07 15:14 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
 2020-12-07 15:14 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 845 ms
+2020-12-07 16:21 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 16:21 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 16:21 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 16:21 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 16:21 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 16:21 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 71 ms
+2020-12-07 16:21 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 16:21 INFO     :  ⭐ success from http://valencia.io -- ⏳ 60 ms
+2020-12-07 16:21 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 16:21 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 318 ms
+2020-12-07 16:21 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 16:21 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Request failed with status code 500
+{
+  "message": "Request failed with status code 500",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13",
+  "config": {
+    "url": "http://198.211.122.70:8080/api/v1/products",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "withCredentials": false,
+    "responseType": "json",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxRedirects": 5,
+    "cancelToken": {
+      "promise": {}
+    },
+    "socketPath": null,
+    "responseEncoding": "utf8"
+  }
+}
+2020-12-07 16:21 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 16:21 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3478 ms
+2020-12-07 16:21 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 16:21 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 867 ms
