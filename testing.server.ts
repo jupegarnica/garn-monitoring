@@ -1,11 +1,4 @@
 import {
-  bold,
-  cyan,
-  green,
-  yellow,
-} from 'https://deno.land/std@0.77.0/fmt/colors.ts';
-
-import {
   Application,
   Context,
   isHttpError,
@@ -42,9 +35,9 @@ app.use(async (context, next) => {
   await next();
   const rt = context.response.headers.get('X-Response-Time');
   logger.debug(
-    `${green(context.request.method)} ${cyan(
-      decodeURIComponent(context.request.url.pathname),
-    )} - ${bold(String(rt))}`,
+    `${context.request.method} ${decodeURIComponent(
+      context.request.url.pathname,
+    )} - ${String(rt)}`,
   );
 });
 
@@ -88,16 +81,12 @@ app.use(router.allowedMethods());
 app.use(notFound);
 
 app.addEventListener('listen', ({ hostname, port }) => {
-  logger.debug(
-    bold('Start listening on ') + yellow(`${hostname}:${port}`),
-  );
+  logger.debug('Start listening on ' + `${hostname}:${port}`);
 });
 
 try {
   await app.listen({ hostname: 'localhost', port: 8000 });
-  logger.debug(bold('Finished.'));
 } catch (error) {
   logger.error(error);
   Deno.exit(-1);
-
 }

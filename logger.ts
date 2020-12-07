@@ -2,10 +2,11 @@ import * as log from 'https://deno.land/std@0.79.0/log/mod.ts';
 import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
-import { asString } from './helper.ts';
+import { stringify } from './helper.ts';
 import { sendEmail } from './mailer.ts';
 import { DEBUG, LOG_LEVEL } from './config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
+
 console.clear();
 function formatLogFileName(date: Date = new Date()): string {
   return format(date, 'yyyy-MM-dd');
@@ -23,15 +24,15 @@ function formatLogLevel(str: string, length = 8): string {
 }
 
 function textColor(text: string, color = 'inherit'): string {
-  return text;
-  // return `<div style="color:${color};">${text}</div>`;
+  //return text;
+   return `<span style="color:${color};">${text}</span>`;
 }
 function textBackground(
   text: string,
   color = 'inherit',
 ): string {
-  return text;
-  return `<div style="background:${color}">${text}</div>`;
+  // return text;
+  return `<span style="background:${color}">${text}</span>`;
 }
 
 const emailFormatter = ({
@@ -48,7 +49,7 @@ const emailFormatter = ({
   );
 
   args.forEach((arg) => {
-    text += textColor(`\n${asString(arg)}`, '#555555');
+    text += textColor(`\n${stringify(arg)}`, '#555555');
   });
 
   return text;
@@ -76,10 +77,11 @@ const consoleFormatter = ({
 }: LogRecord) => {
   let text = `${colors.dim(formatDate(datetime))} ${colors.bold(
     formatLogLevel(levelName),
-  )} ${msg}`;
+  )}__ARGS__${(msg)}`;
 
   args.forEach((arg) => {
-    text += `\n${asString(arg)}`;
+    text += `\n__ARGS__${stringify(arg)}`;
+
   });
 
   return text;
@@ -113,7 +115,21 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
   }
 
   log(msg: string): void {
-    console.log(msg);
+    // console.log(msg);
+    let [text, ...args] = msg.split('__ARGS__')
+    // args =   args.map(v => {
+    //   try {
+    //     return JSON.parse(v);
+    //   } catch (error) {
+    //     return v
+    //   }
+    // });
+    console.log(text );
+    console.group()
+    args.forEach(v => console.log(v))
+    console.groupEnd();
+    // console.log('\n');
+
   }
 }
 const fileFormatter = ({
@@ -126,7 +142,7 @@ const fileFormatter = ({
     levelName,
   )}  ${msg}`;
   args.forEach((arg) => {
-    text += `\n${asString(arg)}`;
+    text += `\n${stringify(arg)}`;
   });
 
   return text;
@@ -166,12 +182,12 @@ await log.setup({
   },
 });
 
-const mainLogger = DEBUG ? 'debug' : 'default';
+const mainLogger = DEBUG ? 'email' : 'default';
 
 export const logger = log.getLogger(mainLogger);
 
-logger.debug('logger.debug', logger);
-logger.info('logger.info');
-logger.warning('logger.warning');
-logger.error('logger.error');
-logger.critical('logger.critical');
+// logger.debug('logger.debug', logger);
+// logger.info('logger.info',  {x:3 , v: null, f:console.log, a:{b:{c:{d:[1,3]}}}}, 3 , undefined);
+// logger.warning( {a:{b:{c:{d:[1,3]}}}});
+// // logger.error('logger.error', new Error('ups'));
+// // logger.critical('logger.critical', new Error('wow'));

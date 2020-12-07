@@ -31,7 +31,7 @@ export async function sendInBulk(): Promise<void> {
   let content = '';
   for (const email of queue) {
     const data: any = email;
-    content += data.content + '<br>';
+    content += `<div class="record">${data.content}</div>`;
   }
   if (content) {
     logger.debug(`SENDING MAIL IN BULK.  after ${BULK_WAIT}`);
@@ -39,7 +39,18 @@ export async function sendInBulk(): Promise<void> {
       from: SMTP.from,
       to: SMTP.to,
       subject: 'garn-monitor logs',
-      content: content,
+      content: `
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    ${content}
+</body>
+</html>
+      `,
     });
   }
   queue.length = 0;
