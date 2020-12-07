@@ -3,8 +3,7 @@ const addStripMark = (str:string):string => `__strip__${str}__strip__`;
 
 const parser:any = (() => {
   const seen = new WeakMap();
-  return (key: string, value: any):string => {
-
+  return (key: string, value: any):any => {
     if (typeof value === "object" && value !== null) {
       if (seen.has(value)) {
         const oldKey = seen.get(value);
@@ -29,6 +28,7 @@ const parser:any = (() => {
     if (typeof value === "function") {
       return addStripMark(value.name || value.toString());
     }
+
 
     return value;
   };

@@ -1,64 +1,28 @@
 urls:
-  'http://jupegarnica.com':
-    updateAt: 1607331292737
-    createdAt: 1607282333616
-    allRequest: 33
-    totalDelay: 363
-    averageDelay: 11
-    lastDelay: 363
-  'http://valencia.io':
-    updateAt: 1607331293538
-    createdAt: 1607282334111
-    allRequest: 33
-    totalDelay: 786
-    averageDelay: 23.818181818181817
-    lastDelay: 786
-  'http://198.211.122.70':
-    updateAt: 1607331293743
-    createdAt: 1607282334636
-    allRequest: 18
-    totalDelay: 189
-    averageDelay: 10.5
-    lastDelay: 189
-  'http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607331294920
-    createdAt: 1607282335939
-    allRequest: 18
-    totalDelay: 1160
-    averageDelay: 64.44444444444444
-    lastDelay: 1160
-  'https://datsme.life':
-    updateAt: 1607331297839
-    createdAt: 1607282338793
-    allRequest: 18
-    totalDelay: 2900
-    averageDelay: 161.11111111111111
-    lastDelay: 2900
-  'https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607331298875
-    createdAt: 1607282339799
-    allRequest: 18
-    totalDelay: 1020
-    averageDelay: 56.666666666666664
-    lastDelay: 1020
   'http://localhost:8000/':
-    updateAt: 1607367272731
-    createdAt: 1607328833614
-    allRequest: 115
-    totalDelay: 9
-    averageDelay: 0.0782608695652174
-    lastDelay: 9
+    updateAt: 1607367505639
+    createdAt: 1607367505639
+    allRequest: 1
+    allFailed: 0
+    downtimePercentage: 0
+    totalDelay: 13
+    averageDelay: 13
+    lastDelay: 13
   'http://localhost:8000/404':
-    updateAt: 1607367272745
-    createdAt: 1607328833622
-    allRequest: 115
-    totalDelay: 4
-    averageDelay: 0.034782608695652174
-    lastDelay: 4
+    updateAt: 1607367505647
+    createdAt: 1607367505647
+    allRequest: 1
+    allFailed: 1
+    downtimePercentage: 1
+    totalDelay: 3
+    averageDelay: 3
+    lastDelay: 3
   'http://localhost:8000/timeout':
-    updateAt: 1607367272754
-    createdAt: 1607328833628
-    allRequest: 78
-    totalDelay: 2
-    averageDelay: 0.02564102564102564
-    lastDelay: 2
+    updateAt: 1607367535657
+    createdAt: 1607367535657
+    allRequest: 1
+    allFailed: 1
+    downtimePercentage: 1
+    totalDelay: 30006
+    averageDelay: 30006
+    lastDelay: 30006
