@@ -25,7 +25,7 @@ function formatLogLevel(str: string, length = 8): string {
 
 function textColor(text: string, color = 'inherit'): string {
   //return text;
-   return `<span style="color:${color};">${text}</span>`;
+  return `<span style="color:${color};">${text}</span>`;
 }
 function textBackground(
   text: string,
@@ -41,12 +41,9 @@ const emailFormatter = ({
   msg,
   args,
 }: LogRecord) => {
-  let text = textColor(
-    `${formatDate(datetime)} ${formatLogLevel(
-      levelName,
-    )} ${msg}`,
-    'blue',
-  );
+  let text = `${formatDate(datetime)} ${formatLogLevel(
+    levelName,
+  )} ${msg}`;
 
   args.forEach((arg) => {
     text += textColor(`\n${stringify(arg)}`, '#555555');
@@ -57,7 +54,7 @@ const emailFormatter = ({
 
 class EmailHandler extends log.handlers.BaseHandler {
   format(logRecord: LogRecord): string {
-    let msg = super.format(logRecord);
+    const msg = super.format(logRecord);
 
     return msg.replaceAll('\n', '<br>');
   }
@@ -77,11 +74,10 @@ const consoleFormatter = ({
 }: LogRecord) => {
   let text = `${colors.dim(formatDate(datetime))} ${colors.bold(
     formatLogLevel(levelName),
-  )}__ARGS__${(msg)}`;
+  )}__ARGS__${msg}`;
 
   args.forEach((arg) => {
     text += `\n__ARGS__${stringify(arg)}`;
-
   });
 
   return text;
@@ -116,7 +112,7 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
 
   log(msg: string): void {
     // console.log(msg);
-    let [text, ...args] = msg.split('__ARGS__')
+    let [text, ...args] = msg.split('__ARGS__');
     // args =   args.map(v => {
     //   try {
     //     return JSON.parse(v);
@@ -124,12 +120,11 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
     //     return v
     //   }
     // });
-    console.log(text );
-    console.group()
-    args.forEach(v => console.log(v))
+    console.log(text);
+    console.group();
+    args.forEach((v) => console.log(v));
     console.groupEnd();
     // console.log('\n');
-
   }
 }
 const fileFormatter = ({

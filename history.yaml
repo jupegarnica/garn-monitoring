@@ -42,23 +42,23 @@ urls:
     averageDelay: 56.666666666666664
     lastDelay: 1020
   'http://localhost:8000/':
-    updateAt: 1607360983778
+    updateAt: 1607361886889
     createdAt: 1607328833614
-    allRequest: 104
-    totalDelay: 13
-    averageDelay: 0.125
-    lastDelay: 13
+    allRequest: 114
+    totalDelay: 25
+    averageDelay: 0.21929824561403508
+    lastDelay: 25
   'http://localhost:8000/404':
-    updateAt: 1607360983792
+    updateAt: 1607361886928
     createdAt: 1607328833622
-    allRequest: 104
-    totalDelay: 5
-    averageDelay: 0.04807692307692308
-    lastDelay: 5
+    allRequest: 114
+    totalDelay: 6
+    averageDelay: 0.05263157894736842
+    lastDelay: 6
   'http://localhost:8000/timeout':
-    updateAt: 1607361013808
+    updateAt: 1607361886948
     createdAt: 1607328833628
-    allRequest: 67
-    totalDelay: 30009
-    averageDelay: 447.8955223880597
-    lastDelay: 30009
+    allRequest: 77
+    totalDelay: 5
+    averageDelay: 0.06493506493506493
+    lastDelay: 5

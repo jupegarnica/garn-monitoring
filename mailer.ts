@@ -1,10 +1,9 @@
 import { SmtpClient } from 'https://deno.land/x/smtp@v0.6.0/mod.ts';
-import { SMTP } from './config.ts';
+import { SMTP,BULK_WAIT } from './config.ts';
 import { debounce } from './helper.ts';
 import { logger } from './logger.ts';
 
 const client = new SmtpClient();
-const BULK_WAIT = 1000 * 20;
 interface Email {
   from?: string;
   to?: string;
@@ -39,18 +38,7 @@ export async function sendInBulk(): Promise<void> {
       from: SMTP.from,
       to: SMTP.to,
       subject: 'garn-monitor logs',
-      content: `
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    ${content}
-</body>
-</html>
-      `,
+      content,
     });
   }
   queue.length = 0;

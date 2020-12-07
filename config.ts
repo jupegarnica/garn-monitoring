@@ -31,5 +31,5 @@ export const URLS: string[] = conf.urls
 export const RUN_EVERY = 1000 * 60 * 1; // 1 min
 export const REQUEST_TIMEOUT = 1000 * 5;
 export const SMTP = conf.smtp;
-
+export const BULK_WAIT = 1000 * 20;
 export default conf;
