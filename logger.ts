@@ -4,20 +4,8 @@ import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
 import { asString } from './helper.ts';
 import { sendEmail } from './mailer.ts';
+import { DEBUG, LOG_LEVEL } from "./config.ts";
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
-
-const LOG_LEVEL = (() => {
-  const selected: any = Deno.env.get('LOG_LEVEL')?.toUpperCase();
-  const levels = [
-    'WARNING',
-    'NOTSET',
-    'DEBUG',
-    'INFO',
-    'ERROR',
-    'CRITICAL',
-  ];
-  return levels.includes(selected) ? selected : 'INFO';
-})();
 
 function formatLogFileName(date: Date = new Date()): string {
   return format(date, 'yyyy-MM-dd');
@@ -120,7 +108,7 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
       default:
         break;
     }
-º
+
     return msg;
   }
 
@@ -140,7 +128,7 @@ await log.setup({
       mode: 'a', // 'a', 'w', 'x'
       formatter: consoleFormatter,
     }),
-    email: new EmailHandler('NOTSET', {
+    email: new EmailHandler('INFO', {
       formatter: emailFormatter,
     }),
     email2: new EmailHandler('NOTSET'),
@@ -163,7 +151,7 @@ await log.setup({
 });
 
 const mainLogger =
-  Deno.env.get('LOG_LEVEL') === 'DEBUG' ? 'debug' : 'default';
+  DEBUG ? 'debug' : 'default';
 
 export const logger = log.getLogger(mainLogger);
 

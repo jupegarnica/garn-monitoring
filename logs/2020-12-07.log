@@ -71,3 +71,496 @@
 [2m2020-12-07 08:12[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
 [2m2020-12-07 08:12[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products
 [2m2020-12-07 08:17[22m [1mCRITICAL[4m [24m[22m PROCESS KILL BY TIMEOUT
+[2m2020-12-07 08:48[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:48[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:48[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:48[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:48[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:49[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:49[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:49[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:49[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 08:49[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:01[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:02[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:03[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:121:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:04[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:121:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:05[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:121:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:05[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:121:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:108:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:108:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:108:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+{
+  "name": "AddrInUse"
+}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Object.listen (deno:cli/rt/40_net_unstable.js:11:18)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:102:15
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:13[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:13[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:13[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:13[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:17[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:18[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:23[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:25[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:25[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:25[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m [1mserver failed[22m
+[2m2020-12-07 09:29[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m SENDING MAIL IN BULK.  after 20000
+[2m2020-12-07 09:29[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:29[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"default","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:30[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m AddrInUse: Address already in use (os error 98)
+    at processResponse (core.js:223:11)
+    at Object.jsonOpSync (core.js:246:12)
+    at opListen (deno:cli/rt/30_net.js:32:17)
+    at Object.listen (deno:cli/rt/30_net.js:207:17)
+    at Application.serve (server.ts:287:25)
+    at Application.listen (application.ts:362:20)
+    at testing.server.ts:93:13
+    at <anonymous> (<anonymous>)
+[2m2020-12-07 09:33[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:33[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:34[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:36[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:36[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:36[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:36[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:36[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:37[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:37[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:37[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:37[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:37[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-07 09:38[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}

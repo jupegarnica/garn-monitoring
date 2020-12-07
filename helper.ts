@@ -1,4 +1,4 @@
-const wait = (delay: number) =>
+export const wait = (delay: number) =>
   new Promise((res) => setTimeout(res, delay));
 
 export async function runEvery(

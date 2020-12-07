@@ -1,0 +1,13 @@
+urls:
+ - http://localhost:8000/
+ - http://localhost:8000/404
+ - http://localhost:8000/timeout
+
+
+smtp:
+  host: ${{ SMTP_HOST  }}
+  port: ${{ SMTP_PORT  }}
+  username: ${{ SMTP_USERNAME  }}
+  from: ${{ SMTP_FROM  }}
+  to: ${{ SMTP_TO  }}
+  password: ${{ SMTP_PASSWORD  }}
