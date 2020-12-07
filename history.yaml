@@ -1,64 +1,64 @@
 urls:
   'http://jupegarnica.com':
-    updateAt: 1607327302766
+    updateAt: 1607331292737
     createdAt: 1607282333616
-    allRequest: 28
-    totalDelay: 464
-    averageDelay: 16.571428571428573
-    lastDelay: 464
+    allRequest: 33
+    totalDelay: 363
+    averageDelay: 11
+    lastDelay: 363
   'http://valencia.io':
-    updateAt: 1607327303413
+    updateAt: 1607331293538
     createdAt: 1607282334111
-    allRequest: 28
-    totalDelay: 632
-    averageDelay: 22.571428571428573
-    lastDelay: 632
+    allRequest: 33
+    totalDelay: 786
+    averageDelay: 23.818181818181817
+    lastDelay: 786
   'http://198.211.122.70':
-    updateAt: 1607327303912
+    updateAt: 1607331293743
     createdAt: 1607282334636
-    allRequest: 13
-    totalDelay: 484
-    averageDelay: 37.23076923076923
-    lastDelay: 484
+    allRequest: 18
+    totalDelay: 189
+    averageDelay: 10.5
+    lastDelay: 189
   'http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607327305308
+    updateAt: 1607331294920
     createdAt: 1607282335939
-    allRequest: 13
-    totalDelay: 1374
-    averageDelay: 105.6923076923077
-    lastDelay: 1374
+    allRequest: 18
+    totalDelay: 1160
+    averageDelay: 64.44444444444444
+    lastDelay: 1160
   'https://datsme.life':
-    updateAt: 1607327308377
+    updateAt: 1607331297839
     createdAt: 1607282338793
-    allRequest: 13
-    totalDelay: 3052
-    averageDelay: 234.76923076923077
-    lastDelay: 3052
+    allRequest: 18
+    totalDelay: 2900
+    averageDelay: 161.11111111111111
+    lastDelay: 2900
   'https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607327309459
+    updateAt: 1607331298875
     createdAt: 1607282339799
-    allRequest: 13
-    totalDelay: 1075
-    averageDelay: 82.6923076923077
-    lastDelay: 1075
+    allRequest: 18
+    totalDelay: 1020
+    averageDelay: 56.666666666666664
+    lastDelay: 1020
   'http://localhost:8000/':
-    updateAt: 1607330328875
+    updateAt: 1607354692707
     createdAt: 1607328833614
-    allRequest: 10
+    allRequest: 37
     totalDelay: 12
-    averageDelay: 1.2
+    averageDelay: 0.32432432432432434
     lastDelay: 12
   'http://localhost:8000/404':
-    updateAt: 1607330328887
+    updateAt: 1607354692722
     createdAt: 1607328833622
-    allRequest: 10
-    totalDelay: 5
-    averageDelay: 0.5
-    lastDelay: 5
+    allRequest: 37
+    totalDelay: 6
+    averageDelay: 0.16216216216216217
+    lastDelay: 6
   'http://localhost:8000/timeout':
-    updateAt: 1607330358904
+    updateAt: 1607354682657
     createdAt: 1607328833628
-    allRequest: 10
-    totalDelay: 30010
-    averageDelay: 3001
-    lastDelay: 30010
+    allRequest: 32
+    totalDelay: 30016
+    averageDelay: 938
+    lastDelay: 30016

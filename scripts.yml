@@ -16,10 +16,14 @@ scripts:
       DEBUG: true
   test:
     desc: server watch mode
-    cmd: deno run -A monitoring-once.ts
+    cmd: |
+      deno run -A testing.server.ts &
+      sleep 5
+      denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
+      denon run -A --unstable monitoring-once.ts
     env:
       DEBUG: true
-    watch: true
+    # watch: true
     unstable: true
   dev:
     desc: watch mode
