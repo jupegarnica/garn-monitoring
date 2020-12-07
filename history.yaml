@@ -1,0 +1,43 @@
+urls:
+  'http://jupegarnica.com':
+    updateAt: 1607325157977
+    createdAt: 1607282333616
+    allRequest: 27
+    totalDelay: 314
+    averageDelay: 11.62962962962963
+    lastDelay: 314
+  'http://valencia.io':
+    updateAt: 1607325158718
+    createdAt: 1607282334111
+    allRequest: 27
+    totalDelay: 729
+    averageDelay: 27
+    lastDelay: 729
+  'http://198.211.122.70':
+    updateAt: 1607325158951
+    createdAt: 1607282334636
+    allRequest: 12
+    totalDelay: 216
+    averageDelay: 18
+    lastDelay: 216
+  'http://198.211.122.70:8080/api/v1/products':
+    updateAt: 1607325159957
+    createdAt: 1607282335939
+    allRequest: 12
+    totalDelay: 984
+    averageDelay: 82
+    lastDelay: 984
+  'https://datsme.life':
+    updateAt: 1607325162834
+    createdAt: 1607282338793
+    allRequest: 12
+    totalDelay: 2850
+    averageDelay: 237.5
+    lastDelay: 2850
+  'https://shop.datsme.life:444/api/v1/products':
+    updateAt: 1607325164046
+    createdAt: 1607282339799
+    allRequest: 12
+    totalDelay: 1200
+    averageDelay: 100
+    lastDelay: 1200

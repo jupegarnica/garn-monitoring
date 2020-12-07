@@ -29,13 +29,13 @@ function formatDate(date: Date | string): string {
 function formatLogLevel(str: string, length = 9): string {
   let response = '';
   for (let index = 0; index < length; index++) {
-    response += str[index] ?? ' ';
+    response += str[index] ?? colors.underline(' ');
   }
   return response;
 }
 function textColor(text: string, color = 'inherit'): string {
   // return text;
-  return `<div style="color:${color}">${text}</div>`;
+  return `<div style="color:${color};">${text}</div>`;
 }
 function textBackground(
   text: string,
@@ -51,9 +51,9 @@ const consoleFormatter = ({
   msg,
   args,
 }: LogRecord) => {
-  let text = `${formatDate(datetime)} ${formatLogLevel(
-    levelName,
-  )}:  ${msg}`;
+  let text = `${colors.dim(formatDate(datetime))} ${colors.bold(
+    formatLogLevel(levelName),
+  )} ${msg}`;
 
   args.forEach((arg) => {
     text += `\n${asString(arg)}`;
@@ -106,7 +106,7 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
         break;
 
       case LogLevels.INFO:
-        msg = colors.brightWhite(msg);
+        msg = colors.green(msg);
         break;
       case LogLevels.WARNING:
         msg = colors.yellow(msg);
@@ -115,12 +115,12 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
         msg = colors.red(msg);
         break;
       case LogLevels.CRITICAL:
-        msg = colors.bgBlack(colors.red(msg));
+        msg = colors.bgBlack((colors.red(msg)));
         break;
       default:
         break;
     }
-
+º
     return msg;
   }
 
@@ -163,7 +163,7 @@ await log.setup({
 });
 
 const mainLogger =
-  Deno.env.get('LOG_LEVEL') === 'DEBUG' ? 'email' : 'default';
+  Deno.env.get('LOG_LEVEL') === 'DEBUG' ? 'debug' : 'default';
 
 export const logger = log.getLogger(mainLogger);
 

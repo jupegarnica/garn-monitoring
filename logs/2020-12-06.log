@@ -1,0 +1,492 @@
+[2m2020-12-06 20:05[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:05[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:05[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 373 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 596 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 492 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1116 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 2900 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:05[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 755 ms
+[2m2020-12-06 20:05[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 336 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 627 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 579 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1382 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3076 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 1232 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 577 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 881 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 411 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1191 ms
+[2m2020-12-06 20:06[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:06[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 2888 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 833 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 352 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 550 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 517 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1486 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3722 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 833 ms
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:07[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:08[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:09[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot set property 'http://jupegarnica.com' of undefined
+{}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot set property 'http://valencia.io' of undefined
+{}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot set property 'http://198.211.122.70' of undefined
+{}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot set property 'http://198.211.122.70:8080/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot set property 'https://datsme.life' of undefined
+{}
+[2m2020-12-06 20:10[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot set property 'https://shop.datsme.life:444/api/v1/products' of undefined
+{}
+[2m2020-12-06 20:11[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of null
+{}
+[2m2020-12-06 20:11[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot read property 'http://jupegarnica.com' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot read property 'http://valencia.io' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot read property 'http://198.211.122.70' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot read property 'http://198.211.122.70:8080/api/v1/products' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot read property 'https://datsme.life' of null
+{}
+[2m2020-12-06 20:11[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot read property 'https://shop.datsme.life:444/api/v1/products' of null
+{}
+[2m2020-12-06 20:12[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:12[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:12[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:12[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:12[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 362 ms
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 575 ms
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 281 ms
+[2m2020-12-06 20:13[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:14[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1394 ms
+[2m2020-12-06 20:14[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:14[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3064 ms
+[2m2020-12-06 20:14[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:14[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 755 ms
+[2m2020-12-06 20:16[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 405 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot set property 'http://jupegarnica.com' of null
+{}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 487 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot set property 'http://valencia.io' of null
+{}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 554 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot set property 'http://198.211.122.70' of null
+{}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1486 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot set property 'http://198.211.122.70:8080/api/v1/products' of null
+{}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3130 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot set property 'https://datsme.life' of null
+{}
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:16[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 1046 ms
+[2m2020-12-06 20:16[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot set property 'https://shop.datsme.life:444/api/v1/products' of null
+{}
+[2m2020-12-06 20:17[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:17[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:17[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:17[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 2021 ms
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 674 ms
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 359 ms
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1452 ms
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 2918 ms
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:17[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 733 ms
+[2m2020-12-06 20:18[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 431 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 488 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 476 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1531 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3229 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 745 ms
+[2m2020-12-06 20:18[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 371 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://jupegarnica.com --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 573 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://valencia.io --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 343 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70 --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1543 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3080 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://datsme.life --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 1129 ms
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from https://shop.datsme.life:444/api/v1/products --  message: Cannot set property 'urls' of undefined
+{}
+[2m2020-12-06 20:18[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 322 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 484 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 518 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1298 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 2847 ms
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:18[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 994 ms
+[2m2020-12-06 20:19[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:19[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:19[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:19[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ 818 ms
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ 716 ms
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ 320 ms
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ 1376 ms
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ 3320 ms
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 20:19[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 991 ms
+[2m2020-12-06 20:22[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:22[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:23[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:23[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:23[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:23[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:23[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:26[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:26[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:26[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:26[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:26[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:27[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:27[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:27[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:27[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:27[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:30[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:30[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:30[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:30[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:30[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:31[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:31[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:31[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:31[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:31[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 20:32[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:20[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:20[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:20[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:20[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:20[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:23[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:23[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:23[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:23[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:23[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:24[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:24[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:24[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:24[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:24[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:25[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:26[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:26[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:26[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:26[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:26[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:27[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 21:27[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ undefined ms
+[2m2020-12-06 21:27[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ undefined ms
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ undefined ms
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70:8080/api/v1/products -- ⏳ undefined ms
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ undefined ms
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ undefined ms
+[2m2020-12-06 21:28[22m [1mCRITICAL[4m [24m[22m PROCESS KILL BY TIMEOUT
+[2m2020-12-06 21:28[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:28[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:28[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:28[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:28[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mDEBUG[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mWARNING[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mCRITICAL[4m [24m[22m {"mainLogger":"debug","LOG_LEVEL":"DEBUG"}
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://jupegarnica.com
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://jupegarnica.com -- ⏳ undefined ms
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://valencia.io
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://valencia.io -- ⏳ undefined ms
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from http://198.211.122.70 -- ⏳ undefined ms
+[2m2020-12-06 21:29[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+[2m2020-12-06 21:34[22m [1mERROR[4m [24m[4m [24m[4m [24m[4m [24m[22m ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: TIMEOUT 5000
+{
+  "message": "TIMEOUT 5000",
+  "__CANCEL__": true
+}
+[2m2020-12-06 21:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://datsme.life
+[2m2020-12-06 21:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://datsme.life -- ⏳ undefined ms
+[2m2020-12-06 21:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+[2m2020-12-06 21:34[22m [1mINFO[4m [24m[4m [24m[4m [24m[4m [24m[4m [24m[22m ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ undefined ms
+[2m2020-12-06 21:39[22m [1mCRITICAL[4m [24m[22m PROCESS KILL BY TIMEOUT
