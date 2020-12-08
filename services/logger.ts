@@ -4,7 +4,7 @@ import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
 import { stringify } from './helper.ts';
 import { sendEmail } from './mailer.ts';
-import { DEBUG, LOG_LEVEL } from './config.ts';
+import { DEBUG, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
 
 console.clear();
@@ -180,9 +180,3 @@ await log.setup({
 const mainLogger = DEBUG ? 'debug' : 'default';
 
 export const logger = log.getLogger(mainLogger);
-
-// logger.debug('logger.debug', logger);
-// logger.info('logger.info',  {x:3 , v: null, f:console.log, a:{b:{c:{d:[1,3]}}}}, 3 , undefined);
-// logger.warning( {a:{b:{c:{d:[1,3]}}}});
-// // logger.error('logger.error', new Error('ups'));
-// // logger.critical('logger.critical', new Error('wow'));

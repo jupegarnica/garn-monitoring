@@ -1,5 +1,5 @@
 import { SmtpClient } from 'https://deno.land/x/smtp@v0.6.0/mod.ts';
-import { SMTP,BULK_WAIT } from './config.ts';
+import { SMTP,BULK_WAIT } from '../config.ts';
 import { debounce } from './helper.ts';
 import { logger } from './logger.ts';
 

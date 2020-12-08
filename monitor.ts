@@ -1,6 +1,6 @@
 import * as config from './config.ts';
-import { logger } from './logger.ts';
-import { get } from './request.ts';
+import { logger } from './services/logger.ts';
+import { get } from './services/request.ts';
 import {
   readYaml,
   writeYaml,

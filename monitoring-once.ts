@@ -1,5 +1,4 @@
-// console.clear();
-import { logger } from './logger.ts';
+import { logger } from './services/logger.ts';
 import { monitor } from './monitor.ts';
 
 await monitor();

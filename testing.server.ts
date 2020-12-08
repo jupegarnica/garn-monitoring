@@ -6,9 +6,9 @@ import {
   RouterContext,
   Status,
 } from 'https://deno.land/x/oak@v6.3.2/mod.ts';
-import { wait } from './helper.ts';
+import { wait } from './services/helper.ts';
 
-import { logger } from './logger.ts';
+import { logger } from './services/logger.ts';
 
 function notFound(context: Context) {
   context.response.status = Status.NotFound;
