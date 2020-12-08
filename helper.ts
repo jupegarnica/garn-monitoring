@@ -28,6 +28,9 @@ const parser:any = (() => {
     if (typeof value === "function") {
       return addStripMark(value.name || value.toString());
     }
+    if (typeof value === "string") {
+      return addStripMark(value);
+    }
 
 
     return value;

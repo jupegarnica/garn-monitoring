@@ -1,28 +1,28 @@
 urls:
   'http://localhost:8000/':
-    updateAt: 1607367505639
+    updateAt: 1607379680258
     createdAt: 1607367505639
-    allRequest: 1
-    allFailed: 0
-    downtimePercentage: 0
-    totalDelay: 13
-    averageDelay: 13
-    lastDelay: 13
+    allRequest: 30
+    allFailed: 15
+    downtimePercentage: 0.5
+    totalDelay: 345
+    averageDelay: 11.5
+    lastDelay: 12
   'http://localhost:8000/404':
-    updateAt: 1607367505647
+    updateAt: 1607379680268
     createdAt: 1607367505647
-    allRequest: 1
-    allFailed: 1
-    downtimePercentage: 1
-    totalDelay: 3
-    averageDelay: 3
-    lastDelay: 3
+    allRequest: 30
+    allFailed: 28
+    downtimePercentage: 0.9333333333333333
+    totalDelay: 122
+    averageDelay: 4.066666666666666
+    lastDelay: 4
   'http://localhost:8000/timeout':
-    updateAt: 1607367535657
+    updateAt: 1607379648477
     createdAt: 1607367535657
-    allRequest: 1
-    allFailed: 1
-    downtimePercentage: 1
-    totalDelay: 30006
-    averageDelay: 30006
-    lastDelay: 30006
+    allRequest: 23
+    allFailed: 22
+    downtimePercentage: 0.9565217391304348
+    totalDelay: 510202
+    averageDelay: 22182.695652173912
+    lastDelay: 30014
