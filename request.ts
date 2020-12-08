@@ -1,6 +1,5 @@
 import { soxa } from 'https://deno.land/x/soxa@1.4/mod.ts';
-// import { REQUEST_TIMEOUT } from './config.ts';
-const REQUEST_TIMEOUT = 1000;
+import { REQUEST_TIMEOUT } from './config.ts';
 
 export async function get(url: string): Promise<any> {
   return new Promise((resolve, reject)=>{
@@ -17,19 +16,4 @@ export async function get(url: string): Promise<any> {
       .finally(() => clearTimeout(id));
     return req;
   })
-}
-
-
-try {
-  console.time()
-  const r = await get('http://localhost:8000/timeout');
-  console.log({r});
-
-} catch (error) {
-  console.log({error});
-
-
-} finally {
-  console.timeEnd()
-
 }
