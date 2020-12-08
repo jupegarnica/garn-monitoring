@@ -177,7 +177,7 @@ await log.setup({
   },
 });
 
-const mainLogger = DEBUG ? 'email' : 'default';
+const mainLogger = DEBUG ? 'debug' : 'default';
 
 export const logger = log.getLogger(mainLogger);
 

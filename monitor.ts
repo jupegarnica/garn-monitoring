@@ -54,9 +54,9 @@ export async function monitor() {
       const stats = await setHistory(url, delay, true);
 
       logger.error(
-        `${'❌'} fail from ${url} --  message: ${error.message}`,
+        `${'❌'} fail from ${url} --  took ${ stats.lastDelay}ms`,
         `Downtime ${stats.downtimePercentage * 100 }%`,
-        'error:',
+
          error,
       );
 

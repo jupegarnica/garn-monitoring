@@ -20,7 +20,7 @@ router.get('/', (context: RouterContext) => {
   context.response.body = 'Hello world!';
 });
 router.get('/timeout', async (context: RouterContext) => {
-  await wait(1000 * 30);
+  await wait(1000 * 20);
   context.response.body = 'too late?';
 });
 
