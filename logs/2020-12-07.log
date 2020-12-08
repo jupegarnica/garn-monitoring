@@ -872,3 +872,207 @@
 2020-12-07 18:14 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3398 ms
 2020-12-07 18:14 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
 2020-12-07 18:14 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 845 ms
+2020-12-07 19:12 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 19:12 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 19:12 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 19:12 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 19:12 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 19:12 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 60 ms
+2020-12-07 19:12 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 19:12 INFO     :  ⭐ success from http://valencia.io -- ⏳ 150 ms
+2020-12-07 19:12 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 19:12 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 312 ms
+2020-12-07 19:12 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 19:12 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Request failed with status code 500
+{
+  "message": "Request failed with status code 500",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13",
+  "config": {
+    "url": "http://198.211.122.70:8080/api/v1/products",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "withCredentials": false,
+    "responseType": "json",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxRedirects": 5,
+    "cancelToken": {
+      "promise": {}
+    },
+    "socketPath": null,
+    "responseEncoding": "utf8"
+  }
+}
+2020-12-07 19:12 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 19:12 INFO     :  ⭐ success from https://datsme.life -- ⏳ 4290 ms
+2020-12-07 19:12 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 19:12 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 915 ms
+2020-12-07 20:13 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 20:13 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 20:13 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 20:13 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 20:13 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 20:13 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 73 ms
+2020-12-07 20:13 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 20:13 INFO     :  ⭐ success from http://valencia.io -- ⏳ 172 ms
+2020-12-07 20:13 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 20:13 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 321 ms
+2020-12-07 20:13 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 20:13 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Request failed with status code 500
+{
+  "message": "Request failed with status code 500",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13",
+  "config": {
+    "url": "http://198.211.122.70:8080/api/v1/products",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "withCredentials": false,
+    "responseType": "json",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxRedirects": 5,
+    "cancelToken": {
+      "promise": {}
+    },
+    "socketPath": null,
+    "responseEncoding": "utf8"
+  }
+}
+2020-12-07 20:13 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 20:13 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3274 ms
+2020-12-07 20:13 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 20:13 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 827 ms
+2020-12-07 21:12 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 21:12 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 21:12 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 21:12 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 21:12 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 21:12 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 58 ms
+2020-12-07 21:12 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 21:12 INFO     :  ⭐ success from http://valencia.io -- ⏳ 47 ms
+2020-12-07 21:12 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 21:12 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 300 ms
+2020-12-07 21:12 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 21:13 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: TIMEOUT 5000
+{
+  "message": "TIMEOUT 5000",
+  "__CANCEL__": true
+}
+2020-12-07 21:13 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 21:13 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3417 ms
+2020-12-07 21:13 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 21:13 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 759 ms
+2020-12-07 22:16 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 22:16 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 22:16 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 22:16 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 22:16 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 22:16 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 85 ms
+2020-12-07 22:16 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 22:16 INFO     :  ⭐ success from http://valencia.io -- ⏳ 79 ms
+2020-12-07 22:16 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 22:16 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 314 ms
+2020-12-07 22:16 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 22:16 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Request failed with status code 500
+{
+  "message": "Request failed with status code 500",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13",
+  "config": {
+    "url": "http://198.211.122.70:8080/api/v1/products",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "withCredentials": false,
+    "responseType": "json",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxRedirects": 5,
+    "cancelToken": {
+      "promise": {}
+    },
+    "socketPath": null,
+    "responseEncoding": "utf8"
+  }
+}
+2020-12-07 22:16 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 22:16 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3324 ms
+2020-12-07 22:16 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 22:16 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 879 ms
+2020-12-07 23:14 INFO     :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 23:14 WARNING  :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 23:14 ERROR    :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 23:14 CRITICAL :  {"mainLogger":"default","LOG_LEVEL":"INFO"}
+2020-12-07 23:14 INFO     :  ⏳ fetching from http://jupegarnica.com
+2020-12-07 23:14 INFO     :  ⭐ success from http://jupegarnica.com -- ⏳ 64 ms
+2020-12-07 23:14 INFO     :  ⏳ fetching from http://valencia.io
+2020-12-07 23:14 INFO     :  ⭐ success from http://valencia.io -- ⏳ 61 ms
+2020-12-07 23:14 INFO     :  ⏳ fetching from http://198.211.122.70
+2020-12-07 23:14 INFO     :  ⭐ success from http://198.211.122.70 -- ⏳ 316 ms
+2020-12-07 23:14 INFO     :  ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-07 23:14 ERROR    :  ❌ fail from http://198.211.122.70:8080/api/v1/products --  message: Request failed with status code 500
+{
+  "message": "Request failed with status code 500",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13",
+  "config": {
+    "url": "http://198.211.122.70:8080/api/v1/products",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "withCredentials": false,
+    "responseType": "json",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxRedirects": 5,
+    "cancelToken": {
+      "promise": {}
+    },
+    "socketPath": null,
+    "responseEncoding": "utf8"
+  }
+}
+2020-12-07 23:14 INFO     :  ⏳ fetching from https://datsme.life
+2020-12-07 23:14 INFO     :  ⭐ success from https://datsme.life -- ⏳ 3513 ms
+2020-12-07 23:14 INFO     :  ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-07 23:14 INFO     :  ⭐ success from https://shop.datsme.life:444/api/v1/products -- ⏳ 959 ms
