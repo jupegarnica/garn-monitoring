@@ -155,7 +155,7 @@ await log.setup({
       mode: 'a', // 'a', 'w', 'x'
       formatter: fileFormatter,
     }),
-    email: new EmailHandler('INFO', {
+    email: new EmailHandler('WARNING', {
       formatter: emailFormatter,
     }),
     email2: new EmailHandler('NOTSET'),
@@ -177,6 +177,6 @@ await log.setup({
   },
 });
 
-const mainLogger = DEBUG ? 'debug' : 'default';
+const mainLogger = DEBUG ? 'email' : 'default';
 
 export const logger = log.getLogger(mainLogger);

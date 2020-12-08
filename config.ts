@@ -17,7 +17,7 @@ export const LOG_LEVEL = (() => {
     'ERROR',
     'CRITICAL',
   ];
-  return levels.includes(selected) ? selected : 'INFO';
+  return levels.includes(selected) ? selected : 'WARNING';
 })();
 
 const confFile = `./config${DEBUG ? '.debug': ''}.yaml`;
