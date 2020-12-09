@@ -16,7 +16,7 @@ async function setHistory(
 ) {
   await ensureFile(historyFileName);
   const history = (await readYaml(historyFileName)) ?? {};
-  history.requests = history?.requests || {};
+  history.requests = history.requests || {};
   const data = history.requests[id] || {};
   const totalRequests = data.totalRequests ? data.totalRequests + 1 : 1;
   const totalFailed = (failed ? (data.totalFailed || 0) + 1 : data.totalFailed || 0);

@@ -19,6 +19,16 @@ const router = new Router();
 router.get('/', (context: RouterContext) => {
   context.response.body = 'Hello world!';
 });
+
+router.get('/random', (context: RouterContext) => {
+  const rnd = Math.random();
+  context.response.body = rnd;
+  context.response.status = rnd > 0.5 ? 200 : 422;
+
+
+
+});
+
 router.get('/timeout', async (context: RouterContext) => {
   await wait(1000 * 7);
   context.response.body = 'too late?';

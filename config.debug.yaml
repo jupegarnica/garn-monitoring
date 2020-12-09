@@ -1,14 +1,15 @@
 requests:
+ - http://localhost:8000/random
  - http://localhost:8000/timeout
  - http://localhost:8000/
  - http://localhost:8000/404
- - method: 'POST'
-   url: http://localhost:8000/post
-   data: "holaaaa"
-   headers:
-     content-type: text/plain
- - method: 'PATCH'
-   url: http://localhost:8000/post
+#  - method: 'POST'
+#    url: http://localhost:8000/post
+#    data: "holaaaa"
+#    headers:
+#      content-type: text/plain
+#  - method: 'PATCH'
+#    url: http://localhost:8000/post
 
 run_every: 300000
 log_level: debug

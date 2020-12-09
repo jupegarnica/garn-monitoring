@@ -29,9 +29,9 @@ scripts:
     unstable: true
   dev:
     desc: watch mode
-    cmd: app.ts --once
+    cmd: deno run -A --unstable app.ts --once
     env:
       # DEBUG_EMAIL: true
       DEBUG: true
     watch: true
-    unstable: true
+    # unstable: true
