@@ -57,3 +57,16 @@ export async function fetchAndCopy(url:string, path:string, options = undefined)
   const encoded = encoder.encode(fileText);
   await Deno.writeFile(path, encoded, options);
 }
+
+
+export function parseNumberToString(num:number, decimalLength = 1, decimalsChar = '.', milesChar = '') {
+  if (typeof num !== 'number') return num;
+
+  const fixed = num
+    .toFixed(decimalLength)
+    .replace('.', decimalsChar)
+
+  let [intPart, decimalPart] = fixed.split(decimalsChar)
+  intPart = intPart.replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1' + milesChar)
+  return [intPart, decimalPart].join(decimalsChar)
+}

@@ -7,6 +7,7 @@ import {
 } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
 import { ensureFile } from "https://deno.land/std@0.80.0/fs/mod.ts";
 import { difference } from "https://deno.land/std@0.80.0/datetime/mod.ts";
+import { parseNumberToString } from "./services/helpers.ts";
 
 const historyFileName = "./history.yaml";
 
@@ -53,8 +54,8 @@ export async function monitor() {
       logger.info(
         `${"⭐"} success`,
         id,
-        `\nDowntime ${stats.downtimePercentage * 100}%`,
-        `Delay/av.: ${stats.lastDelay}ms / ${stats.averageDelay}ms`,
+        `\nDowntime ${parseNumberToString(stats.downtimePercentage * 100)}%`,
+        `Delay/av.: ${parseNumberToString(stats.lastDelay)}ms / ${parseNumberToString(stats.averageDelay)}ms`,
         `Monitored during ${stats.daysMonitored} days`
 
       );
@@ -65,8 +66,8 @@ export async function monitor() {
       logger.error(
         `${"❌"} fail from`,
         id,
-        `\nDowntime ${stats.downtimePercentage * 100}%`,
-        `⏳ delay/av.: ${stats.lastDelay}ms / ${stats.averageDelay}ms`,
+        `\nDowntime ${parseNumberToString(stats.downtimePercentage * 100)}%`,
+        `Delay/av.: ${parseNumberToString(stats.lastDelay)}ms / ${parseNumberToString(stats.averageDelay)}ms`,
         `Monitored during ${stats.daysMonitored} days`,
         error,
       );
