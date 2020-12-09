@@ -19,8 +19,8 @@ async function setHistory(
 
   await ensureFile(historyFileName);
   const history = (await readYaml(historyFileName)) ?? {};
-  history.urls = history?.urls || {};
-  const data = history.urls[url] || {};
+  history.requests = history?.requests || {};
+  const data = history.requests[url] || {};
   const allRequest = data.allRequest ? data.allRequest + 1 : 1;
   const allFailed = (failed ? (data.allFailed || 0) + 1 : data.allFailed || 0);
   const totalDelay = (data.totalDelay || 0) + delay;
@@ -35,36 +35,36 @@ async function setHistory(
     averageDelay: totalDelay / allRequest,
     lastDelay: delay,
   };
-  history.urls[url] = newData;
+  history.requests[url] = newData;
   await writeYaml(historyFileName, history);
   return newData;
 }
 
 export async function monitor() {
-  const urls = config.URLS;
-  for (const url of urls) {
+  const requests = config.REQUESTS;
+  for (const req of requests) {
     let delay, now;
+    const id = `${req.method} ${req.url}`;
     try {
+      logger.info(`${'⏳'} fetching`, id);
       now = Number(new Date());
-      logger.info(`${'⏳'} fetching`, url);
-      const response = await request(url);
+      const response = await request(req);
       delay = Number(new Date()) - (now ?? 0);
-      const stats = await setHistory(url, delay, false);
-
+      const stats = await setHistory(id, delay, false);
       logger.info(`${'⭐'} success`,
-      url,
+      id,
       `Took ${stats.lastDelay}ms`,
       `Average delay ${stats.averageDelay}ms`,
-      response.data
+      response.data,
 
       );
     } catch (error) {
       delay = Number(new Date()) - (now ?? 0);
-      const stats = await setHistory(url, delay, true);
+      const stats = await setHistory(req, delay, true);
 
       logger.error(
         `${'❌'} fail from`,
-        url,
+        id,
         `Downtime ${stats.downtimePercentage * 100 }%`,
         `Took ${ stats.lastDelay}ms`,
          error,

@@ -10,6 +10,6 @@ const id = setTimeout(() => {
 await monitor();
 
 
-logger.debug('monitor all urls finish');
+logger.debug('monitor all requests finish');
 clearTimeout(id);
 await sendInBulk();

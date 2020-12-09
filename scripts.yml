@@ -12,7 +12,7 @@ scripts:
   server:
     cmd: deno run -A test/testing.server.ts
     unstable: true
-    watch: true
+    # watch: true
     env:
       DEBUG: true
   test:

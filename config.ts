@@ -29,8 +29,8 @@ try {
     throw error;
   }
 }
-if (!conf.urls?.length) {
-  throw new Error('No Urls configured, add them to config.yaml');
+if (!conf.requests?.length) {
+  throw new Error('No requests configured, add them to config.yaml');
 }
 
 export const LOG_LEVEL = (() => {
@@ -46,10 +46,10 @@ export const LOG_LEVEL = (() => {
   return levels.includes(selected) ? selected : 'DEBUG';
 })();
 
-export const URLS: string[] = conf.urls;
+export const REQUESTS: any[] = conf.requests.map((req:any) =>  typeof req === 'string' ? ({method:'get',url:req}): req);
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
 export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 5s
 export const SMTP = conf.smtp;
 export const PROCESS_TIMEOUT =
-  1000 + REQUEST_TIMEOUT * conf.urls?.length;
+  1000 + REQUEST_TIMEOUT * conf.requests?.length;
 export default conf;

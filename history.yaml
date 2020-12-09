@@ -1,32 +1,32 @@
-urls:
-  'http://localhost:8000/':
-    updateAt: 1607503717609
+requests:
+  'EGT http://localhost:8000/':
+    updateAt: 1607506416888
     createdAt: 1607367505639
-    allRequest: 49
-    allFailed: 17
-    downtimePercentage: 0.3469387755102041
-    totalDelay: 446
-    averageDelay: 9.10204081632653
-    lastDelay: 5
-  'http://localhost:8000/404':
-    updateAt: 1607503717625
+    allRequest: 58
+    allFailed: 20
+    downtimePercentage: 0.3448275862068966
+    totalDelay: 516
+    averageDelay: 8.89655172413793
+    lastDelay: 10
+  'GET http://localhost:8000/404':
+    updateAt: 1607506416903
     createdAt: 1607367505647
-    allRequest: 49
-    allFailed: 47
-    downtimePercentage: 0.9591836734693877
-    totalDelay: 172
-    averageDelay: 3.510204081632653
-    lastDelay: 2
-  'http://localhost:8000/timeout':
-    updateAt: 1607503717589
+    allRequest: 58
+    allFailed: 56
+    downtimePercentage: 0.9655172413793104
+    totalDelay: 210
+    averageDelay: 3.6206896551724137
+    lastDelay: 3
+  'GET http://localhost:8000/timeout':
+    updateAt: 1607506416843
     createdAt: 1607367535657
-    allRequest: 42
-    allFailed: 38
-    downtimePercentage: 0.9047619047619048
-    totalDelay: 601302
-    averageDelay: 14316.714285714286
-    lastDelay: 5004
-  'http://jupegarnica.com':
+    allRequest: 51
+    allFailed: 47
+    downtimePercentage: 0.9215686274509803
+    totalDelay: 631360
+    averageDelay: 12379.607843137255
+    lastDelay: 5009
+  'GET http://jupegarnica.com':
     updateAt: 1607502606446
     createdAt: 1607459293148
     allRequest: 15
@@ -35,7 +35,7 @@ urls:
     totalDelay: 5516
     averageDelay: 367.73333333333335
     lastDelay: 422
-  'http://valencia.io':
+  'GET http://valencia.io':
     updateAt: 1607502607206
     createdAt: 1607459293922
     allRequest: 15
@@ -44,7 +44,7 @@ urls:
     totalDelay: 8224
     averageDelay: 548.2666666666667
     lastDelay: 731
-  'http://198.211.122.70':
+  'GET http://198.211.122.70':
     updateAt: 1607502607416
     createdAt: 1607459294219
     allRequest: 15
@@ -53,7 +53,7 @@ urls:
     totalDelay: 3548
     averageDelay: 236.53333333333333
     lastDelay: 168
-  'http://198.211.122.70:8080/api/v1/products':
+  'GET http://198.211.122.70:8080/api/v1/products':
     updateAt: 1607502608393
     createdAt: 1607459295218
     allRequest: 15
@@ -62,7 +62,7 @@ urls:
     totalDelay: 14166
     averageDelay: 944.4
     lastDelay: 950
-  'https://datsme.life':
+  'GET https://datsme.life':
     updateAt: 1607502611152
     createdAt: 1607459297844
     allRequest: 14
@@ -71,7 +71,7 @@ urls:
     totalDelay: 37966
     averageDelay: 2711.8571428571427
     lastDelay: 2744
-  'https://shop.datsme.life:444/api/v1/products':
+  'GET https://shop.datsme.life:444/api/v1/products':
     updateAt: 1607502611954
     createdAt: 1607459298682
     allRequest: 14
@@ -80,12 +80,21 @@ urls:
     totalDelay: 10769
     averageDelay: 769.2142857142857
     lastDelay: 778
-  '[object Object]':
-    updateAt: 1607503717641
-    createdAt: 1607502903893
-    allRequest: 9
+  'GET http://localhost:8000/post':
+    updateAt: 1607507190286
+    createdAt: 1607507032893
+    allRequest: 6
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 28
-    averageDelay: 3.111111111111111
+    totalDelay: 50
+    averageDelay: 8.333333333333334
+    lastDelay: 9
+  'POST http://localhost:8000/post':
+    updateAt: 1607507378942
+    createdAt: 1607507354735
+    allRequest: 4
+    allFailed: 0
+    downtimePercentage: 0
+    totalDelay: 23
+    averageDelay: 5.75
     lastDelay: 3

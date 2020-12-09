@@ -24,9 +24,15 @@ router.get('/timeout', async (context: RouterContext) => {
   context.response.body = 'too late?';
 });
 
-router.post("/post", (context: RouterContext) => {
-  context.response.body = context.request.body();
-})
+router.post('/post', async (context: RouterContext) => {
+  if (context.request.hasBody) {
+    const { value }: any = await context.request.body();
+    const body = await value;
+    context.response.body = body;
+  } else {
+    context.response.body = '';
+  }
+});
 
 const app = new Application();
 

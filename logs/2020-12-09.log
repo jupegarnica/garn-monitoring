@@ -50,7 +50,7 @@ average delay 2709.3846153846152ms
 2020-12-09 08:20 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
 took 740ms
 average delay 768.5384615384615ms
-2020-12-09 08:20 DEBUG     monitor all urls finish
+2020-12-09 08:20 DEBUG     monitor all requests finish
 2020-12-09 08:20 DEBUG     sent  logs by email
 2020-12-09 09:30 INFO      ⏳ fetching from http://jupegarnica.com
 2020-12-09 09:30 INFO      ⭐ success from http://jupegarnica.com
@@ -104,7 +104,7 @@ average delay 2711.8571428571427ms
 2020-12-09 09:30 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
 took 778ms
 average delay 769.2142857142857ms
-2020-12-09 09:30 DEBUG     monitor all urls finish
+2020-12-09 09:30 DEBUG     monitor all requests finish
 2020-12-09 09:30 ERROR     Error: failed to lookup address information: Name or service not known
     at processResponse (deno:core/core.js:223:11)
     at Object.jsonOpAsync (deno:core/core.js:240:12)
