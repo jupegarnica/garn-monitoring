@@ -1,8 +1,8 @@
 requests:
- - http://localhost:8000/random
- - http://localhost:8000/timeout
  - http://localhost:8000/
- - http://localhost:8000/404
+#  - http://localhost:8000/random
+# #  - http://localhost:8000/timeout
+#  - http://localhost:8000/404
 #  - method: 'POST'
 #    url: http://localhost:8000/post
 #    data: "holaaaa"
@@ -11,7 +11,7 @@ requests:
 #  - method: 'PATCH'
 #    url: http://localhost:8000/post
 
-run_every: 300000
+run_every: 60000
 log_level: debug
 request_timeout: 5000
 smtp:

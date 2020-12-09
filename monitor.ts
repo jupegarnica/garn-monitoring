@@ -6,6 +6,7 @@ import {
   writeYaml,
 } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
 import { ensureFile } from "https://deno.land/std@0.80.0/fs/mod.ts";
+import { difference } from "https://deno.land/std@0.80.0/datetime/mod.ts";
 
 const historyFileName = "./history.yaml";
 
@@ -34,7 +35,8 @@ async function setHistory(
   };
   history.requests[id] = newData;
   await writeYaml(historyFileName, history);
-  return newData;
+  const {days: daysMonitored} = difference(new Date(newData.createdAt), new Date(newData.updateAt),{ units: ["days"] })
+  return {...newData,daysMonitored};
 }
 
 export async function monitor() {
@@ -51,9 +53,10 @@ export async function monitor() {
       logger.info(
         `${"⭐"} success`,
         id,
-        `Took ${stats.lastDelay}ms`,
-        `Average delay ${stats.averageDelay}ms`,
-        // response.data,
+        `\nDowntime ${stats.downtimePercentage * 100}%`,
+        `Delay/av.: ${stats.lastDelay}ms / ${stats.averageDelay}ms`,
+        `Monitored during ${stats.daysMonitored} days`
+
       );
     } catch (error) {
       delay = Number(new Date()) - (now ?? 0);
@@ -62,8 +65,9 @@ export async function monitor() {
       logger.error(
         `${"❌"} fail from`,
         id,
-        `Downtime ${stats.downtimePercentage * 100}%`,
-        `Took ${stats.lastDelay}ms`,
+        `\nDowntime ${stats.downtimePercentage * 100}%`,
+        `⏳ delay/av.: ${stats.lastDelay}ms / ${stats.averageDelay}ms`,
+        `Monitored during ${stats.daysMonitored} days`,
         error,
       );
     }
