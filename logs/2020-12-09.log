@@ -52,3 +52,63 @@ took 740ms
 average delay 768.5384615384615ms
 2020-12-09 08:20 DEBUG     monitor all urls finish
 2020-12-09 08:20 DEBUG     sent  logs by email
+2020-12-09 09:30 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-09 09:30 INFO      ⭐ success from http://jupegarnica.com
+took 422ms
+average delay 367.73333333333335ms
+2020-12-09 09:30 INFO      ⏳ fetching from http://valencia.io
+2020-12-09 09:30 INFO      ⭐ success from http://valencia.io
+took 731ms
+average delay 548.2666666666667ms
+2020-12-09 09:30 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-09 09:30 INFO      ⭐ success from http://198.211.122.70
+took 168ms
+average delay 236.53333333333333ms
+2020-12-09 09:30 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-09 09:30 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 950ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-09 09:30 INFO      ⏳ fetching from https://datsme.life
+2020-12-09 09:30 INFO      ⭐ success from https://datsme.life
+took 2744ms
+average delay 2711.8571428571427ms
+2020-12-09 09:30 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-09 09:30 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 778ms
+average delay 769.2142857142857ms
+2020-12-09 09:30 DEBUG     monitor all urls finish
+2020-12-09 09:30 ERROR     Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connectTls (deno:cli/rt/40_tls.js:31:17)
+    at async SmtpClient.connectTLS (smtp.ts:64:18)
+    at async sendInBulk (mailer.ts:22:5)
+    at async monitoring-once.ts:15:1

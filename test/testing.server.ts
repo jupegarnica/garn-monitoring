@@ -6,9 +6,9 @@ import {
   RouterContext,
   Status,
 } from 'https://deno.land/x/oak@v6.3.2/mod.ts';
-import { wait } from './services/helper.ts';
+import { wait } from '../services/helper.ts';
 
-import { logger } from './services/logger.ts';
+import { logger } from '../services/logger.ts';
 
 function notFound(context: Context) {
   context.response.status = Status.NotFound;
@@ -24,9 +24,9 @@ router.get('/timeout', async (context: RouterContext) => {
   context.response.body = 'too late?';
 });
 
-// .post("/book", async (context: RouterContext) => {
-
-// })
+router.post("/post", (context: RouterContext) => {
+  context.response.body = context.request.body();
+})
 
 const app = new Application();
 

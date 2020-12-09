@@ -1,82 +1,91 @@
 urls:
   'http://localhost:8000/':
-    updateAt: 1607498148466
+    updateAt: 1607503717609
     createdAt: 1607367505639
-    allRequest: 40
+    allRequest: 49
     allFailed: 17
-    downtimePercentage: 0.425
-    totalDelay: 402
-    averageDelay: 10.05
-    lastDelay: 3
+    downtimePercentage: 0.3469387755102041
+    totalDelay: 446
+    averageDelay: 9.10204081632653
+    lastDelay: 5
   'http://localhost:8000/404':
-    updateAt: 1607498148480
+    updateAt: 1607503717625
     createdAt: 1607367505647
-    allRequest: 40
-    allFailed: 38
-    downtimePercentage: 0.95
-    totalDelay: 150
-    averageDelay: 3.75
+    allRequest: 49
+    allFailed: 47
+    downtimePercentage: 0.9591836734693877
+    totalDelay: 172
+    averageDelay: 3.510204081632653
     lastDelay: 2
   'http://localhost:8000/timeout':
-    updateAt: 1607498148449
+    updateAt: 1607503717589
     createdAt: 1607367535657
-    allRequest: 33
-    allFailed: 29
-    downtimePercentage: 0.8787878787878788
-    totalDelay: 556267
-    averageDelay: 16856.575757575756
-    lastDelay: 7014
+    allRequest: 42
+    allFailed: 38
+    downtimePercentage: 0.9047619047619048
+    totalDelay: 601302
+    averageDelay: 14316.714285714286
+    lastDelay: 5004
   'http://jupegarnica.com':
-    updateAt: 1607498409140
+    updateAt: 1607502606446
     createdAt: 1607459293148
-    allRequest: 14
+    allRequest: 15
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 5094
-    averageDelay: 363.85714285714283
-    lastDelay: 306
+    totalDelay: 5516
+    averageDelay: 367.73333333333335
+    lastDelay: 422
   'http://valencia.io':
-    updateAt: 1607498409597
+    updateAt: 1607502607206
     createdAt: 1607459293922
-    allRequest: 14
+    allRequest: 15
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 7493
-    averageDelay: 535.2142857142857
-    lastDelay: 436
+    totalDelay: 8224
+    averageDelay: 548.2666666666667
+    lastDelay: 731
   'http://198.211.122.70':
-    updateAt: 1607498409782
+    updateAt: 1607502607416
     createdAt: 1607459294219
-    allRequest: 14
+    allRequest: 15
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 3380
-    averageDelay: 241.42857142857142
-    lastDelay: 155
+    totalDelay: 3548
+    averageDelay: 236.53333333333333
+    lastDelay: 168
   'http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607498410655
+    updateAt: 1607502608393
     createdAt: 1607459295218
-    allRequest: 14
-    allFailed: 14
+    allRequest: 15
+    allFailed: 15
     downtimePercentage: 1
-    totalDelay: 13216
-    averageDelay: 944
-    lastDelay: 843
+    totalDelay: 14166
+    averageDelay: 944.4
+    lastDelay: 950
   'https://datsme.life':
-    updateAt: 1607498413465
+    updateAt: 1607502611152
     createdAt: 1607459297844
-    allRequest: 13
+    allRequest: 14
     allFailed: 1
-    downtimePercentage: 0.07692307692307693
-    totalDelay: 35222
-    averageDelay: 2709.3846153846152
-    lastDelay: 2796
+    downtimePercentage: 0.07142857142857142
+    totalDelay: 37966
+    averageDelay: 2711.8571428571427
+    lastDelay: 2744
   'https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607498414227
+    updateAt: 1607502611954
     createdAt: 1607459298682
-    allRequest: 13
+    allRequest: 14
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 9991
-    averageDelay: 768.5384615384615
-    lastDelay: 740
+    totalDelay: 10769
+    averageDelay: 769.2142857142857
+    lastDelay: 778
+  '[object Object]':
+    updateAt: 1607503717641
+    createdAt: 1607502903893
+    allRequest: 9
+    allFailed: 0
+    downtimePercentage: 0
+    totalDelay: 28
+    averageDelay: 3.111111111111111
+    lastDelay: 3

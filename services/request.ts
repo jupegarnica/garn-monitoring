@@ -1,14 +1,23 @@
 import { soxa } from 'https://deno.land/x/soxa@1.4/mod.ts';
 import { REQUEST_TIMEOUT } from '../config.ts';
 
-export async function get(url: string): Promise<any> {
+export function request(config: any): Promise<any> {
   return new Promise((resolve, reject)=>{
+    let _config = config
+    if (typeof config === 'string') {
+      _config = {
+        method:'GET',
+        url: config
+      }
+    }
+
     const id: number = setTimeout(() => {
       reject('TIMEOUT ' + REQUEST_TIMEOUT);
     }, REQUEST_TIMEOUT);
 
     const req: any = soxa
-      .get(url, {
+      .request({
+        ..._config,
         timeout:REQUEST_TIMEOUT,
       })
       .then(resolve)

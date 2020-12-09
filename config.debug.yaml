@@ -2,6 +2,9 @@ urls:
  - http://localhost:8000/timeout
  - http://localhost:8000/
  - http://localhost:8000/404
+ - method: 'POST'
+   url: http://localhost:8000/post
+   data: 'hello'
 
 run_every: 60000
 log_level: debug

@@ -1,6 +1,6 @@
 import * as config from './config.ts';
 import { logger } from './services/logger.ts';
-import { get } from './services/request.ts';
+import { request } from './services/request.ts';
 import {
   readYaml,
   writeYaml,
@@ -46,14 +46,16 @@ export async function monitor() {
     let delay, now;
     try {
       now = Number(new Date());
-      logger.info(`${'⏳'} fetching from ${url}`);
-      await get(url);
+      logger.info(`${'⏳'} fetching`, url);
+      const response = await request(url);
       delay = Number(new Date()) - (now ?? 0);
       const stats = await setHistory(url, delay, false);
 
-      logger.info(`${'⭐'} success from ${url}`,
-      `took ${stats.lastDelay}ms`,
-      `average delay ${stats.averageDelay}ms`,
+      logger.info(`${'⭐'} success`,
+      url,
+      `Took ${stats.lastDelay}ms`,
+      `Average delay ${stats.averageDelay}ms`,
+      response.data
 
       );
     } catch (error) {
@@ -61,9 +63,10 @@ export async function monitor() {
       const stats = await setHistory(url, delay, true);
 
       logger.error(
-        `${'❌'} fail from ${url} --  took ${ stats.lastDelay}ms`,
+        `${'❌'} fail from`,
+        url,
         `Downtime ${stats.downtimePercentage * 100 }%`,
-
+        `Took ${ stats.lastDelay}ms`,
          error,
       );
 

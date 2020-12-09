@@ -80,7 +80,7 @@ const consoleFormatter = ({
   )}__ARGS__${msg}`;
 
   args.forEach((arg) => {
-    text += `\n__ARGS__${stringify(arg)}`;
+    text += `__ARGS__${stringify(arg)}`;
   });
 
   return text;
@@ -120,7 +120,7 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
     console.group();
     args.forEach((v) => console.log(v));
     console.groupEnd();
-    // console.log('\n');
+    console.log('\n');
   }
 }
 const fileFormatter = ({

@@ -6,11 +6,11 @@ allow:
   - write
 
 scripts:
-  start: deno run monitoring-continuous.ts
-  once: deno run monitoring-once.ts
+  start: deno run --unstable monitoring-continuous.ts
+  once: deno run --unstable monitoring-once.ts
   format: deno fmt *.ts
   server:
-    cmd: deno run -A testing.server.ts
+    cmd: deno run -A test/testing.server.ts
     unstable: true
     watch: true
     env:

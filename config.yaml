@@ -8,7 +8,7 @@ urls:
   # - https://shop.datsme.life/es/products
   - https://shop.datsme.life:444/api/v1/products
 
-run_every: 60000
+run_every: 300000 # 5min
 request_timeout: 5000
 log_level: debug
 
