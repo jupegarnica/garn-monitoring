@@ -2,7 +2,7 @@ import * as log from 'https://deno.land/std@0.79.0/log/mod.ts';
 import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
-import { stringify } from './helper.ts';
+import { stringify } from './helpers.ts';
 import { addLogToQueue } from './mailer.ts';
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';

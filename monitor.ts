@@ -18,18 +18,18 @@ async function setHistory(
   const history = (await readYaml(historyFileName)) ?? {};
   history.requests = history?.requests || {};
   const data = history.requests[id] || {};
-  const allRequest = data.allRequest ? data.allRequest + 1 : 1;
-  const allFailed = (failed ? (data.allFailed || 0) + 1 : data.allFailed || 0);
+  const totalRequests = data.totalRequests ? data.totalRequests + 1 : 1;
+  const totalFailed = (failed ? (data.totalFailed || 0) + 1 : data.totalFailed || 0);
   const totalDelay = (data.totalDelay || 0) + delay;
-  const downtimePercentage = allFailed / allRequest;
+  const downtimePercentage = totalFailed / totalRequests;
   const newData = {
     updateAt: Date.now(),
     createdAt: data.createdAt || Date.now(),
-    allRequest,
-    allFailed,
+    totalRequests,
+    totalFailed,
     downtimePercentage,
     totalDelay,
-    averageDelay: totalDelay / allRequest,
+    averageDelay: totalDelay / totalRequests,
     lastDelay: delay,
   };
   history.requests[id] = newData;

@@ -1,7 +1,7 @@
 import { readYaml } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
 
 import { config } from "https://deno.land/x/dotenv@v1.0.1/mod.ts";
-import { fetchAndCopy } from "./services/helper.ts";
+import { fetchAndCopy } from "./services/helpers.ts";
 
 config({ safe: false, export: true });
 let conf: any;
@@ -48,7 +48,7 @@ export const REQUESTS: any[] = conf.requests.map((req: any) =>
   typeof req === "string" ? ({ method: "GET", url: req }) : req
 );
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
-export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 5s
+export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 10s
 export const SMTP = conf.smtp;
 export const PROCESS_TIMEOUT = 1000 + REQUEST_TIMEOUT * conf.requests?.length;
 export default conf;

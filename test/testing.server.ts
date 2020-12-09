@@ -6,7 +6,7 @@ import {
   RouterContext,
   Status,
 } from 'https://deno.land/x/oak@v6.3.2/mod.ts';
-import { wait } from '../services/helper.ts';
+import { wait } from '../services/helpers.ts';
 
 import { logger } from '../services/logger.ts';
 
