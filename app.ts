@@ -1,0 +1,29 @@
+import { PROCESS_TIMEOUT, RUN_EVERY } from './config.ts';
+import { runEvery } from './services/helpers.ts';
+import { logger } from './services/logger.ts';
+import { monitor } from './monitor.ts';
+import { sendInBulk } from './services/mailer.ts';
+import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
+
+const {once} = parse(Deno.args);
+
+const run = async () => {
+  const id = setTimeout(() => {
+    logger.critical(
+      'PROCESS KILL BY TIMEOUT ' + PROCESS_TIMEOUT,
+    );
+    Deno.exit(0);
+  }, PROCESS_TIMEOUT);
+  await monitor();
+
+  logger.debug('All requests finished');
+  clearTimeout(id);
+  await sendInBulk();
+};
+
+
+if (once) {
+    await run()
+} else {
+    await runEvery(RUN_EVERY, run);
+}

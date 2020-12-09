@@ -6,8 +6,8 @@ allow:
   - write
 
 scripts:
-  start: deno run --unstable monitoring-continuous.ts
-  once: deno run --unstable monitoring-once.ts
+  start: deno run --unstable app.ts
+  once: deno run --unstable app.ts --once
   format: deno fmt *.ts
   server:
     cmd: deno run -A test/testing.server.ts
@@ -21,7 +21,7 @@ scripts:
       deno run -A test/testing.server.ts &
       sleep 5
       denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
-      denon run -A --unstable monitoring-once.ts
+      denon run -A --unstable app.ts --once
     env:
       DEBUG: true
       # DEBUG_EMAIL: true
@@ -29,7 +29,7 @@ scripts:
     unstable: true
   dev:
     desc: watch mode
-    cmd: monitoring-once.ts
+    cmd: app.ts --once
     env:
       # DEBUG_EMAIL: true
       DEBUG: true

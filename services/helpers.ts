@@ -38,7 +38,7 @@ export const wait = (delay: number) =>
   new Promise((res) => setTimeout(res, delay));
 
 export async function runEvery(
-  delay: number,
+  delay: number = 1000 * 60,
   fn: Function,
   max = Infinity,
 ) {

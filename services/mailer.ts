@@ -43,6 +43,6 @@ export async function sendInBulk(): Promise<void> {
     queue.length = 0;
     await client.close();
   } catch (error) {
-    logger.error(error)
+    logger.error('Error sending email',error)
   }
 }
