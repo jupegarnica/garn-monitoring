@@ -1,5 +1,5 @@
 requests:
-  'EGT http://localhost:8000/':
+  'GET http://localhost:8000/':
     updateAt: 1607506416888
     createdAt: 1607367505639
     allRequest: 58
@@ -98,7 +98,7 @@ requests:
     totalDelay: 37
     averageDelay: 6.166666666666667
     lastDelay: 4
-  'get http://jupegarnica.com':
+  'GET http://jupegarnica.com':
     updateAt: 1607508961361
     createdAt: 1607508839909
     allRequest: 3
@@ -107,7 +107,7 @@ requests:
     totalDelay: 1374
     averageDelay: 458
     lastDelay: 413
-  'get http://valencia.io':
+  'GET http://valencia.io':
     updateAt: 1607508961883
     createdAt: 1607508840537
     allRequest: 3
@@ -116,7 +116,7 @@ requests:
     totalDelay: 1882
     averageDelay: 627.3333333333334
     lastDelay: 492
-  'get http://198.211.122.70':
+  'GET http://198.211.122.70':
     updateAt: 1607508962071
     createdAt: 1607508840701
     allRequest: 3
@@ -125,16 +125,7 @@ requests:
     totalDelay: 444
     averageDelay: 148
     lastDelay: 150
-  '[object Object]':
-    updateAt: 1607508963184
-    createdAt: 1607508841612
-    allRequest: 3
-    allFailed: 3
-    downtimePercentage: 1
-    totalDelay: 2951
-    averageDelay: 983.6666666666666
-    lastDelay: 1076
-  'get https://datsme.life':
+  'GET https://datsme.life':
     updateAt: 1607508965919
     createdAt: 1607508844529
     allRequest: 3
@@ -143,7 +134,7 @@ requests:
     totalDelay: 8155
     averageDelay: 2718.3333333333335
     lastDelay: 2702
-  'get https://shop.datsme.life:444/api/v1/products':
+  'GET https://shop.datsme.life:444/api/v1/products':
     updateAt: 1607508966644
     createdAt: 1607508845454
     allRequest: 3

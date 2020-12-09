@@ -46,7 +46,7 @@ export const LOG_LEVEL = (() => {
   return levels.includes(selected) ? selected : 'DEBUG';
 })();
 
-export const REQUESTS: any[] = conf.requests.map((req:any) =>  typeof req === 'string' ? ({method:'get',url:req}): req);
+export const REQUESTS: any[] = conf.requests.map((req:any) =>  typeof req === 'string' ? ({method:'GET',url:req}): req);
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
 export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 5s
 export const SMTP = conf.smtp;
