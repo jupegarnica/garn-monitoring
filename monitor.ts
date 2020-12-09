@@ -57,7 +57,7 @@ export async function monitor() {
       );
     } catch (error) {
       delay = Number(new Date()) - (now ?? 0);
-      const stats = await setHistory(req, delay, true);
+      const stats = await setHistory(id, delay, true);
 
       logger.error(
         `${"❌"} fail from`,
