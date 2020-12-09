@@ -44,11 +44,6 @@ class EmailHandler extends log.handlers.BaseHandler {
     });
   }
 }
-interface CustomLogRecord {
-  msg: string;
-  args: unknown[];
-  level: number;
-}
 function colorize(level: number) {
   switch (level) {
     case LogLevels.DEBUG:
