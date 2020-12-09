@@ -1,42 +1,17 @@
 import * as log from 'https://deno.land/std@0.79.0/log/mod.ts';
-import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
-import { stringify } from './helpers.ts';
+import {
+  formatDate,
+  formatLogFileName,
+  formatLogLevel,
+  stringify,
+  textColor,
+} from './helpers.ts';
 import { addLogToQueue } from './mailer.ts';
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
-import {
-  ensureDir,
-} from "https://deno.land/std@0.80.0/fs/mod.ts";
-
-console.clear();
-function formatLogFileName(date: Date = new Date()): string {
-  return format(date, 'yyyy-MM-dd');
-}
-function formatDate(date: Date | string): string {
-  date = new Date(date);
-  return format(date, 'yyyy-MM-dd HH:mm');
-}
-function formatLogLevel(str: string, length = 8): string {
-  let response = '';
-  for (let index = 0; index < length; index++) {
-    response += str[index] ?? ' ';
-  }
-  return response;
-}
-
-function textColor(text: string, color = 'inherit'): string {
-  //return text;
-  return `<span style="color:${color};">${text}</span>`;
-}
-function textBackground(
-  text: string,
-  color = 'inherit',
-): string {
-  // return text;
-  return `<span style="background:${color}">${text}</span>`;
-}
+import { ensureDir } from 'https://deno.land/std@0.80.0/fs/mod.ts';
 
 const emailFormatter = ({
   datetime,
@@ -69,58 +44,51 @@ class EmailHandler extends log.handlers.BaseHandler {
     });
   }
 }
-const consoleFormatter = ({
-  datetime,
-  levelName,
-  msg,
-  args,
-}: LogRecord) => {
-  let text = `${colors.dim(formatDate(datetime))} ${colors.bold(
-    formatLogLevel(levelName),
-  )}__ARGS__${msg}`;
-
-  args.forEach((arg) => {
-    text += `__ARGS__${stringify(arg)}`;
-  });
-
-  return text;
-};
+interface CustomLogRecord {
+  msg: string;
+  args: unknown[];
+  level: number;
+}
+function colorize(level: number) {
+  switch (level) {
+    case LogLevels.DEBUG:
+      return (arg: unknown) => colors.dim(stringify(arg));
+    case LogLevels.INFO:
+      return (arg: unknown) => colors.green(stringify(arg));
+    case LogLevels.WARNING:
+      return (arg: unknown) => colors.rgb24(stringify(arg),0xffcc00);
+    case LogLevels.ERROR:
+      return (arg: unknown) => colors.red(stringify(arg));
+    case LogLevels.CRITICAL:
+      return (arg: unknown) =>
+        colors.bgBlack(colors.red(stringify(arg)));
+  }
+  return (a: unknown) => a;
+}
 export class ConsoleHandler extends log.handlers.BaseHandler {
   format(logRecord: LogRecord): string {
-    let msg = super.format(logRecord);
+    const msg = `${colors.dim(
+      formatDate(logRecord.datetime),
+    )} ${colors.bold(formatLogLevel(logRecord.levelName))}`;
 
-    switch (logRecord.level) {
-      case LogLevels.DEBUG:
-        msg = colors.dim(msg);
-        break;
+    const args = [logRecord.msg, ...logRecord.args];
 
-      case LogLevels.INFO:
-        msg = colors.green(msg);
-        break;
-      case LogLevels.WARNING:
-        msg = colors.yellow(msg);
-        break;
-      case LogLevels.ERROR:
-        msg = colors.red(msg);
-        break;
-      case LogLevels.CRITICAL:
-        msg = colors.bgBlack(colors.red(msg));
-        break;
-      default:
-        break;
-    }
+    const newMsg = colorize(logRecord.level)(msg);
+    const newArgs = args
+      ?.map(colorize(logRecord.level))
+      .map((v: unknown) => ((stringify(v))));
 
-    return msg;
-  }
-
-  log(msg: string): void {
-    // console.log(msg);
-    const [text, ...args] = msg.split('__ARGS__');
-    console.log(text);
+    console.log(newMsg);
     console.group();
-    args.forEach((v) => console.log(v));
+    newArgs?.forEach((v: unknown) => console.log(v));
     console.groupEnd();
     console.log('\n');
+
+    return `${msg} ${args.join('\n')}`;
+  }
+
+  log(msg: string): string {
+    return msg;
   }
 }
 const fileFormatter = ({
@@ -139,13 +107,10 @@ const fileFormatter = ({
   return text;
 };
 
-
 await ensureDir('./logs');
 await log.setup({
   handlers: {
-    console: new ConsoleHandler('DEBUG', {
-      formatter: consoleFormatter,
-    }),
+    console: new ConsoleHandler('DEBUG'),
 
     file: new log.handlers.FileHandler('DEBUG', {
       filename: `logs/${formatLogFileName()}${
@@ -180,3 +145,16 @@ const debugLogger = DEBUG_EMAIL ? 'email' : 'debug';
 const mainLogger = DEBUG ? debugLogger : 'default';
 
 export const logger = log.getLogger(mainLogger);
+
+// logger.warning(
+//   {
+//     a: 1,
+//     b: "hola",
+//     c: [1, null, 'ye', undefined],
+//     c2: [1, null, 'ye', undefined],
+//     c3: [1, null, 'ye', undefined],
+//     c5: [1, null, 'ye', undefined],
+//   },
+//   new Error('asd'),
+//   [1,2, {a:2,b:'asd'}],
+// );

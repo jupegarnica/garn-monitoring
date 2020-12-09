@@ -1,63 +1,38 @@
+import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 
-const addStripMark = (str:string):string => `__strip__${str}__strip__`;
+export function formatLogFileName(date: Date = new Date()): string {
+  return format(date, 'yyyy-MM-dd');
+}
+export function formatDate(date: Date | string): string {
+  date = new Date(date);
+  return format(date, 'yyyy-MM-dd HH:mm');
+}
+export function formatLogLevel(str: string, length = 8): string {
+  let response = '';
+  for (let index = 0; index < length; index++) {
+    response += str[index] ?? ' ';
+  }
+  return response;
+}
 
-const parser:any = (() => {
-  const seen = new WeakMap();
-  return (key: string, value: any):any => {
-    if (typeof value === "object" && value !== null) {
-      if (seen.has(value)) {
-        const oldKey = seen.get(value);
-        return `[circular reference] -> ${oldKey || "rootObject"}`;
-      }
-      seen.set(value, key);
-    }
-    if (value && value.displayName) {
-      return addStripMark(value.displayName);
-    }
-    if (Number.isNaN(value)) {
-      return addStripMark(value);
-    }
-    if (value === Infinity || value === -Infinity) {
-      return addStripMark(value);
-    }
-
-    if (typeof value === "bigint") {
-      return addStripMark(Number(value) + "n");
-    }
-
-    if (typeof value === "function") {
-      return addStripMark(value.name || value.toString());
-    }
-    if (typeof value === "string") {
-      return addStripMark(value);
-    }
+export function textColor(text: string, color = 'inherit'): string {
+  //return text;
+  return `<span style="color:${color};">${text}</span>`;
+}
+export function textBackground(
+  text: string,
+  color = 'inherit',
+): string {
+  // return text;
+  return `<span style="background:${color}">${text}</span>`;
+}
 
 
-    return value;
-  };
-});
- export const stringify = (val: any):string => {
-  const str:string = JSON.stringify(val, parser(), 2);
-  return str && str.replace(/("__strip__)|(__strip__")/g, "");
+ export const stringify = (val: unknown):string => {
+  if (typeof val === 'string') return val;
+  return Deno.inspect(val);
 };
 
-export function asString(data: unknown): string {
-  if (typeof data === 'string') {
-    return data;
-  } else if (
-    data === null ||
-    typeof data === 'number' ||
-    typeof data === 'bigint' ||
-    typeof data === 'boolean' ||
-    typeof data === 'undefined' ||
-    typeof data === 'symbol'
-  ) {
-    return String(data);
-  } else if (typeof data === 'object') {
-    return JSON.stringify(data, null, 2);
-  }
-  return 'undefined';
-}
 
 export const wait = (delay: number) =>
   new Promise((res) => setTimeout(res, delay));

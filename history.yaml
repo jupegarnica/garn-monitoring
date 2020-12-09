@@ -27,59 +27,59 @@ requests:
     averageDelay: 12379.607843137255
     lastDelay: 5009
   'GET http://jupegarnica.com':
-    updateAt: 1607521853522
+    updateAt: 1607527926421
     createdAt: 1607459293148
-    totalRequests: 18
+    totalRequests: 20
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 6848
-    averageDelay: 380.44444444444446
-    lastDelay: 543
+    totalDelay: 7918
+    averageDelay: 395.9
+    lastDelay: 524
   'GET http://valencia.io':
-    updateAt: 1607521854447
+    updateAt: 1607527927452
     createdAt: 1607459293922
-    totalRequests: 18
+    totalRequests: 20
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 10580
-    averageDelay: 587.7777777777778
-    lastDelay: 894
+    totalDelay: 12379
+    averageDelay: 618.95
+    lastDelay: 1004
   'GET http://198.211.122.70':
-    updateAt: 1607521854578
+    updateAt: 1607527927602
     createdAt: 1607459294219
-    totalRequests: 18
+    totalRequests: 20
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 4159
-    averageDelay: 231.05555555555554
-    lastDelay: 118
+    totalDelay: 4397
+    averageDelay: 219.85
+    lastDelay: 138
   'GET http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607521855646
+    updateAt: 1607527928531
     createdAt: 1607459295218
-    totalRequests: 17
-    totalFailed: 17
+    totalRequests: 19
+    totalFailed: 19
     downtimePercentage: 1
-    totalDelay: 16126
-    averageDelay: 948.5882352941177
-    lastDelay: 1053
+    totalDelay: 17887
+    averageDelay: 941.421052631579
+    lastDelay: 899
   'GET https://datsme.life':
-    updateAt: 1607521858964
+    updateAt: 1607527931468
     createdAt: 1607459297844
-    totalRequests: 17
+    totalRequests: 19
     totalFailed: 1
-    downtimePercentage: 0.058823529411764705
-    totalDelay: 46995
-    averageDelay: 2764.4117647058824
-    lastDelay: 3301
+    downtimePercentage: 0.05263157894736842
+    totalDelay: 52628
+    averageDelay: 2769.8947368421054
+    lastDelay: 2913
   'GET https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607521859754
+    updateAt: 1607527932343
     createdAt: 1607459298682
-    totalRequests: 17
+    totalRequests: 19
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 12980
-    averageDelay: 763.5294117647059
-    lastDelay: 774
+    totalDelay: 14564
+    averageDelay: 766.5263157894736
+    lastDelay: 858
   'GET http://localhost:8000/post':
     updateAt: 1607507190286
     createdAt: 1607507032893
@@ -90,11 +90,11 @@ requests:
     averageDelay: 8.333333333333334
     lastDelay: 9
   'POST http://localhost:8000/post':
-    updateAt: 1607507457430
+    updateAt: 1607527916921
     createdAt: 1607507354735
-    totalRequests: 6
-    totalFailed: 0
-    downtimePercentage: 0
-    totalDelay: 37
-    averageDelay: 6.166666666666667
-    lastDelay: 4
+    totalRequests: 133
+    totalFailed: 5
+    downtimePercentage: 0.03759398496240601
+    totalDelay: 8037617081971
+    averageDelay: 60433211142.6391
+    lastDelay: 2
