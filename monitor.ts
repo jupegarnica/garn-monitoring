@@ -12,7 +12,7 @@ import {
 const historyFileName = './history.yaml';
 
 async function setHistory(
-  url: string,
+  id: string,
   delay: number,
   failed = false,
 ) {
@@ -20,7 +20,7 @@ async function setHistory(
   await ensureFile(historyFileName);
   const history = (await readYaml(historyFileName)) ?? {};
   history.requests = history?.requests || {};
-  const data = history.requests[url] || {};
+  const data = history.requests[id] || {};
   const allRequest = data.allRequest ? data.allRequest + 1 : 1;
   const allFailed = (failed ? (data.allFailed || 0) + 1 : data.allFailed || 0);
   const totalDelay = (data.totalDelay || 0) + delay;
@@ -35,7 +35,7 @@ async function setHistory(
     averageDelay: totalDelay / allRequest,
     lastDelay: delay,
   };
-  history.requests[url] = newData;
+  history.requests[id] = newData;
   await writeYaml(historyFileName, history);
   return newData;
 }

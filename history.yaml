@@ -90,11 +90,11 @@ requests:
     averageDelay: 8.333333333333334
     lastDelay: 9
   'POST http://localhost:8000/post':
-    updateAt: 1607507378942
+    updateAt: 1607507457430
     createdAt: 1607507354735
-    allRequest: 4
+    allRequest: 6
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 23
-    averageDelay: 5.75
-    lastDelay: 3
+    totalDelay: 37
+    averageDelay: 6.166666666666667
+    lastDelay: 4
