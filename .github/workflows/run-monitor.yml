@@ -29,7 +29,7 @@ jobs:
           deno-version: v1.5.4
 
       - name: Run monitoring
-        run: deno run -A --unstable monitoring-once.ts
+        run: deno run -A --unstable app.ts --once
       - name: push
         uses: github-actions-x/commit@v2.7
         with:
