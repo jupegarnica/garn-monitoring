@@ -6,6 +6,9 @@ import { stringify } from './helper.ts';
 import { addLogToQueue } from './mailer.ts';
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
+import {
+  ensureDir,
+} from "https://deno.land/std@0.80.0/fs/mod.ts";
 
 console.clear();
 function formatLogFileName(date: Date = new Date()): string {
@@ -112,7 +115,7 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
 
   log(msg: string): void {
     // console.log(msg);
-    let [text, ...args] = msg.split('__ARGS__');
+    const [text, ...args] = msg.split('__ARGS__');
     console.log(text);
     console.group();
     args.forEach((v) => console.log(v));
@@ -135,6 +138,9 @@ const fileFormatter = ({
 
   return text;
 };
+
+
+await ensureDir('./logs');
 await log.setup({
   handlers: {
     console: new ConsoleHandler('DEBUG', {
