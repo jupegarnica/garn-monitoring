@@ -17,11 +17,11 @@ try {
   conf = await readYaml(confFile);
 
 } catch  (error) {
-  await copy('./config.debug.yaml', './config.yaml', { overwrite: false });
-  await copy('./.env.example', './.env', { overwrite: false });
+  await copy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.debug.yaml', './config.yaml', { overwrite: false });
+  await copy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/.env.example', './.env', { overwrite: false });
   throw new Error("No config.yaml. created. please fill it");
 }
-if (!conf.urls?.length) {
+if (!conf.urls?.lengt) {
   throw new Error("No Urls configured, add them to config.yaml");
 }
 

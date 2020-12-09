@@ -27,56 +27,56 @@ urls:
     averageDelay: 16856.575757575756
     lastDelay: 7014
   'http://jupegarnica.com':
-    updateAt: 1607498040508
+    updateAt: 1607498409140
     createdAt: 1607459293148
-    allRequest: 13
+    allRequest: 14
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 4788
-    averageDelay: 368.3076923076923
-    lastDelay: 387
+    totalDelay: 5094
+    averageDelay: 363.85714285714283
+    lastDelay: 306
   'http://valencia.io':
-    updateAt: 1607498041139
+    updateAt: 1607498409597
     createdAt: 1607459293922
-    allRequest: 13
+    allRequest: 14
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 7057
-    averageDelay: 542.8461538461538
-    lastDelay: 605
+    totalDelay: 7493
+    averageDelay: 535.2142857142857
+    lastDelay: 436
   'http://198.211.122.70':
-    updateAt: 1607498041330
+    updateAt: 1607498409782
     createdAt: 1607459294219
-    allRequest: 13
+    allRequest: 14
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 3225
-    averageDelay: 248.07692307692307
-    lastDelay: 179
+    totalDelay: 3380
+    averageDelay: 241.42857142857142
+    lastDelay: 155
   'http://198.211.122.70:8080/api/v1/products':
-    updateAt: 1607498042313
+    updateAt: 1607498410655
     createdAt: 1607459295218
-    allRequest: 13
-    allFailed: 13
+    allRequest: 14
+    allFailed: 14
     downtimePercentage: 1
-    totalDelay: 12373
-    averageDelay: 951.7692307692307
-    lastDelay: 972
+    totalDelay: 13216
+    averageDelay: 944
+    lastDelay: 843
   'https://datsme.life':
-    updateAt: 1607498045031
+    updateAt: 1607498413465
     createdAt: 1607459297844
-    allRequest: 12
+    allRequest: 13
     allFailed: 1
-    downtimePercentage: 0.08333333333333333
-    totalDelay: 32426
-    averageDelay: 2702.1666666666665
-    lastDelay: 2705
+    downtimePercentage: 0.07692307692307693
+    totalDelay: 35222
+    averageDelay: 2709.3846153846152
+    lastDelay: 2796
   'https://shop.datsme.life:444/api/v1/products':
-    updateAt: 1607498045913
+    updateAt: 1607498414227
     createdAt: 1607459298682
-    allRequest: 12
+    allRequest: 13
     allFailed: 0
     downtimePercentage: 0
-    totalDelay: 9251
-    averageDelay: 770.9166666666666
-    lastDelay: 858
+    totalDelay: 9991
+    averageDelay: 768.5384615384615
+    lastDelay: 740
