@@ -666,3 +666,57 @@ Delay/av.: 776.0ms / 903.6ms
 Monitored during 1 days
 2020-12-09 21:12 DEBUG     All requests finished
 2020-12-09 21:12 DEBUG     Logs sent by email
+2020-12-09 22:16 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 22:16 INFO      ⭐ success
+GET http://jupegarnica.com
+
+Downtime 2.8%
+Delay/av.: 42.0ms / 511.7ms
+Monitored during 1 days
+2020-12-09 22:16 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 22:16 INFO      ⭐ success
+GET http://valencia.io
+
+Downtime 0.0%
+Delay/av.: 131.0ms / 655.6ms
+Monitored during 1 days
+2020-12-09 22:16 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 22:16 INFO      ⭐ success
+GET http://198.211.122.70
+
+Downtime 0.0%
+Delay/av.: 265.0ms / 193.3ms
+Monitored during 1 days
+2020-12-09 22:16 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 22:16 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+
+Downtime 100.0%
+Delay/av.: 991.0ms / 967.7ms
+Monitored during 1 days
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 22:16 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 22:16 INFO      ⭐ success
+GET https://datsme.life
+
+Downtime 2.9%
+Delay/av.: 3367.0ms / 3043.3ms
+Monitored during 1 days
+2020-12-09 22:16 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 22:16 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+
+Downtime 0.0%
+Delay/av.: 888.0ms / 906.9ms
+Monitored during 1 days
+2020-12-09 22:16 DEBUG     All requests finished
+2020-12-09 22:17 DEBUG     Logs sent by email
