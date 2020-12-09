@@ -1,0 +1,297 @@
+2020-12-09 17:16 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:16 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 1388ms
+Average delay 619.4230769230769ms
+2020-12-09 17:16 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:16 INFO      ⭐ success
+GET http://valencia.io
+Took 1014ms
+Average delay 767.6153846153846ms
+2020-12-09 17:16 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:16 INFO      ⭐ success
+GET http://198.211.122.70
+Took 311ms
+Average delay 211.1153846153846ms
+2020-12-09 17:16 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:16 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1028ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:16 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:16 INFO      ⭐ success
+GET https://datsme.life
+Took 2592ms
+Average delay 2918ms
+2020-12-09 17:16 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:16 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 649ms
+Average delay 856.36ms
+2020-12-09 17:16 DEBUG     All requests finished
+2020-12-09 17:17 DEBUG     Logs sent by email
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:18 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 486ms
+Average delay 614.4814814814815ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:18 INFO      ⭐ success
+GET http://valencia.io
+Took 874ms
+Average delay 771.5555555555555ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:18 INFO      ⭐ success
+GET http://198.211.122.70
+Took 117ms
+Average delay 207.62962962962962ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:18 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 926ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:18 INFO      ⭐ success
+GET https://datsme.life
+Took 4319ms
+Average delay 2971.8846153846152ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:18 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 1035ms
+Average delay 863.2307692307693ms
+2020-12-09 17:18 DEBUG     All requests finished
+2020-12-09 17:18 DEBUG     Logs sent by email
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:18 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 172ms
+Average delay 598.6785714285714ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:18 INFO      ⭐ success
+GET http://valencia.io
+Took 204ms
+Average delay 751.2857142857143ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:18 INFO      ⭐ success
+GET http://198.211.122.70
+Took 124ms
+Average delay 204.64285714285714ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:18 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1011ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:18 INFO      ⭐ success
+GET https://datsme.life
+Took 2512ms
+Average delay 2954.8518518518517ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:18 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 725ms
+Average delay 858.1111111111111ms
+2020-12-09 17:18 DEBUG     All requests finished
+2020-12-09 17:18 DEBUG     Logs sent by email
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:18 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 234ms
+Average delay 586.1034482758621ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:18 INFO      ⭐ success
+GET http://valencia.io
+Took 163ms
+Average delay 731ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:18 INFO      ⭐ success
+GET http://198.211.122.70
+Took 137ms
+Average delay 202.31034482758622ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:18 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1040ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:18 INFO      ⭐ success
+GET https://datsme.life
+Took 3948ms
+Average delay 2990.3214285714284ms
+2020-12-09 17:18 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:18 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 1124ms
+Average delay 867.6071428571429ms
+2020-12-09 17:18 DEBUG     All requests finished
+2020-12-09 17:18 DEBUG     Logs sent by email
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:19 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 141ms
+Average delay 571.2666666666667ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:19 INFO      ⭐ success
+GET http://valencia.io
+Took 210ms
+Average delay 713.6333333333333ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:19 INFO      ⭐ success
+GET http://198.211.122.70
+Took 138ms
+Average delay 200.16666666666666ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:19 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1212ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:19 INFO      ⭐ success
+GET https://datsme.life
+Took 4344ms
+Average delay 3037ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:19 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 762ms
+Average delay 863.9655172413793ms
+2020-12-09 17:19 DEBUG     All requests finished
+2020-12-09 17:19 DEBUG     Logs sent by email
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:19 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 167ms
+Average delay 558.2258064516129ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:19 INFO      ⭐ success
+GET http://valencia.io
+Took 235ms
+Average delay 698.1935483870968ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:19 INFO      ⭐ success
+GET http://198.211.122.70
+Took 119ms
+Average delay 197.5483870967742ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:19 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1136ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:19 INFO      ⭐ success
+GET https://datsme.life
+Took 3123ms
+Average delay 3039.866666666667ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:19 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 1530ms
+Average delay 886.1666666666666ms
+2020-12-09 17:19 DEBUG     All requests finished
+2020-12-09 17:19 DEBUG     Logs sent by email
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 17:19 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 174ms
+Average delay 546.21875ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 17:19 INFO      ⭐ success
+GET http://valencia.io
+Took 175ms
+Average delay 681.84375ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 17:19 INFO      ⭐ success
+GET http://198.211.122.70
+Took 125ms
+Average delay 195.28125ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 17:19 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 971ms
+Error: Request failed with status code 500
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 17:19 INFO      ⭐ success
+GET https://datsme.life
+Took 2684ms
+Average delay 3028.3870967741937ms
+2020-12-09 17:19 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 17:19 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 1276ms
+Average delay 898.741935483871ms
+2020-12-09 17:19 DEBUG     All requests finished
+2020-12-09 17:19 DEBUG     Logs sent by email
+2020-12-09 17:19 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12

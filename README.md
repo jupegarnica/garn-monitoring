@@ -10,8 +10,8 @@ cd garn-monitoring
 
 1. Fill `config.yaml`
 2. Optionally create `.env` based on `.env.example`
-3. Run it once `deno run -A --unstable app.ts --once`
-4. Or run it forever `deno run -A --unstable app.ts`
+3. Run it `deno run -A --unstable app.ts`
+4. Or run it once `deno run -A --unstable app.ts --once`
 
 
 ## Usage remotely
@@ -19,6 +19,6 @@ cd garn-monitoring
 ```sh
 mkdir monitoring && cd monitoring
 deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts
-# or run only once
+# or run it only once
 # deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --once
 ```

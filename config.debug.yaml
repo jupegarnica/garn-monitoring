@@ -1,21 +1,16 @@
 requests:
-#  - http://localhost:8000/timeout
-#  - http://localhost:8000/
-#  - http://localhost:8000/404
+ - http://localhost:8000/timeout
+ - http://localhost:8000/
+ - http://localhost:8000/404
  - method: 'POST'
    url: http://localhost:8000/post
    data: "holaaaa"
    headers:
      content-type: text/plain
- - method: 'POST'
+ - method: 'PATCH'
    url: http://localhost:8000/post
-   data:
-     hola: mundo
-     a: 1
-   headers:
-     content-type: application/json
 
-run_every: 60000
+run_every: 300000
 log_level: debug
 request_timeout: 5000
 smtp:
