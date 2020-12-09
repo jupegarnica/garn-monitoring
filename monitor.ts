@@ -55,7 +55,7 @@ export async function monitor() {
       id,
       `Took ${stats.lastDelay}ms`,
       `Average delay ${stats.averageDelay}ms`,
-      response.data,
+      // response.data,
 
       );
     } catch (error) {
