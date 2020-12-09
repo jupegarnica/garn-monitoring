@@ -38,8 +38,7 @@ export const LOG_LEVEL = (() => {
 
 export const URLS: string[] = conf.urls
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
-export const REQUEST_TIMEOUT = conf.run_every || 1000 * 10; // 5s
+export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 5s
 export const SMTP = conf.smtp;
 export const PROCESS_TIMEOUT = 1000 + REQUEST_TIMEOUT * conf.urls?.length
-export const BULK_WAIT = PROCESS_TIMEOUT - 500;
 export default conf;
