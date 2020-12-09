@@ -5,13 +5,20 @@ import {
   readYaml,
   writeYaml,
 } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
+import {
+  ensureFile,
+} from "https://deno.land/std@0.80.0/fs/mod.ts";
+
+const historyFileName = './history.yaml';
 
 async function setHistory(
   url: string,
   delay: number,
   failed = false,
 ) {
-  const history = (await readYaml('./history.yaml')) ?? {};
+
+  await ensureFile(historyFileName);
+  const history = (await readYaml(historyFileName)) ?? {};
   history.urls = history?.urls || {};
   const data = history.urls[url] || {};
   const allRequest = data.allRequest ? data.allRequest + 1 : 1;
@@ -29,7 +36,7 @@ async function setHistory(
     lastDelay: delay,
   };
   history.urls[url] = newData;
-  await writeYaml('./history.yaml', history);
+  await writeYaml(historyFileName, history);
   return newData;
 }
 
