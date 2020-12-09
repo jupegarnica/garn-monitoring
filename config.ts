@@ -1,15 +1,13 @@
 import { readYaml } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
 
 import { config } from 'https://deno.land/x/dotenv@v1.0.1/mod.ts';
-import { copy } from "https://deno.land/std@0.80.0/fs/mod.ts";
-// import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
+import { fetchAndCopy } from './services/helper.ts';
 
-// console.dir(parse(Deno.args));
-// Deno.exit(0)
 config({ safe: false, export: true });
 let conf:any;
 
 export const DEBUG = Deno.env.get('DEBUG');
+export const DEBUG_EMAIL = Deno.env.get('DEBUG_EMAIL') ? true: false;
 
 
 const confFile = `./config${DEBUG ? '.debug': ''}.yaml`;
@@ -17,11 +15,11 @@ try {
   conf = await readYaml(confFile);
 
 } catch  (error) {
-  await copy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.debug.yaml', './config.yaml', { overwrite: false });
-  await copy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/.env.example', './.env', { overwrite: false });
+  await fetchAndCopy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.debug.yaml', './config.yaml');
+  await fetchAndCopy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/.env.example', './.env');
   throw new Error("No config.yaml. created. please fill it");
 }
-if (!conf.urls?.lengt) {
+if (!conf.urls?.length) {
   throw new Error("No Urls configured, add them to config.yaml");
 }
 

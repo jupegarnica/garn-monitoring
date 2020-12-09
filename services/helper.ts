@@ -75,13 +75,21 @@ export async function runEvery(
 }
 
 
-export const debounce = (fn:Function, delay = 0) => {
-  let id: number;
-  return (...args: any[]) => {
-    if (id) {
-      clearTimeout(id);
-    }
-    id = setTimeout((...a) => fn(...a), delay, ...args);
-    return id;
-  };
-};
+export async function fetchAndCopy(url:string, path:string, options = undefined): Promise<void> {
+
+  const fileText = await fetch(url).then(r => r.text());
+  const encoder = new TextEncoder();
+  const encoded = encoder.encode(fileText);
+  await Deno.writeFile(path, encoded, options);
+}
+
+// export const debounce = (fn:Function, delay = 0) => {
+//   let id: number;
+//   return (...args: any[]) => {
+//     if (id) {
+//       clearTimeout(id);
+//     }
+//     id = setTimeout((...a) => fn(...a), delay, ...args);
+//     return id;
+//   };
+// };

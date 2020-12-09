@@ -4,7 +4,7 @@ import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
 import { stringify } from './helper.ts';
 import { addLogToQueue } from './mailer.ts';
-import { DEBUG, LOG_LEVEL } from '../config.ts';
+import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
 
 console.clear();
@@ -113,13 +113,6 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
   log(msg: string): void {
     // console.log(msg);
     let [text, ...args] = msg.split('__ARGS__');
-    // args =   args.map(v => {
-    //   try {
-    //     return JSON.parse(v);
-    //   } catch (error) {
-    //     return v
-    //   }
-    // });
     console.log(text);
     console.group();
     args.forEach((v) => console.log(v));
@@ -177,6 +170,7 @@ await log.setup({
   },
 });
 
-const mainLogger = DEBUG ? 'email' : 'default';
+const debugLogger = DEBUG_EMAIL ? 'email' : 'debug';
+const mainLogger = DEBUG ? debugLogger : 'default';
 
 export const logger = log.getLogger(mainLogger);
