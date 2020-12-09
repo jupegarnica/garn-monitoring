@@ -57,14 +57,3 @@ export async function fetchAndCopy(url:string, path:string, options = undefined)
   const encoded = encoder.encode(fileText);
   await Deno.writeFile(path, encoded, options);
 }
-
-// export const debounce = (fn:Function, delay = 0) => {
-//   let id: number;
-//   return (...args: any[]) => {
-//     if (id) {
-//       clearTimeout(id);
-//     }
-//     id = setTimeout((...a) => fn(...a), delay, ...args);
-//     return id;
-//   };
-// };
