@@ -266,3 +266,70 @@ Took 952ms
 Average delay 774ms
 2020-12-09 14:16 DEBUG     monitor all requests finish
 2020-12-09 14:16 DEBUG     Logs sent by email
+2020-12-09 15:14 INFO      ⏳ fetching
+GET http://jupegarnica.com
+2020-12-09 15:14 INFO      ⭐ success
+GET http://jupegarnica.com
+Took 104ms
+Average delay 356.05555555555554ms
+2020-12-09 15:14 INFO      ⏳ fetching
+GET http://valencia.io
+2020-12-09 15:14 INFO      ⭐ success
+GET http://valencia.io
+Took 153ms
+Average delay 546.6111111111111ms
+2020-12-09 15:14 INFO      ⏳ fetching
+GET http://198.211.122.70
+2020-12-09 15:14 INFO      ⭐ success
+GET http://198.211.122.70
+Took 281ms
+Average delay 240.11111111111111ms
+2020-12-09 15:14 INFO      ⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-09 15:14 ERROR     ❌ fail from
+GET http://198.211.122.70:8080/api/v1/products
+Downtime 100%
+Took 1037ms
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-09 15:14 INFO      ⏳ fetching
+GET https://datsme.life
+2020-12-09 15:14 INFO      ⭐ success
+GET https://datsme.life
+Took 3405ms
+Average delay 2770.529411764706ms
+2020-12-09 15:14 INFO      ⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-09 15:14 INFO      ⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+Took 848ms
+Average delay 767.8823529411765ms
+2020-12-09 15:14 DEBUG     monitor all requests finish
+2020-12-09 15:14 DEBUG     Logs sent by email
