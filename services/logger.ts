@@ -3,7 +3,7 @@ import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
 import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
 import { stringify } from './helper.ts';
-import { sendEmail } from './mailer.ts';
+import { addLogToQueue } from './mailer.ts';
 import { DEBUG, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
 
@@ -60,7 +60,7 @@ class EmailHandler extends log.handlers.BaseHandler {
   }
 
   async log(msg: string): Promise<void> {
-    await sendEmail({
+    await addLogToQueue({
       subject: `garn-monitor logs`,
       content: msg,
     });

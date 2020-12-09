@@ -3,7 +3,9 @@ urls:
  - http://localhost:8000/
  - http://localhost:8000/404
 
-
+run_every: 60000
+log_level: debug
+request_timeout: 5000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

@@ -946,3 +946,328 @@ average delay 3469ms
 took 837ms
 average delay 837ms
 2020-12-08 20:18 CRITICAL  PROCESS KILL BY TIMEOUT
+2020-12-08 21:33 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 21:33 INFO      ⭐ success from http://jupegarnica.com
+took 303ms
+average delay 369.25ms
+2020-12-08 21:33 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 21:33 INFO      ⭐ success from http://valencia.io
+took 402ms
+average delay 491ms
+2020-12-08 21:33 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 21:33 INFO      ⭐ success from http://198.211.122.70
+took 258ms
+average delay 273.25ms
+2020-12-08 21:33 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 21:33 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 969ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 21:33 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 21:33 INFO      ⭐ success from https://datsme.life
+took 3413ms
+average delay 2808.25ms
+2020-12-08 21:33 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 21:33 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 852ms
+average delay 784.75ms
+2020-12-08 21:34 DEBUG     SENDING MAIL IN BULK.  after 20000
+2020-12-08 21:34 CRITICAL  PROCESS KILL BY TIMEOUT 50000
+2020-12-08 21:36 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 21:36 INFO      ⭐ success from http://jupegarnica.com
+took 292ms
+average delay 353.8ms
+2020-12-08 21:36 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 21:36 INFO      ⭐ success from http://valencia.io
+took 428ms
+average delay 478.4ms
+2020-12-08 21:36 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 21:36 INFO      ⭐ success from http://198.211.122.70
+took 244ms
+average delay 267.4ms
+2020-12-08 21:36 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 21:36 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 927ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 21:36 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 21:36 INFO      ⭐ success from https://datsme.life
+took 2599ms
+average delay 2766.4ms
+2020-12-08 21:36 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 21:36 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 718ms
+average delay 771.4ms
+2020-12-08 21:36 DEBUG     monitor all urls finish
+2020-12-08 21:37 DEBUG     SENDING MAIL IN BULK.  after 20000
+2020-12-08 21:37 CRITICAL  PROCESS KILL BY TIMEOUT 31000
+2020-12-08 21:38 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 21:38 INFO      ⭐ success from http://jupegarnica.com
+took 622ms
+average delay 380.85714285714283ms
+2020-12-08 21:38 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 21:38 INFO      ⭐ success from http://valencia.io
+took 416ms
+average delay 475.14285714285717ms
+2020-12-08 21:38 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 21:38 INFO      ⭐ success from http://198.211.122.70
+took 328ms
+average delay 281.85714285714283ms
+2020-12-08 21:38 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 21:38 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 981ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 21:38 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 21:38 INFO      ⭐ success from https://datsme.life
+took 2536ms
+average delay 2729.1428571428573ms
+2020-12-08 21:38 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 21:38 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 697ms
+average delay 751.2857142857143ms
+2020-12-08 21:38 DEBUG     monitor all urls finish
+2020-12-08 21:38 DEBUG     SENDING MAIL IN BULK.  after 20000
+2020-12-08 21:40 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 21:40 INFO      ⭐ success from http://jupegarnica.com
+took 289ms
+average delay 369.375ms
+2020-12-08 21:40 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 21:40 INFO      ⭐ success from http://valencia.io
+took 438ms
+average delay 470.5ms
+2020-12-08 21:40 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 21:40 INFO      ⭐ success from http://198.211.122.70
+took 306ms
+average delay 284.875ms
+2020-12-08 21:40 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 21:40 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 939ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 5000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 21:40 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 21:40 INFO      ⭐ success from https://datsme.life
+took 2539ms
+average delay 2705.375ms
+2020-12-08 21:40 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 21:40 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 918ms
+average delay 772.125ms
+2020-12-08 21:40 DEBUG     monitor all urls finish
+2020-12-08 21:40 DEBUG     SENDING MAIL IN BULK.  after 30500
+2020-12-08 22:49 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 22:49 INFO      ⭐ success from http://jupegarnica.com
+took 460ms
+average delay 379.44444444444446ms
+2020-12-08 22:49 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 22:49 INFO      ⭐ success from http://valencia.io
+took 1364ms
+average delay 569.7777777777778ms
+2020-12-08 22:49 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 22:49 INFO      ⭐ success from http://198.211.122.70
+took 179ms
+average delay 273.1111111111111ms
+2020-12-08 22:49 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 22:49 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 897ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 3000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 22:49 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 22:49 ERROR     ❌ fail from https://datsme.life --  took 3002ms
+Downtime 11.11111111111111%
+TIMEOUT 3000
+2020-12-08 22:49 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 22:49 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 744ms
+average delay 769ms
+2020-12-08 22:49 DEBUG     monitor all urls finish
+2020-12-08 22:49 DEBUG     SENDING MAIL IN BULK.  after 18500
+2020-12-08 22:50 INFO      ⏳ fetching from http://jupegarnica.com
+2020-12-08 22:50 INFO      ⭐ success from http://jupegarnica.com
+took 323ms
+average delay 373.8ms
+2020-12-08 22:50 INFO      ⏳ fetching from http://valencia.io
+2020-12-08 22:50 INFO      ⭐ success from http://valencia.io
+took 508ms
+average delay 563.6ms
+2020-12-08 22:50 INFO      ⏳ fetching from http://198.211.122.70
+2020-12-08 22:50 INFO      ⭐ success from http://198.211.122.70
+took 198ms
+average delay 265.6ms
+2020-12-08 22:50 INFO      ⏳ fetching from http://198.211.122.70:8080/api/v1/products
+2020-12-08 22:50 ERROR     ❌ fail from http://198.211.122.70:8080/api/v1/products --  took 891ms
+Downtime 100%
+{
+  "message": Request failed with status code 500,
+  "name": Error,
+  "stack": Error: Request failed with status code 500\n    at createError (createError.ts:14:17)\n    at settle (settle.ts:9:12)\n    at fetchAdapter.ts:62:13,
+  "config": {
+    "url": http://198.211.122.70:8080/api/v1/products,
+    "method": get,
+    "headers": {
+      "Accept": application/json, text/plain, */*
+    },
+    "transformRequest": [
+      transformRequest
+    ],
+    "transformResponse": [
+      transformResponse
+    ],
+    "timeout": 3000,
+    "withCredentials": false,
+    "adapter": fetchAdapter,
+    "responseType": json,
+    "xsrfCookieName": XSRF-TOKEN,
+    "xsrfHeaderName": X-XSRF-TOKEN,
+    "maxContentLength": -1,
+    "validateStatus": function (status) {\n                    return status >= 200 && status < 300;\n                },
+    "maxRedirects": 5,
+    "socketPath": null,
+    "responseEncoding": utf8
+  }
+}
+2020-12-08 22:50 INFO      ⏳ fetching from https://datsme.life
+2020-12-08 22:50 INFO      ⭐ success from https://datsme.life
+took 2550ms
+average delay 2719.5ms
+2020-12-08 22:50 INFO      ⏳ fetching from https://shop.datsme.life:444/api/v1/products
+2020-12-08 22:50 INFO      ⭐ success from https://shop.datsme.life:444/api/v1/products
+took 751ms
+average delay 767.2ms
+2020-12-08 22:50 DEBUG     monitor all urls finish
+2020-12-08 22:50 DEBUG     SENDING MAIL IN BULK.  after 18500

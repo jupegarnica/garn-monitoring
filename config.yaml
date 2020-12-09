@@ -1,9 +1,4 @@
 urls:
-  # - ups
-  # - http://fail.jupegarnica.com
-  # - http://valencia.io/hello
-  # - fail.jupegarnica.com
-
   - http://jupegarnica.com
   - http://valencia.io
   - http://198.211.122.70
@@ -13,6 +8,9 @@ urls:
   # - https://shop.datsme.life/es/products
   - https://shop.datsme.life:444/api/v1/products
 
+run_every: 60000
+request_timeout: 5000
+log_level: debug
 
 smtp:
   host: ${{ SMTP_HOST  }}
