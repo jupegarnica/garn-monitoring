@@ -146,10 +146,6 @@ const mainLogger = DEBUG ? debugLogger : 'default';
 const _logger = getLogger(mainLogger);
 
 
-const val =  {colors:true,depth:1, compact:false, c:[2,3,4], d: () => null, e: {
-  g: 'asd asd asdd asd'
-}}
-
 
 export const logger = {
   debug: ( ...args: unknown[]) => _logger.debug('',...args) ,

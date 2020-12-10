@@ -1,13 +1,13 @@
 requests:
   'GET http://localhost:8000':
-    updateAt: 1607596542633
+    updateAt: 1607597015875
     createdAt: 1001367505639
-    totalRequests: 130
-    totalFailed: 78
-    downtimePercentage: 0.6
-    totalDelay: 921
-    averageDelay: 7.084615384615384
-    lastDelay: 10
+    totalRequests: 133
+    totalFailed: 81
+    downtimePercentage: 0.6090225563909775
+    totalDelay: 932
+    averageDelay: 7.007518796992481
+    lastDelay: 4
   'GET http://localhost:8000/404':
     updateAt: 1607506416903
     createdAt: 1607367505647
