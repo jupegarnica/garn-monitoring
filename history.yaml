@@ -1,13 +1,13 @@
 requests:
-  'GET http://localhost:8000/':
-    updateAt: 1607594840016
-    createdAt: 1601367505639
-    totalRequests: 122
-    totalFailed: 77
-    downtimePercentage: 0.6311475409836066
-    totalDelay: 839
-    averageDelay: 6.877049180327869
-    lastDelay: 3
+  'GET http://localhost:8000':
+    updateAt: 1607596542633
+    createdAt: 1001367505639
+    totalRequests: 130
+    totalFailed: 78
+    downtimePercentage: 0.6
+    totalDelay: 921
+    averageDelay: 7.084615384615384
+    lastDelay: 10
   'GET http://localhost:8000/404':
     updateAt: 1607506416903
     createdAt: 1607367505647
@@ -98,3 +98,21 @@ requests:
     totalDelay: 8037617082045
     averageDelay: 51195013261.43312
     lastDelay: 1
+  'GET http://localhost:8000/payload':
+    updateAt: 1607596223842
+    createdAt: 1607595556723
+    totalRequests: 10
+    totalFailed: 4
+    downtimePercentage: 0.4
+    totalDelay: 109
+    averageDelay: 10.9
+    lastDelay: 3
+  'GET http://localhost:8000/test':
+    updateAt: 1607595895255
+    createdAt: 1607595765988
+    totalRequests: 3
+    totalFailed: 1
+    downtimePercentage: 0.3333333333333333
+    totalDelay: 24
+    averageDelay: 8
+    lastDelay: 5

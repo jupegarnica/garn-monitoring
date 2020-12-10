@@ -5,9 +5,9 @@ import {
   Router,
   RouterContext,
   Status,
+  send
 } from 'https://deno.land/x/oak@v6.3.2/mod.ts';
 import { wait } from '../services/helpers.ts';
-
 import { logger } from '../services/logger.ts';
 
 function notFound(context: Context) {
@@ -28,6 +28,13 @@ router.get('/random', (context: RouterContext) => {
 
 
 });
+router.get('/payload',async (context) => {
+  logger.info(Deno.cwd(), context.request.url.pathname)
+  await send(context, '', {
+    root: `${Deno.cwd()}/test`,
+    index: "testing.server.ts",
+  });
+})
 
 router.get('/timeout', async (context: RouterContext) => {
   await wait(1000 * 7);

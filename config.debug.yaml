@@ -1,5 +1,6 @@
 requests:
- - http://localhost:8000/
+ - http://localhost:8000
+#  - http://localhost:8000/payload
 #  - http://localhost:8000/random
 # #  - http://localhost:8000/timeout
 #  - http://localhost:8000/404
