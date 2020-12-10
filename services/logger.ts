@@ -1,27 +1,28 @@
-import * as log from 'https://deno.land/std@0.79.0/log/mod.ts';
-import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
-import { LogLevels } from 'https://deno.land/std@0.79.0/log/levels.ts';
+import  {LogLevels, getLogger, setup,handlers} from 'https://deno.land/std@0.80.0/log/mod.ts';
+
+import type { LogRecord } from 'https://deno.land/std@0.80.0/log/logger.ts';
 import {
   formatDate,
   formatLogFileName,
   formatLogLevel,
   stringify,
+  stringifyConsole,
   textColor,
 } from './helpers.ts';
 import { addLogToQueue } from './mailer.ts';
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
-import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
+import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
 import { ensureDir } from 'https://deno.land/std@0.80.0/fs/mod.ts';
+
 
 const emailFormatter = ({
   datetime,
   levelName,
-  msg,
   args,
 }: LogRecord) => {
   let text = `${formatDate(datetime)} ${formatLogLevel(
     levelName,
-  )} ${msg}`;
+  )}`;
 
   args.forEach((arg) => {
     text += textColor(`\n${stringify(arg)}`, '#555555');
@@ -30,7 +31,7 @@ const emailFormatter = ({
   return text;
 };
 
-class EmailHandler extends log.handlers.BaseHandler {
+class EmailHandler extends handlers.BaseHandler {
   format(logRecord: LogRecord): string {
     const msg = super.format(logRecord);
 
@@ -51,7 +52,8 @@ function colorize(level: number) {
     case LogLevels.INFO:
       return (arg: unknown) => colors.green(stringify(arg));
     case LogLevels.WARNING:
-      return (arg: unknown) => colors.rgb24(stringify(arg),0xffcc00);
+      return (arg: unknown) =>
+        colors.rgb24(stringify(arg), 0xffcc00);
     case LogLevels.ERROR:
       return (arg: unknown) => colors.red(stringify(arg));
     case LogLevels.CRITICAL:
@@ -60,22 +62,26 @@ function colorize(level: number) {
   }
   return (a: unknown) => a;
 }
-export class ConsoleHandler extends log.handlers.BaseHandler {
+export class ConsoleHandler extends handlers.BaseHandler {
   format(logRecord: LogRecord): string {
     const msg = `${colors.dim(
       formatDate(logRecord.datetime),
     )} ${colors.bold(formatLogLevel(logRecord.levelName))}`;
 
-    const args = [logRecord.msg, ...logRecord.args];
+    const args = [ ...logRecord.args];
+    // console.log(logRecord);
 
     const newMsg = colorize(logRecord.level)(msg);
     const newArgs = args
+      ?.map((v: unknown) => stringifyConsole(v))
       ?.map(colorize(logRecord.level))
-      .map((v: unknown) => ((stringify(v))));
 
     console.log(newMsg);
     console.group();
-    newArgs?.forEach((v: unknown) => console.log(v));
+    newArgs?.forEach((v: unknown) => {
+      console.log(v)
+
+    });
     console.groupEnd();
     console.log('\n');
 
@@ -89,25 +95,23 @@ export class ConsoleHandler extends log.handlers.BaseHandler {
 const fileFormatter = ({
   datetime,
   levelName,
-  msg,
   args,
 }: LogRecord) => {
   let text = `${formatDate(datetime)} ${formatLogLevel(
     levelName,
-  )}  ${msg}`;
+  )}`;
   args.forEach((arg) => {
     text += `\n${stringify(arg)}`;
   });
-
   return text;
 };
 
 await ensureDir('./logs');
-await log.setup({
+await setup({
   handlers: {
     console: new ConsoleHandler('DEBUG'),
 
-    file: new log.handlers.FileHandler('DEBUG', {
+    file: new handlers.FileHandler('DEBUG', {
       filename: `logs/${formatLogFileName()}${
         DEBUG ? '.debug' : ''
       }.log`,
@@ -139,17 +143,18 @@ await log.setup({
 const debugLogger = DEBUG_EMAIL ? 'email' : 'debug';
 const mainLogger = DEBUG ? debugLogger : 'default';
 
-export const logger = log.getLogger(mainLogger);
+const _logger = getLogger(mainLogger);
 
-// logger.warning(
-//   {
-//     a: 1,
-//     b: "hola",
-//     c: [1, null, 'ye', undefined],
-//     c2: [1, null, 'ye', undefined],
-//     c3: [1, null, 'ye', undefined],
-//     c5: [1, null, 'ye', undefined],
-//   },
-//   new Error('asd'),
-//   [1,2, {a:2,b:'asd'}],
-// );
+
+const val =  {colors:true,depth:1, compact:false, c:[2,3,4], d: () => null, e: {
+  g: 'asd asd asdd asd'
+}}
+
+
+export const logger = {
+  debug: ( ...args: unknown[]) => _logger.debug('',...args) ,
+  info: ( ...args: unknown[]) => _logger.info('',...args) ,
+  warning: ( ...args: unknown[]) => _logger.warning('',...args) ,
+  error: ( ...args: unknown[]) => _logger.error('',...args) ,
+  critical: ( ...args: unknown[]) => _logger.critical('',...args) ,
+}

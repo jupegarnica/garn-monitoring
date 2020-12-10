@@ -28,9 +28,14 @@ export function textBackground(
 }
 
 
- export const stringify = (val: unknown):string => {
+export const stringify = (val: unknown):string => {
   if (typeof val === 'string') return val;
   return Deno.inspect(val);
+};
+
+export const stringifyConsole = (val: unknown):string => {
+  if (typeof val === 'string') return val;
+  return Deno.inspect(val, {colors:true,depth:10, compact:false});
 };
 
 

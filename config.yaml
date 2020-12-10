@@ -10,7 +10,7 @@ requests:
 
 run_every: 60000 # 5min
 request_timeout: 5000
-log_level: debug
+log_level: info
 
 smtp:
   host: ${{ SMTP_HOST  }}
