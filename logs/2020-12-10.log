@@ -718,3 +718,63 @@ GET https://shop.datsme.life:444/api/v1/products
 Downtime 0.0%
 Delay/average 850.0/905.8ms
 Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET http://jupegarnica.com
+2020-12-10 22:17 INFO    
+⭐ success
+GET http://jupegarnica.com
+
+Downtime 2.8%
+Delay/average 54.0/512.0ms
+Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET http://valencia.io
+2020-12-10 22:17 INFO    
+⭐ success
+GET http://valencia.io
+
+Downtime 0.0%
+Delay/average 51.0/653.3ms
+Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET http://198.211.122.70
+2020-12-10 22:17 INFO    
+⭐ success
+GET http://198.211.122.70
+
+Downtime 0.0%
+Delay/average 260.0/193.1ms
+Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET http://198.211.122.70:8080/api/v1/products
+2020-12-10 22:17 INFO    
+⭐ success
+GET http://198.211.122.70:8080/api/v1/products
+
+Downtime 97.1%
+Delay/average 1083.0/970.3ms
+Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET https://datsme.life
+2020-12-10 22:17 INFO    
+⭐ success
+GET https://datsme.life
+
+Downtime 2.9%
+Delay/average 3325.0/3042.1ms
+Monitored during 2 days
+2020-12-10 22:17 INFO    
+⏳ fetching
+GET https://shop.datsme.life:444/api/v1/products
+2020-12-10 22:17 INFO    
+⭐ success
+GET https://shop.datsme.life:444/api/v1/products
+
+Downtime 0.0%
+Delay/average 883.0/906.8ms
+Monitored during 2 days
