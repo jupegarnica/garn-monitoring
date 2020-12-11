@@ -55,12 +55,22 @@ export async function runEvery(
 }
 
 
-export async function fetchAndCopy(url:string, path:string, options = undefined): Promise<void> {
+export async function fetchAndCopy(url:string, path:string, options = {create: true}): Promise<void> {
 
+ try {
+   const data = await Deno.readFile(path);
+   await Deno.writeFile(path +'.backup', data);
+
+   console.log(path, 'backup created');
+
+ } catch (error) {
+   console.log(path + ' not found', error.message);
+
+ }
   const fileText = await fetch(url).then(r => r.text());
   const encoder = new TextEncoder();
   const encoded = encoder.encode(fileText);
-  await Deno.writeFile(path, encoded,{create: true});
+  await Deno.writeFile(path, encoded,options);
 }
 
 

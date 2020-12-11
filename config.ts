@@ -1,6 +1,7 @@
 import { readYaml } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
 import { config } from "https://deno.land/x/dotenv@v1.0.1/mod.ts";
 import { fetchAndCopy } from "./services/helpers.ts";
+import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
 
 config({ safe: false, export: true });
 let conf: any;
@@ -26,8 +27,8 @@ try {
     );
 
   }
-  console.error("Please fill monitor.yaml");
-  Deno.exit(0);
+  console.error(colors.red("Please fill monitor.yaml"));
+  Deno.exit(1);
 }
 if (!conf.requests?.length) {
   throw new Error("No requests configured, add them to monitor.yaml");

@@ -1,6 +1,6 @@
-import  {LogLevels, getLogger, setup,handlers} from 'https://deno.land/std@0.80.0/log/mod.ts';
+import  {LogLevels, getLogger, setup,handlers} from 'https://deno.land/std@0.79.0/log/mod.ts';
 
-import type { LogRecord } from 'https://deno.land/std@0.80.0/log/logger.ts';
+import type { LogRecord } from 'https://deno.land/std@0.79.0/log/logger.ts';
 import {
   formatDate,
   formatLogFileName,
@@ -11,8 +11,8 @@ import {
 } from './helpers.ts';
 import { addLogToQueue } from './mailer.ts';
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
-import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
-import { ensureDir } from 'https://deno.land/std@0.80.0/fs/mod.ts';
+import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
+import { ensureDir } from 'https://deno.land/std@0.79.0/fs/mod.ts';
 
 
 const emailFormatter = ({
@@ -113,7 +113,7 @@ await setup({
   handlers: {
     console: new ConsoleHandler('DEBUG'),
 
-    file: new handlers.FileHandler('DEBUG', {
+    file: new handlers.FileHandler('INFO', {
       filename: `monitor-logs/${formatLogFileName()}${
         DEBUG ? '.debug' : ''
       }.log`,
