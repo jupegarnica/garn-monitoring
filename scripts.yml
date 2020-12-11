@@ -6,6 +6,9 @@
 #   - write
 
 scripts:
+  build: |
+    lume --version || deno install --unstable -A https://deno.land/x/lume/cli.js
+    lume web
   start: deno run --unstable app.ts
   once: deno run --unstable app.ts --once
   format: deno fmt *.ts
