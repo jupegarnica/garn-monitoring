@@ -1,13 +1,13 @@
-import * as config from '../config.ts';
-import { logger } from '../services/logger.ts';
-import { request } from '../services/request.ts';
+import { REQUESTS } from '../config.ts';
+import { logger } from './logger.ts';
+import { request } from './request.ts';
 import {
   readYaml,
   writeYaml,
 } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
 import { ensureFile } from 'https://deno.land/std@0.79.0/fs/mod.ts';
 import { difference } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
-import { parseNumberToString } from '../services/helpers.ts';
+import { parseNumberToString } from './helpers.ts';
 
 const historyFileName = '../monitor.data.yaml';
 
@@ -51,7 +51,7 @@ async function setHistory(
 }
 
 export async function monitor() {
-  const requests = config.REQUESTS;
+  const requests = REQUESTS;
   for (const req of requests) {
     let delay, now;
     const id = `${req.method} ${req.url}`;
