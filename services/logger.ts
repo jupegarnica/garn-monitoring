@@ -108,13 +108,13 @@ const fileFormatter = ({
   return text;
 };
 
-await ensureDir('./logs');
+await ensureDir('./monitor-logs');
 await setup({
   handlers: {
     console: new ConsoleHandler('DEBUG'),
 
     file: new handlers.FileHandler('DEBUG', {
-      filename: `logs/${formatLogFileName()}${
+      filename: `monitor-logs/${formatLogFileName()}${
         DEBUG ? '.debug' : ''
       }.log`,
       mode: 'a', // 'a', 'w', 'x'

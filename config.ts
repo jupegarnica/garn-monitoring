@@ -8,7 +8,7 @@ let conf: any;
 export const DEBUG = Deno.env.get("DEBUG");
 export const DEBUG_EMAIL = Deno.env.get("DEBUG_EMAIL") ? true : false;
 
-const confFile = `./config${DEBUG ? ".debug" : ""}.yaml`;
+const confFile = `./monitor${DEBUG ? ".debug" : ""}.yaml`;
 try {
   conf = await readYaml(confFile);
   if (!conf.smtp?.password) {
@@ -17,8 +17,8 @@ try {
 } catch (error) {
   if (error instanceof Deno.errors.NotFound) {
     await fetchAndCopy(
-      "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.yaml",
-      "./config.yaml",
+      "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/monitor.yaml",
+      "./monitor.yaml",
     );
     await fetchAndCopy(
       "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/.env.example",
@@ -26,11 +26,11 @@ try {
     );
 
   }
-  console.error("Please fill config.yaml");
+  console.error("Please fill monitor.yaml");
   Deno.exit(0);
 }
 if (!conf.requests?.length) {
-  throw new Error("No requests configured, add them to config.yaml");
+  throw new Error("No requests configured, add them to monitor.yaml");
 }
 
 export const LOG_LEVEL = (() => {

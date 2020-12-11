@@ -1,15 +1,15 @@
-import * as config from './config.ts';
-import { logger } from './services/logger.ts';
-import { request } from './services/request.ts';
+import * as config from '../config.ts';
+import { logger } from '../services/logger.ts';
+import { request } from '../services/request.ts';
 import {
   readYaml,
   writeYaml,
 } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
 import { ensureFile } from 'https://deno.land/std@0.80.0/fs/mod.ts';
 import { difference } from 'https://deno.land/std@0.80.0/datetime/mod.ts';
-import { parseNumberToString } from './services/helpers.ts';
+import { parseNumberToString } from '../services/helpers.ts';
 
-const historyFileName = './history.yaml';
+const historyFileName = '../monitor.data.yaml';
 
 async function setHistory(
   id: string,

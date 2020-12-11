@@ -1,7 +1,7 @@
 import { PROCESS_TIMEOUT, RUN_EVERY } from './config.ts';
 import { runEvery } from './services/helpers.ts';
 import { logger } from './services/logger.ts';
-import { monitor } from './monitor.ts';
+import { monitor } from './services/monitor.ts';
 import { sendInBulk } from './services/mailer.ts';
 import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
 
