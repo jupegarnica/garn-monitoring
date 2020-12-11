@@ -13,7 +13,7 @@ services:
       SMTP_TO: ${SMTP_TO}
       LOG_LEVEL: ${LOG_LEVEL}
     working_dir: /app
-    command: deno run -A --unstable monitoring-once.ts
-    # command: deno run -A --unstable monitoring-continuous.ts
+    command: deno run -A --unstable app.ts
+    # command: deno run -A --unstable app.ts --once
     volumes:
       - .:/app

@@ -39,11 +39,10 @@ cd garn-monitoring
 4. Or run it once `deno run -A --unstable app.ts --once`
 
 
-## remotely
+## Docker support
+
+Watch docker-compose.yml
 
 ```sh
-mkdir monitoring && cd monitoring
-deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts
-# or run it only once
-# deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --once
+docker-compose up
 ```

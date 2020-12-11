@@ -90,14 +90,14 @@ requests:
     averageDelay: 8.333333333333334
     lastDelay: 9
   'POST http://localhost:8000/post':
-    updateAt: 1607688733074
+    updateAt: 1607688941857
     createdAt: 1607507354735
-    totalRequests: 189
-    totalFailed: 59
-    downtimePercentage: 0.31216931216931215
-    totalDelay: 8037617082159
-    averageDelay: 42527074508.77778
-    lastDelay: 2
+    totalRequests: 190
+    totalFailed: 60
+    downtimePercentage: 0.3157894736842105
+    totalDelay: 8037617082160
+    averageDelay: 42303247800.8421
+    lastDelay: 1
   'GET http://localhost:8000/payload':
     updateAt: 1607596223842
     createdAt: 1607595556723
@@ -117,20 +117,20 @@ requests:
     averageDelay: 8
     lastDelay: 5
   'GET https://google.com':
-    updateAt: 1607688733041
+    updateAt: 1607688941834
     createdAt: 1607687951048
-    totalRequests: 64
+    totalRequests: 66
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 9201
-    averageDelay: 143.765625
-    lastDelay: 125
+    totalDelay: 9687
+    averageDelay: 146.77272727272728
+    lastDelay: 137
   'PATCH http://localhost:8000/post':
-    updateAt: 1607688733087
+    updateAt: 1607688941873
     createdAt: 1607687951224
-    totalRequests: 32
-    totalFailed: 32
+    totalRequests: 33
+    totalFailed: 33
     downtimePercentage: 1
-    totalDelay: 87
-    averageDelay: 2.71875
+    totalDelay: 88
+    averageDelay: 2.6666666666666665
     lastDelay: 1
