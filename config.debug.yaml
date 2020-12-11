@@ -1,20 +1,28 @@
 requests:
- - http://localhost:8000
-#  - http://localhost:8000/payload
-#  - http://localhost:8000/random
-# #  - http://localhost:8000/timeout
-#  - http://localhost:8000/404
-#  - method: 'POST'
-#    url: http://localhost:8000/post
-#    data: "holaaaa"
-#    headers:
-#      content-type: text/plain
-#  - method: 'PATCH'
-#    url: http://localhost:8000/post
+ - https://google.com
+
+ # Or the same using a request schema
+ - method: GET
+   url: https://google.com
+
+
+ - method: 'POST'
+   url: http://localhost:8000/post
+   data: hello
+   headers:
+     content-type: text/plain
+
+ - method: 'PATCH'
+   headers:
+     content-type: application/json
+   url: http://localhost:8000/post
+   data:
+     title: hello
+     body: lorem ipsum
 
 run_every: 60000
 log_level: debug
-request_timeout: 5000
+request_timeout: 10000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

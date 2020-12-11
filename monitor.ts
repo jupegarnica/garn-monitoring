@@ -56,14 +56,13 @@ export async function monitor() {
     let delay, now;
     const id = `${req.method} ${req.url}`;
     try {
-      logger.info(`${'⏳'} fetching`, id);
+      logger.debug(`${'⏳'} fetching ${id}` );
       now = Number(new Date());
       const response = await request(req);
       delay = Number(new Date()) - (now ?? 0);
       const stats = await setHistory(id, delay, false);
       logger.info(
-        `${'⭐'} success`,
-        id,
+        `${'⭐'} success ${id}`,
         `\nDowntime ${parseNumberToString(
           stats.downtimePercentage * 100,
         )}%`,
@@ -77,8 +76,7 @@ export async function monitor() {
       const stats = await setHistory(id, delay, true);
 
       logger.error(
-        `${'❌'} fail from`,
-        id,
+        `${'❌'} fail from ${id}`,
         `\nDowntime ${parseNumberToString(
           stats.downtimePercentage * 100,
         )}%`,

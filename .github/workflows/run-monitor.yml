@@ -6,8 +6,7 @@ name: Cron monitor
 on:
   workflow_dispatch:
   schedule:
-  # - cron: "* * * * *"
-  - cron: "0 * * * *"
+  - cron: "0 * * * *" # every hour - aprox 744 min / month
 
 jobs:
   monitor:

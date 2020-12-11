@@ -1,17 +1,28 @@
 requests:
-  - http://jupegarnica.com
-  - http://valencia.io
-  - http://198.211.122.70
-  - http://198.211.122.70:8080/api/v1/products
+ - https://google.com
 
-  - https://datsme.life
-  # - https://shop.datsme.life/es/products
-  - https://shop.datsme.life:444/api/v1/products
+ # Or the same using a request schema
+ - method: GET
+   url: https://google.com
 
-run_every: 60000 # 5min
-request_timeout: 5000
-log_level: info
 
+ - method: 'POST'
+   url: http://localhost:8000/post
+   data: hello
+   headers:
+     content-type: text/plain
+
+ - method: 'PATCH'
+   headers:
+     content-type: application/json
+   url: http://localhost:8000/post
+   data:
+     title: hello
+     body: lorem ipsum
+
+run_every: 60000
+log_level: debug
+request_timeout: 10000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

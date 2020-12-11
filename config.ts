@@ -1,5 +1,4 @@
 import { readYaml } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
-
 import { config } from "https://deno.land/x/dotenv@v1.0.1/mod.ts";
 import { fetchAndCopy } from "./services/helpers.ts";
 
@@ -12,20 +11,23 @@ export const DEBUG_EMAIL = Deno.env.get("DEBUG_EMAIL") ? true : false;
 const confFile = `./config${DEBUG ? ".debug" : ""}.yaml`;
 try {
   conf = await readYaml(confFile);
+  if (!conf.smtp?.password) {
+    throw 'no smtp';
+  }
 } catch (error) {
-  if (error.message.includes("No such file")) {
+  if (error instanceof Deno.errors.NotFound) {
     await fetchAndCopy(
-      "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.debug.yaml",
+      "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/config.yaml",
       "./config.yaml",
     );
     await fetchAndCopy(
       "https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/.env.example",
       "./.env",
     );
-    throw new Error("No config.yaml. created. please fill it");
-  } else {
-    throw error;
+
   }
+  console.error("Please fill config.yaml");
+  Deno.exit(0);
 }
 if (!conf.requests?.length) {
   throw new Error("No requests configured, add them to config.yaml");

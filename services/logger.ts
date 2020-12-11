@@ -73,7 +73,7 @@ export class ConsoleHandler extends handlers.BaseHandler {
 
     const newMsg = colorize(logRecord.level)(msg);
     const newArgs = args
-      ?.map((v: unknown) => stringifyConsole(v))
+      ?.map((v: unknown, i ) => i === 0 ? colors.bold(stringifyConsole(v)) : stringifyConsole(v))
       ?.map(colorize(logRecord.level))
 
     console.log(newMsg);

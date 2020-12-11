@@ -25,5 +25,8 @@ const run = async () => {
 if (once) {
     await run()
 } else {
-    await runEvery(RUN_EVERY, run);
+    await runEvery(RUN_EVERY, async () => {
+        await run();
+        logger.debug(`Waiting until next round in ${RUN_EVERY}ms`)
+    });
 }

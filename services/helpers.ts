@@ -60,7 +60,7 @@ export async function fetchAndCopy(url:string, path:string, options = undefined)
   const fileText = await fetch(url).then(r => r.text());
   const encoder = new TextEncoder();
   const encoded = encoder.encode(fileText);
-  await Deno.writeFile(path, encoded, options);
+  await Deno.writeFile(path, encoded,{create: true});
 }
 
 
