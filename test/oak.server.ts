@@ -5,7 +5,7 @@ import {
   Router,
   RouterContext,
   Status,
-  send
+  send,
 } from 'https://deno.land/x/oak@v6.3.2/mod.ts';
 import { wait } from '../services/helpers.ts';
 import { logger } from '../services/logger.ts';
@@ -24,17 +24,14 @@ router.get('/random', (context: RouterContext) => {
   const rnd = Math.random();
   context.response.body = rnd;
   context.response.status = rnd > 0.5 ? 200 : 422;
-
-
-
 });
-router.get('/payload',async (context) => {
-  logger.info(Deno.cwd(), context.request.url.pathname)
+router.get('/payload', async (context) => {
+  logger.info(Deno.cwd(), context.request.url.pathname);
   await send(context, '', {
     root: `${Deno.cwd()}/test`,
-    index: "testing.server.ts",
+    index: 'oak.server.ts',
   });
-})
+});
 
 router.get('/timeout', async (context: RouterContext) => {
   await wait(1000 * 7);

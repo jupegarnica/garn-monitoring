@@ -1,0 +1,7 @@
+{
+    "profile": { "user": "magnattic" },
+    "posts": [
+      { "id": 1, "title": "json-server" },
+      { "id": 2, "title": "another one" }
+    ]
+  }

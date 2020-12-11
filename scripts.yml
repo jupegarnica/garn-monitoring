@@ -1,16 +1,17 @@
 # deno install -qA -n vr https://deno.land/x/velociraptor@1.0.0-beta.16/cli.ts
-allow:
-  - net
-  - env
-  - read
-  - write
+# allow:
+#   - net
+#   - env
+#   - read
+#   - write
 
 scripts:
   start: deno run --unstable app.ts
   once: deno run --unstable app.ts --once
   format: deno fmt *.ts
+  json: deno run --allow-read --allow-net test/json.server.ts
   server:
-    cmd: deno run -A test/testing.server.ts
+    cmd: deno run -A test/oak.server.ts
     unstable: true
     # watch: true
     env:
@@ -18,7 +19,7 @@ scripts:
   test:
     desc: server watch mode
     cmd: |
-      deno run -A test/testing.server.ts &
+      deno run -A test/oak.server.ts &
       sleep 5
       denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
       denon run -A --unstable app.ts --once
