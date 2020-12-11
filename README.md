@@ -10,7 +10,19 @@ deno install -Af --unstable -n monitor https://raw.githubusercontent.com/jupegar
 monitor
 ```
 
-# CI
+## Clone locally
+
+```sh
+git clone git@github.com:jupegarnica/garn-monitoring.git
+cd garn-monitoring
+```
+
+1. Fill `config.yaml`
+2. Optionally create `.env` based on `.env.example`
+3. Run it `deno run -A --unstable app.ts`
+4. Or run it once `deno run -A --unstable app.ts --once`
+
+### CI
 
 Run it every hour with google actions. It takes aprox 744 min / month.  (FREE 2000 min / month)
 
@@ -25,21 +37,9 @@ SMTP_TO: ${{ secrets.SMTP_TO }}
 SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
 
 ```
+a
 
-## locally
-
-```sh
-git clone git@github.com:jupegarnica/garn-monitoring.git
-cd garn-monitoring
-```
-
-1. Fill `config.yaml`
-2. Optionally create `.env` based on `.env.example`
-3. Run it `deno run -A --unstable app.ts`
-4. Or run it once `deno run -A --unstable app.ts --once`
-
-
-## Docker support
+### Docker support
 
 Watch docker-compose.yml
 

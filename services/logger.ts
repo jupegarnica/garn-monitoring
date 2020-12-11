@@ -96,13 +96,15 @@ const fileFormatter = ({
   datetime,
   levelName,
   args,
+  msg,
 }: LogRecord) => {
+
   let text = `${formatDate(datetime)} ${formatLogLevel(
     levelName,
-  )}`;
-  args.forEach((arg) => {
-    text += `\n${stringify(arg)}`;
-  });
+    )}`;
+    args.forEach((arg) => {
+      text += `\n${stringify(arg)}`;
+    });
   return text;
 };
 
