@@ -1,4 +1,9 @@
-import  {LogLevels, getLogger, setup,handlers} from 'https://deno.land/std@0.80.0/log/mod.ts';
+import {
+  LogLevels,
+  getLogger,
+  setup,
+  handlers,
+} from 'https://deno.land/std@0.80.0/log/mod.ts';
 
 import type { LogRecord } from 'https://deno.land/std@0.80.0/log/logger.ts';
 import {
@@ -14,21 +19,22 @@ import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../config.ts';
 import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
 import { ensureDir } from 'https://deno.land/std@0.80.0/fs/mod.ts';
 
-
 const emailFormatter = ({
   datetime,
   levelName,
   args,
 }: LogRecord) => {
-  let text = `${formatDate(datetime)} ${formatLogLevel(
-    levelName,
-  )}`;
+  let text = `<div class="record ${levelName}"> <i>${formatDate(
+    datetime,
+  )}</i> <b>${formatLogLevel(levelName)}</b>`;
 
-  args.forEach((arg) => {
-    text += textColor(`\n${stringify(arg)}`, '#555555');
+  text += '<div class="args">'
+  args.forEach((arg,i) => {
+    text += `<div class="arg${i}">${stringify(arg)}</div>`;
   });
+  text += '</div>'
 
-  return text;
+  return text + '</div><hr>';
 };
 
 class EmailHandler extends handlers.BaseHandler {
@@ -68,19 +74,22 @@ export class ConsoleHandler extends handlers.BaseHandler {
       formatDate(logRecord.datetime),
     )} ${colors.bold(formatLogLevel(logRecord.levelName))}`;
 
-    const args = [ ...logRecord.args];
+    const args = [...logRecord.args];
     // console.log(logRecord);
 
     const newMsg = colorize(logRecord.level)(msg);
     const newArgs = args
-      ?.map((v: unknown, i ) => i === 0 ? colors.bold(stringifyConsole(v)) : stringifyConsole(v))
-      ?.map(colorize(logRecord.level))
+      ?.map((v: unknown, i) =>
+        i === 0
+          ? colors.bold(stringifyConsole(v))
+          : stringifyConsole(v),
+      )
+      ?.map(colorize(logRecord.level));
 
     console.log(newMsg);
     console.group();
     newArgs?.forEach((v: unknown) => {
-      console.log(v)
-
+      console.log(v);
     });
     console.groupEnd();
     console.log('\n');
@@ -98,13 +107,12 @@ const fileFormatter = ({
   args,
   msg,
 }: LogRecord) => {
-
   let text = `${formatDate(datetime)} ${formatLogLevel(
     levelName,
-    )}`;
-    args.forEach((arg) => {
-      text += `\n${stringify(arg)}`;
-    });
+  )}`;
+  args.forEach((arg) => {
+    text += `\n${stringify(arg)}`;
+  });
   return text + '\n';
 };
 
@@ -138,7 +146,7 @@ await setup({
   loggers: {
     default: {
       level: LOG_LEVEL,
-      handlers: [ 'file', 'console', 'email'],
+      handlers: ['file', 'console', 'email'],
     },
     debug: {
       level: 'DEBUG',
@@ -151,18 +159,16 @@ await setup({
   },
 });
 
-
 const debugLogger = DEBUG_EMAIL ? 'email' : 'debug';
 const mainLogger = DEBUG ? debugLogger : 'default';
 
 const _logger = getLogger(mainLogger);
 
-
-
 export const logger = {
-  debug: ( ...args: unknown[]) => _logger.debug('',...args) ,
-  info: ( ...args: unknown[]) => _logger.info('',...args) ,
-  warning: ( ...args: unknown[]) => _logger.warning('',...args) ,
-  error: ( ...args: unknown[]) => _logger.error('',...args) ,
-  critical: ( ...args: unknown[]) => _logger.critical('',...args) ,
-}
+  debug: (...args: unknown[]) => _logger.debug('', ...args),
+  info: (...args: unknown[]) => _logger.info('', ...args),
+  warning: (...args: unknown[]) => _logger.warning('', ...args),
+  error: (...args: unknown[]) => _logger.error('', ...args),
+  critical: (...args: unknown[]) =>
+    _logger.critical('', ...args),
+};

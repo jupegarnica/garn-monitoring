@@ -12,7 +12,6 @@ interface Email {
 
 const queue: Email[] = [];
 
-
 export function addLogToQueue(email: Email): void {
   queue.push(email);
 }
@@ -33,26 +32,52 @@ export async function sendInBulk(): Promise<void> {
         username: SMTP.username,
         password: SMTP.password,
       });
-
     }
     let content = '';
     for (const email of queue) {
       const data: any = email;
-      content += `<div class="record">${data.content}</div>`;
+      content += `${data.content}\n`;
     }
     if (content) {
       await client.send({
         from: SMTP.from,
         to: SMTP.to,
         subject: 'garn-monitor logs',
-        content,
+        content: `<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <style>
+            .html, body {
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            }
+            .record {
+              padding: 1em;
+            }
+            .ERROR {
+              color: red;
+            }
+            .args {
+              opacity:0.8;
+              padding-left:1em;
+              font-size:0.8em;
+            }
+            .arg0 {
+              opacity:1;
+              font-size:1.2em;
+            }
+            </style>
+        </head>
+        <body>
+        ${content}
+        </body>
+        </html>`,
       });
       logger.debug(`Logs sent by email`);
-
     }
     queue.length = 0;
     await client.close();
   } catch (error) {
-    logger.error('Error sending email',error)
+    logger.error('Error sending email', error);
   }
 }
