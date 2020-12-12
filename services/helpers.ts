@@ -1,4 +1,4 @@
-import { format } from 'https://deno.land/std@0.79.0/datetime/mod.ts';
+import { format } from 'https://deno.land/std@0.80.0/datetime/mod.ts';
 
 export function formatLogFileName(date: Date = new Date()): string {
   return format(date, 'yyyy-MM-dd');

@@ -19,12 +19,22 @@ export function addLogToQueue(email: Email): void {
 
 export async function sendInBulk(): Promise<void> {
   try {
-    await client.connectTLS({
-      hostname: SMTP.host,
-      port: Number(SMTP.port),
-      username: SMTP.username,
-      password: SMTP.password,
-    });
+    try {
+      await client.connectTLS({
+        hostname: SMTP.host,
+        port: Number(SMTP.port),
+        username: SMTP.username,
+        password: SMTP.password,
+      });
+    } catch (error) {
+      await client.connect({
+        hostname: SMTP.host,
+        port: Number(SMTP.port),
+        username: SMTP.username,
+        password: SMTP.password,
+      });
+
+    }
     let content = '';
     for (const email of queue) {
       const data: any = email;

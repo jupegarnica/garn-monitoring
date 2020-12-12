@@ -1,7 +1,7 @@
 import { readYaml } from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
 import { config } from "https://deno.land/x/dotenv@v1.0.1/mod.ts";
 import { fetchAndCopy } from "./services/helpers.ts";
-import * as colors from 'https://deno.land/std@0.79.0/fmt/colors.ts';
+import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
 
 config({ safe: false, export: true });
 let conf: any;
