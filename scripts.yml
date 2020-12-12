@@ -33,9 +33,9 @@ scripts:
     unstable: true
   dev:
     desc: watch mode
-    cmd: deno run -A --unstable app.ts --once
+    cmd: denon run -A --unstable app.ts --once
     env:
       # DEBUG_EMAIL: true
       DEBUG: true
-    watch: true
+    # watch: true
     # unstable: true

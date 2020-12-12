@@ -1,11 +1,11 @@
+import { parse } from 'https://deno.land/std@0.80.0/flags/mod.ts';
 import { PROCESS_TIMEOUT, RUN_EVERY } from './config.ts';
 import { runEvery } from './services/helpers.ts';
-import { logger } from './services/logger.ts';
 import { monitor } from './services/monitor.ts';
 import { sendInBulk } from './services/mailer.ts';
-import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
+import { logger } from './services/logger.ts';
 
-const {once} = parse(Deno.args);
+const { once } = parse(Deno.args);
 
 const run = async () => {
   const id = setTimeout(() => {
@@ -23,10 +23,11 @@ const run = async () => {
 
 
 if (once) {
-    await run()
+  await run();
 } else {
-    await runEvery(RUN_EVERY, async () => {
-        await run();
-        logger.debug(`Waiting until next round in ${RUN_EVERY}ms`)
-    });
+
+  await runEvery(RUN_EVERY, async () => {
+    await run();
+    await logger.debug(`Waiting until next round in ${RUN_EVERY}ms`);
+  });
 }

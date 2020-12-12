@@ -42,6 +42,8 @@ export const stringifyConsole = (val: unknown):string => {
 export const wait = (delay: number) =>
   new Promise((res) => setTimeout(res, delay));
 
+
+
 export async function runEvery(
   delay: number = 1000 * 60,
   fn: Function,
@@ -49,8 +51,9 @@ export async function runEvery(
 ) {
   let i = 1;
   while (i < max) {
-    await fn(i++);
+    await fn();
     await wait(delay);
+    i++;
   }
 }
 

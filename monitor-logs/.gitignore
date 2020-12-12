@@ -1,6 +1,6 @@
 !.gitignore
 
 #  do not ignore logs,  running in github CI run monitor will commit and push the logs written here
-!*.log
+!*.log*
 
-*.debug.log
+*.debug.log*

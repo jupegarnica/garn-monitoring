@@ -105,7 +105,7 @@ const fileFormatter = ({
     args.forEach((arg) => {
       text += `\n${stringify(arg)}`;
     });
-  return text;
+  return text + '\n';
 };
 
 await ensureDir('./monitor-logs');
@@ -114,6 +114,15 @@ await setup({
     console: new ConsoleHandler('DEBUG'),
 
     file: new handlers.FileHandler('INFO', {
+      filename: `monitor-logs/${formatLogFileName()}${
+        DEBUG ? '.debug' : ''
+      }.log`,
+      mode: 'a', // 'a', 'w', 'x'
+      formatter: fileFormatter,
+    }),
+    fileRotating: new handlers.RotatingFileHandler('INFO', {
+      maxBytes: 1024 * 10,
+      maxBackupCount: 10,
       filename: `monitor-logs/${formatLogFileName()}${
         DEBUG ? '.debug' : ''
       }.log`,
@@ -129,7 +138,7 @@ await setup({
   loggers: {
     default: {
       level: LOG_LEVEL,
-      handlers: ['email', 'file', 'console'],
+      handlers: [ 'file', 'console', 'email'],
     },
     debug: {
       level: 'DEBUG',
@@ -141,6 +150,7 @@ await setup({
     },
   },
 });
+
 
 const debugLogger = DEBUG_EMAIL ? 'email' : 'debug';
 const mainLogger = DEBUG ? debugLogger : 'default';
