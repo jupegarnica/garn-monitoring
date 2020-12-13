@@ -2,6 +2,7 @@ log_level: NOTSET
 run_every: 60000
 request_timeout: 10000
 requests:
+  - http://jupegarnica.com/
   - http://jupegarnica.com/404
 smtp:
   host: '${{SMTP_HOST}}'

@@ -11,7 +11,7 @@ scripts:
     lume web
   start:
     cmd: deno run -A --unstable app.ts
-    # watch: true
+    watch: true
   once: deno run -A --unstable app.ts --once
   format: deno fmt *.ts
   json: deno run --allow-read --allow-net test/json.server.ts
@@ -21,12 +21,13 @@ scripts:
     # watch: true
     env:
       DEBUG: true
+  install: denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
   test:
     desc: server watch mode
     cmd: |
       deno run -A test/oak.server.ts &
       sleep 5
-      denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
+      denon run install
       denon run -A --unstable app.ts --once
     env:
       DEBUG: true
@@ -41,3 +42,15 @@ scripts:
     env:
       # DEBUG_EMAIL: true
       DEBUG: true
+
+watcher:
+  # The number of milliseconds after the last change.
+  interval: 350
+  # The file extensions that it will scan for.
+  exts: ['js', 'jsx', 'ts', 'tsx', 'yaml', 'yml']
+  # The globs that it will scan for.
+  match: ['**/*.*']
+  # The globs that it will not scan for.
+  skip: ['*/.git/*']
+  # Use the legacy file monitoring algorithm. (walking)
+  legacy: false
