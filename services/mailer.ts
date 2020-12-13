@@ -1,5 +1,5 @@
 import { SmtpClient } from 'https://deno.land/x/smtp@v0.6.0/mod.ts';
-import { SMTP } from '../config.ts';
+import { SMTP } from './config.ts';
 import { logger } from './logger.ts';
 
 const client = new SmtpClient();
@@ -43,7 +43,7 @@ export async function sendInBulk(): Promise<void> {
         from: SMTP.from,
         to: SMTP.to,
         subject: 'garn-monitor logs',
-        content: `<!DOCTYPE html>
+        content:`<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">

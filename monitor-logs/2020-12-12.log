@@ -1,0 +1,108 @@
+2020-12-12 11:16 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 358.0/213.8ms
+Monitored during 0 days
+
+2020-12-12 11:16 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 127.0/213.6ms
+Monitored during 0 days
+
+2020-12-12 11:16 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 4.0ms / 2.2ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-12 11:16 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 1.5ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-12 11:28 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 329.0/213.9ms
+Monitored during 0 days
+
+2020-12-12 11:28 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 119.0/213.6ms
+Monitored during 0 days
+
+2020-12-12 11:28 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 2.2ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-12 11:28 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 1.5ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-12 11:29 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 338.0/214.0ms
+Monitored during 0 days
+
+2020-12-12 11:29 INFO    
+⭐ success GET https://google.com
+
+Downtime 0.0%
+Delay/average 125.0/213.7ms
+Monitored during 0 days
+
+2020-12-12 11:29 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 2.2ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-12 11:29 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 1.5ms
+Monitored during 0 days
+Http: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+

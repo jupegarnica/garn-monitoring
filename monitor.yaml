@@ -1,32 +1,13 @@
-requests:
- - https://google.com
-
- # Or the same using a request schema
- - method: GET
-   url: https://google.com
-
-
- - method: 'POST'
-   url: http://localhost:8000/post
-   data: hello
-   headers:
-     content-type: text/plain
-
- - method: 'PATCH'
-   headers:
-     content-type: application/json
-   url: http://localhost:8000/post
-   data:
-     title: hello
-     body: lorem ipsum
-
+log_level: NOTSET
 run_every: 60000
-log_level: debug
 request_timeout: 10000
+requests:
+  - jupegarnica.com
+  - ups
 smtp:
-  host: ${{ SMTP_HOST  }}
-  port: ${{ SMTP_PORT  }}
-  username: ${{ SMTP_USERNAME  }}
-  from: ${{ SMTP_FROM  }}
-  to: ${{ SMTP_TO  }}
-  password: ${{ SMTP_PASSWORD  }}
+  host: '${{SMTP_HOST}}'
+  username: '${{SMTP_USERNAME}}'
+  password: '${{SMTP_PASSWORD}}'
+  port: '${{SMTP_PORT}}'
+  from: '${{SMTP_FROM}}'
+  to: '${{SMTP_TO}}'

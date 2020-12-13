@@ -28,7 +28,8 @@ Run it every hour with google actions. It takes aprox 744 min / month.  (FREE 20
 
 Go to https://github.com/:userName/:repoName/settings/secrets/actions to configure your smtp settings
 
-```
+```yml
+# monitor.yaml
 SMTP_HOST: ${{ secrets.SMTP_HOST }}
 SMTP_PORT: ${{ secrets.SMTP_PORT }}
 SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
