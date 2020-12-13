@@ -3,7 +3,8 @@ import {
   writeYaml,
 } from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
 import { config } from 'https://deno.land/x/dotenv@v1.0.1/mod.ts';
-import type { Config, LogLevel,Request } from './models.ts';
+import type { Config, LogLevel, Request } from './models.ts';
+import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
 
 config({ safe: false, export: true });
 export const DEBUG = Deno.env.get('DEBUG');
@@ -11,12 +12,20 @@ export const DEBUG_EMAIL = Deno.env.get('DEBUG_EMAIL')
   ? true
   : false;
 
-function getRequests(): Request[] {
-  const output = [prompt('url?') ?? null];
-  do {
-    output.push(prompt('url?'));
+const askFor = (input: string, o = '') => {
+  console.log(colors.yellow(input));
+  return prompt('', o) || o;
+};
 
-  } while (confirm('another url?'));
+function getRequests(): Request[] {
+  const output = [];
+
+  do {
+    let url = askFor('url?');
+    url = url?.match(/^https?:\/\//) ? url : 'http://' + url;
+    output.push(url);
+    console.log(colors.yellow('another url?'));
+  } while (confirm());
 
   return output;
 }
@@ -25,6 +34,7 @@ async function getOrCreateConfig(): Promise<Config> {
   const confFile = `./monitor${DEBUG ? '.debug' : ''}.yaml`;
   try {
     conf = await readYaml(confFile);
+    // throw new Error("");
   } catch (error) {
     // if (error instanceof Deno.errors.NotFound) {
     conf = {
@@ -33,14 +43,12 @@ async function getOrCreateConfig(): Promise<Config> {
       request_timeout: 1000 * 10, // DEFAULT
       requests: getRequests(),
       smtp: {
-        host: prompt('smtp host?') || '${{SMTP_HOST}}',
-        username:
-          prompt('smtp username?') || '${{SMTP_USERNAME}}',
-        password:
-          prompt('smtp password?') || '${{SMTP_PASSWORD}}',
-        port: prompt('smtp port?') || '${{SMTP_PORT}}',
-        from: prompt('smtp from?') || '${{SMTP_FROM}}',
-        to: prompt('smtp to?') || '${{SMTP_TO}}',
+        host: askFor('smtp host?', '${{SMTP_HOST}}'),
+        username: askFor('smtp username?', '${{SMTP_USERNAME}}'),
+        password: askFor('smtp password?', '${{SMTP_PASSWORD}}'),
+        port: askFor('smtp port?', '${{SMTP_PORT}}'),
+        from: askFor('smtp from?', '${{SMTP_FROM}}'),
+        to: askFor('smtp to?', '${{SMTP_TO}}'),
       },
     };
 
@@ -48,9 +56,13 @@ async function getOrCreateConfig(): Promise<Config> {
   }
 
   if (!conf.requests?.length) {
-    throw new Error(
-      'No requests configured, add them to monitor.yaml',
+    console.log(
+      colors.red(
+        'No requests configured, add them to monitor.yaml',
+      ),
     );
+
+    Deno.exit(1);
   }
   return conf;
 }

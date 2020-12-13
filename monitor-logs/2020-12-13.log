@@ -149,3 +149,288 @@ TypeError: Invalid URL.
     at async run (app.ts:17:3)
     at async app.ts:26:3
 
+2020-12-13 17:40 ERROR   
+❌ fail from GET jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 1.6ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:40 ERROR   
+❌ fail from GET ups
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 0.2ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:41 ERROR   
+❌ fail from GET jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 1.5ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:41 ERROR   
+❌ fail from GET ups
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 0.3ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:48 ERROR   
+❌ fail from GET j
+
+Downtime 100.0%
+Delay/av.: 3.0ms / 3.0ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:48 ERROR   
+❌ fail from GET jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 1.3ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:48 ERROR   
+Error sending email
+Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connect (deno:cli/rt/30_net.js:224:13)
+    at async SmtpClient.connect (smtp.ts:56:18)
+    at async sendInBulk (mailer.ts:29:7)
+    at async run (app.ts:21:3)
+    at async app.ts:26:3
+
+2020-12-13 17:48 ERROR   
+❌ fail from GET j
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 2.0ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:48 ERROR   
+❌ fail from GET jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 1.1ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:59 INFO    
+⭐ success GET http://jupegarnica.com
+
+Downtime 0.0%
+Delay/average 475.0/475.0ms
+Monitored during 0 days
+
+2020-12-13 17:59 ERROR   
+Error sending email
+Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connect (deno:cli/rt/30_net.js:224:13)
+    at async SmtpClient.connect (smtp.ts:56:18)
+    at async sendInBulk (mailer.ts:29:7)
+    at async run (app.ts:21:3)
+    at async app.ts:26:3
+
+2020-12-13 17:59 ERROR   
+❌ fail from GET //jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 2.0ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 17:59 ERROR   
+Error sending email
+Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connect (deno:cli/rt/30_net.js:224:13)
+    at async SmtpClient.connect (smtp.ts:56:18)
+    at async sendInBulk (mailer.ts:29:7)
+    at async run (app.ts:21:3)
+    at async app.ts:26:3
+
+2020-12-13 18:02 ERROR   
+❌ fail from GET //jupegarnica.com
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 1.5ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 18:03 INFO    
+⭐ success GET http://jupegarnica.com
+
+Downtime 0.0%
+Delay/average 474.0/474.5ms
+Monitored during 0 days
+
+2020-12-13 18:08 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 378.0ms / 378.0ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:10 ERROR   
+❌ fail from GET http://jupe.comn
+
+Downtime 100.0%
+Delay/av.: 51.0ms / 51.0ms
+Monitored during 0 days
+Http: error sending request for url (http://jupe.comn/): error trying to connect: dns error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:1274:29)
+
+2020-12-13 18:10 ERROR   
+Error sending email
+Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connect (deno:cli/rt/30_net.js:224:13)
+    at async SmtpClient.connect (smtp.ts:56:18)
+    at async sendInBulk (mailer.ts:29:7)
+    at async run (app.ts:21:3)
+    at async app.ts:26:3
+
+2020-12-13 18:11 ERROR   
+❌ fail from GET http://
+
+Downtime 100.0%
+Delay/av.: 3.0ms / 3.0ms
+Monitored during 0 days
+TypeError: Invalid URL.
+    at new URL (deno:op_crates/web/11_url.js:722:15)
+    at fetchAdapter.ts:18:22
+    at new Promise (<anonymous>)
+    at fetchAdapter (fetchAdapter.ts:14:12)
+    at dispatchRequest (dispatchRequest.ts:46:10)
+    at async monitor (monitor.ts:61:24)
+    at async run (app.ts:17:3)
+    at async app.ts:26:3
+
+2020-12-13 18:11 ERROR   
+Error sending email
+Error: failed to lookup address information: Name or service not known
+    at processResponse (deno:core/core.js:223:11)
+    at Object.jsonOpAsync (deno:core/core.js:240:12)
+    at async Object.connect (deno:cli/rt/30_net.js:224:13)
+    at async SmtpClient.connect (smtp.ts:56:18)
+    at async sendInBulk (mailer.ts:29:7)
+    at async run (app.ts:21:3)
+    at async app.ts:26:3
+
+2020-12-13 18:16 INFO    
+⭐ success GET http://jupegarnica.com
+
+Downtime 0.0%
+Delay/average 465.0/471.3ms
+Monitored during 0 days
+
+2020-12-13 18:16 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 373.0ms / 375.5ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+

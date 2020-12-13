@@ -1,4 +1,4 @@
-import { REQUESTS } from '../services/config.ts';
+import { REQUESTS } from './config.ts';
 import { logger } from './logger.ts';
 import { request } from './request.ts';
 import {

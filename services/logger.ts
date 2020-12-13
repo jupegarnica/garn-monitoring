@@ -12,10 +12,10 @@ import {
   formatLogLevel,
   stringify,
   stringifyConsole,
-  textColor,
+  // textColor,
 } from './helpers.ts';
 import { addLogToQueue } from './mailer.ts';
-import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from '../services/config.ts';
+import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from './config.ts';
 import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
 import { ensureDir } from 'https://deno.land/std@0.80.0/fs/mod.ts';
 
