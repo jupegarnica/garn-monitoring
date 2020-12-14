@@ -1,6 +1,6 @@
-import { SmtpClient } from 'https://deno.land/x/smtp@v0.6.0/mod.ts';
-import { SMTP } from './config.ts';
-import { logger } from './logger.ts';
+import { SmtpClient } from "https://deno.land/x/smtp@v0.6.0/mod.ts";
+import { SMTP } from "./config.ts";
+import { logger } from "./logger.ts";
 
 const client = new SmtpClient();
 interface Email {
@@ -33,7 +33,7 @@ export async function sendInBulk(): Promise<void> {
         password: SMTP.password,
       });
     }
-    let content = '';
+    let content = "";
     for (const email of queue) {
       const data: any = email;
       content += `${data.content}\n`;
@@ -42,8 +42,8 @@ export async function sendInBulk(): Promise<void> {
       await client.send({
         from: SMTP.from,
         to: SMTP.to,
-        subject: 'garn-monitor logs',
-        content:`<!DOCTYPE html>
+        subject: "garn-monitor logs",
+        content: `<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -78,6 +78,6 @@ export async function sendInBulk(): Promise<void> {
     queue.length = 0;
     await client.close();
   } catch (error) {
-    logger.error('Error sending email', error);
+    logger.error("Error sending email", error);
   }
 }

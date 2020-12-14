@@ -3,12 +3,12 @@ export type Request =
   | null
   | { url: string; method?: string };
 export type LogLevel =
-  | 'WARNING'
-  | 'NOTSET'
-  | 'DEBUG'
-  | 'INFO'
-  | 'ERROR'
-  | 'CRITICAL';
+  | "WARNING"
+  | "NOTSET"
+  | "DEBUG"
+  | "INFO"
+  | "ERROR"
+  | "CRITICAL";
 //   | undefined;
 export interface Config {
   requests: Request[];

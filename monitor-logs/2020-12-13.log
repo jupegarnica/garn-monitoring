@@ -434,3 +434,529 @@ Error: Request failed with status code 404
     at settle (settle.ts:9:12)
     at fetchAdapter.ts:62:13
 
+2020-12-13 18:34 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 564.0/441.2ms
+Monitored during 0 days
+
+2020-12-13 18:34 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 176.0ms / 335.1ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:35 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 414.0/439.1ms
+Monitored during 0 days
+
+2020-12-13 18:35 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 170.0ms / 324.8ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:36 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 405.0/436.6ms
+Monitored during 0 days
+
+2020-12-13 18:36 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 569.0ms / 339.1ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:37 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 550.0/444.2ms
+Monitored during 0 days
+
+2020-12-13 18:37 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 269.0ms / 335.2ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:38 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 1239.0/493.9ms
+Monitored during 0 days
+
+2020-12-13 18:38 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 386.0ms / 337.9ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:39 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 374.0/486.8ms
+Monitored during 0 days
+
+2020-12-13 18:39 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 206.0ms / 331.3ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:40 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 408.0/482.4ms
+Monitored during 0 days
+
+2020-12-13 18:40 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 174.0ms / 323.8ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:41 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 432.0/479.8ms
+Monitored during 0 days
+
+2020-12-13 18:41 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 196.0ms / 318.0ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:42 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 621.0/486.9ms
+Monitored during 0 days
+
+2020-12-13 18:42 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 494.0ms / 325.7ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:43 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 1332.0/527.1ms
+Monitored during 0 days
+
+2020-12-13 18:43 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 280.0ms / 323.8ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:45 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 1541.0/573.2ms
+Monitored during 0 days
+
+2020-12-13 18:45 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 1933.0ms / 388.1ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:46 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 519.0/570.8ms
+Monitored during 0 days
+
+2020-12-13 18:46 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 2552.0ms / 471.3ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:47 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 405.0/563.9ms
+Monitored during 0 days
+
+2020-12-13 18:47 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 785.0ms / 483.0ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:48 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 416.0/558.0ms
+Monitored during 0 days
+
+2020-12-13 18:48 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 172.0ms / 471.9ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:49 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 416.0/552.5ms
+Monitored during 0 days
+
+2020-12-13 18:49 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 198.0ms / 462.4ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:50 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 415.0/547.4ms
+Monitored during 0 days
+
+2020-12-13 18:50 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 267.0ms / 455.9ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:51 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 414.0/542.7ms
+Monitored during 0 days
+
+2020-12-13 18:51 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 150.0ms / 446.0ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:52 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 490.0/540.9ms
+Monitored during 0 days
+
+2020-12-13 18:52 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 576.0ms / 450.1ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:53 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 284.0/532.3ms
+Monitored during 0 days
+
+2020-12-13 18:53 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 197.0ms / 442.4ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:54 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 400.0/528.0ms
+Monitored during 0 days
+
+2020-12-13 18:54 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 194.0ms / 435.1ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:55 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 449.0/525.6ms
+Monitored during 0 days
+
+2020-12-13 18:55 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 169.0ms / 427.5ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:56 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 313.0/519.1ms
+Monitored during 0 days
+
+2020-12-13 18:56 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 172.0ms / 420.4ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:57 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 415.0/516.1ms
+Monitored during 0 days
+
+2020-12-13 18:57 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 198.0ms / 414.4ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:58 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 413.0/513.1ms
+Monitored during 0 days
+
+2020-12-13 18:58 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 197.0ms / 408.7ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 18:59 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 342.0/508.4ms
+Monitored during 0 days
+
+2020-12-13 18:59 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 196.0ms / 403.2ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 19:00 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 446.0/506.7ms
+Monitored during 0 days
+
+2020-12-13 19:00 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 135.0ms / 396.5ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 19:01 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 466.0/505.6ms
+Monitored during 0 days
+
+2020-12-13 19:01 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 138.0ms / 390.2ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 19:02 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 518.0/505.9ms
+Monitored during 0 days
+
+2020-12-13 19:02 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 502.0ms / 392.9ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-13 19:03 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtime 0.0%
+Delay/average 410.0/503.5ms
+Monitored during 0 days
+
+2020-12-13 19:03 ERROR   
+❌ fail from GET http://jupegarnica.com/404
+
+Downtime 100.0%
+Delay/av.: 197.0ms / 388.3ms
+Monitored during 0 days
+Error: Request failed with status code 404
+    at createError (createError.ts:14:17)
+    at settle (settle.ts:9:12)
+    at fetchAdapter.ts:62:13
+
+2020-12-14 08:23 INFO    
+⭐ success GET http://jupegarnica.com/
+
+Downtim
