@@ -4,11 +4,11 @@
 #   - env
 #   - read
 #   - write
-
+#  pagic -h || deno install --unstable --allow-read --allow-write --allow-net --allow-run --name=pagic https://deno.land/x/pagic/mod.ts
 scripts:
   build: |
-    lume --version || deno install --unstable -A https://deno.land/x/lume/cli.js
-    lume web
+
+    pagic build --serve --watch
   start:
     cmd: deno run -A --unstable app.ts
     watch: true
