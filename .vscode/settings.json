@@ -4,5 +4,22 @@
     "deno.unstable": true,
     "deno.import_intellisense_origins": {
         "https://deno.land": true
-    }
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#c7cbbd",
+        "activityBar.activeBorder": "#3887a7",
+        "activityBar.background": "#c7cbbd",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#3887a7",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#afb5a0",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#979f83",
+        "titleBar.activeBackground": "#afb5a0",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#afb5a099",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#afb5a0"
 }

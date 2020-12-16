@@ -20,10 +20,12 @@ export default {
     'toc': React.createElement("aside", { dangerouslySetInnerHTML: {
             __html: '<nav class="toc"><ol><li><a href="#get-an-email-when-your-sites-are-down">Get an email when your sites are down</a></li><li><a href="#usage">Usage</a></li><li><a href="#clone-locally">Clone locally</a><ol><li><a href="#ci">CI</a></li><li><a href="#docker-support">Docker support</a></li></ol></li></ol></nav>'
         } }),
-    'author': undefined,
-    'contributors': [],
-    'date': "2020-12-15T16:27:02.639Z",
-    'updated': null,
+    'author': "Jupegarnica",
+    'contributors': [
+        "Jupegarnica"
+    ],
+    'date': "2020-12-09T10:16:42.000Z",
+    'updated': "2020-12-15T16:28:14.000Z",
     'excerpt': "Get an email when your sites are down Usage mkdir monitoring && cd monitoring deno install -Af --unstable -n monitor https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts monitor Clone loc...",
     'cover': undefined
 };
