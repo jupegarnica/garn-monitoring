@@ -1,10 +1,10 @@
 import {
   readYaml,
   writeYaml,
-} from "https://deno.land/x/garn_yaml@0.2.1/mod.ts";
-import { config } from "https://deno.land/x/dotenv@v1.0.1/mod.ts";
+  config,
+  colors,
+} from "../deps.ts";
 import type { Config, LogLevel, Request } from "./models.ts";
-import * as colors from "https://deno.land/std@0.80.0/fmt/colors.ts";
 
 config({ safe: false, export: true });
 export const DEBUG = Deno.env.get("DEBUG");

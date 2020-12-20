@@ -1,12 +1,12 @@
-import { REQUESTS } from './config.ts';
-import { logger } from './logger.ts';
-import { request } from './request.ts';
 import {
   readYaml,
   writeYaml,
-} from 'https://deno.land/x/garn_yaml@0.2.1/mod.ts';
-import { ensureFile } from 'https://deno.land/std@0.80.0/fs/mod.ts';
-import { difference } from 'https://deno.land/std@0.80.0/datetime/mod.ts';
+  ensureFile,
+  difference
+} from '../deps.ts';
+import { REQUESTS } from './config.ts';
+import { logger } from './logger.ts';
+import { request } from './request.ts';
 import { parseNumberToString } from './helpers.ts';
 
 const historyFileName = './monitor.data.yaml';
@@ -49,8 +49,6 @@ async function setHistory(
 
   history.requests[id] = newData;
   await writeYaml(historyFileName, history);
-  console.log(history.requests[id]);
-
   return newData;
 }
 

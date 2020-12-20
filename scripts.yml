@@ -9,6 +9,9 @@ scripts:
   web:
     cmd: pagic build --serve --watch
     watch: false
+  update:
+    cmd: deno run -A https://deno.land/x/udd@0.4.0/main.ts deps.ts
+    watch: false
   start:
     cmd: deno run -A --unstable app.ts
     watch: true

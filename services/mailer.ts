@@ -1,4 +1,4 @@
-import { SmtpClient } from "https://deno.land/x/smtp@v0.6.0/mod.ts";
+import { SmtpClient } from "../deps.ts";
 import { SMTP } from "./config.ts";
 import { logger } from "./logger.ts";
 

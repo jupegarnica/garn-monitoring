@@ -1,4 +1,4 @@
-import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
+import { parse } from "./deps.ts";
 import { PROCESS_TIMEOUT, RUN_EVERY } from "./services/config.ts";
 import { runEvery, wait,ask } from "./services/helpers.ts";
 import { monitor } from "./services/monitor.ts";

@@ -1,5 +1,4 @@
-import { format } from 'https://deno.land/std@0.80.0/datetime/mod.ts';
-import * as colors from 'https://deno.land/std@0.80.0/fmt/colors.ts';
+import { format ,colors} from '../deps.ts';
 
 export function formatLogFileName(
   date: Date = new Date(),

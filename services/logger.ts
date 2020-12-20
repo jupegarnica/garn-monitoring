@@ -3,9 +3,11 @@ import {
   handlers,
   LogLevels,
   setup,
-} from "https://deno.land/std@0.80.0/log/mod.ts";
+  ensureDir,
+  colors,
+  LogRecord,
+} from "../deps.ts";
 
-import type { LogRecord } from "https://deno.land/std@0.80.0/log/logger.ts";
 import {
   formatDate,
   formatLogFileName,
@@ -16,8 +18,6 @@ import {
 } from "./helpers.ts";
 import { addLogToQueue } from "./mailer.ts";
 import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from "./config.ts";
-import * as colors from "https://deno.land/std@0.80.0/fmt/colors.ts";
-import { ensureDir } from "https://deno.land/std@0.80.0/fs/mod.ts";
 
 const emailFormatter = ({
   datetime,
@@ -172,3 +172,31 @@ export const logger = {
   error: (...args: unknown[]) => _logger.error("", ...args),
   critical: (...args: unknown[]) => _logger.critical("", ...args),
 };
+
+
+// import { Papyrus } from "https://deno.land/x/papyrus@v1.0.0/mod.ts";
+// import { PapyrusFile } from "https://deno.land/x/papyrus_file@v1.0.0/papyrus-file.ts";
+// import { PapyrusPretty } from "https://deno.land/x/papyrus_pretty@v1.0.0/papyrus_pretty.ts";
+
+// const logger = new Papyrus({
+//   formatter: new PapyrusPretty(),
+//   //   transport: {
+//   //     use: new PapyrusFile({
+//   //       maxFileSize: '2 kB',
+//   //       //   rotate: true,
+//   //       //   timeFormat: "yyyyMMdd-hhmmssSSS"
+//   //     }),
+//   //   },
+// });
+
+// setInterval(() => {
+//   //   logger.debug('This is a warning', { a: 1 });
+//   logger.warn("This is a warning");
+//   logger.error("This is a warning");
+//   logger.trace("Level is trace");
+//   logger.debug("Level is debug");
+//   logger.info("Level is info");
+//   logger.warn("Level is warn");
+//   logger.error("Level is error");
+// }, 1000 * 3);
+// console.log("as");
