@@ -6,9 +6,9 @@
 #   - write
 #  pagic -h || deno install --unstable --allow-read --allow-write --allow-net --allow-run --name=pagic https://deno.land/x/pagic/mod.ts
 scripts:
-  build: |
-
-    pagic build --serve --watch
+  web:
+    cmd: pagic build --serve --watch
+    watch: false
   start:
     cmd: deno run -A --unstable app.ts
     watch: true

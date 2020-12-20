@@ -27,14 +27,15 @@ requests:
     averageDelay: 12379.607843137255
     lastDelay: 5009
   'GET http://jupegarnica.com':
-    updateAt: 1607686626881
+    updateAt: 1608145782401
     createdAt: 1607459293148
-    totalRequests: 36
+    totalRequests: 37
     totalFailed: 1
-    downtimePercentage: 0.027777777777777776
-    totalDelay: 18750
-    averageDelay: 520.8333333333334
-    lastDelay: 372
+    downtimePercentage: 0.02702702702702703
+    totalDelay: 19113
+    averageDelay: 516.5675675675676
+    lastDelay: 363
+    daysMonitored: 7
   'GET http://valencia.io':
     updateAt: 1607686627719
     createdAt: 1607459293922
@@ -134,3 +135,13 @@ requests:
     totalDelay: 109
     averageDelay: 2.658536585365854
     lastDelay: 3
+  'GET http://jupegarnica.com/random':
+    updateAt: 1608146229100
+    createdAt: 1608145980838
+    totalRequests: 14
+    totalFailed: 14
+    downtimePercentage: 1
+    totalDelay: 3269
+    averageDelay: 233.5
+    lastDelay: 377
+    daysMonitored: 0

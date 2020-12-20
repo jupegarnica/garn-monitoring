@@ -9,7 +9,7 @@ import { ensureFile } from 'https://deno.land/std@0.80.0/fs/mod.ts';
 import { difference } from 'https://deno.land/std@0.80.0/datetime/mod.ts';
 import { parseNumberToString } from './helpers.ts';
 
-const historyFileName = '../monitor.data.yaml';
+const historyFileName = './monitor.data.yaml';
 
 async function setHistory(
   id: string,
@@ -46,8 +46,10 @@ async function setHistory(
     new Date(newData.createdAt),
   );
   newData = { ...newData, daysMonitored };
+
   history.requests[id] = newData;
   await writeYaml(historyFileName, history);
+  console.log(history.requests[id]);
 
   return newData;
 }
