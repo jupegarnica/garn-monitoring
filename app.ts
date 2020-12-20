@@ -1,6 +1,6 @@
 import { parse } from "https://deno.land/std@0.80.0/flags/mod.ts";
 import { PROCESS_TIMEOUT, RUN_EVERY } from "./services/config.ts";
-import { runEvery } from "./services/helpers.ts";
+import { runEvery, wait,ask } from "./services/helpers.ts";
 import { monitor } from "./services/monitor.ts";
 import { sendInBulk } from "./services/mailer.ts";
 import { logger } from "./services/logger.ts";
@@ -24,8 +24,15 @@ const run = async () => {
 if (once) {
   await run();
 } else {
-  await runEvery(RUN_EVERY, async () => {
+  await runEvery(async () => {
     await run();
-    await logger.debug(`Waiting until next round in ${RUN_EVERY}ms`);
+    logger.debug(`Waiting until next round in ${RUN_EVERY}ms`,`ENTER to run request`);
+    // await wait(1000)
+    await Promise.race([
+      wait(RUN_EVERY),
+      ask('...'),
+    ])
+
+
   });
 }

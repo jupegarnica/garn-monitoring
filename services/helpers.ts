@@ -41,14 +41,14 @@ export const wait = (delay: number) =>
   new Promise((res) => setTimeout(res, delay));
 
 export async function runEvery(
-  delay: number = 1000 * 60,
+  // delay: number = 1000 * 60,
   fn: Function,
   max = Infinity,
 ) {
   let i = 1;
   while (i < max) {
     await fn();
-    await wait(delay);
+    // await wait(delay);
     i++;
   }
 }
