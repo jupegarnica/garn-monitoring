@@ -118,21 +118,21 @@ const fileFormatter = ({
   return text + "\n";
 };
 
-await ensureDir("./monitor-logs");
+await ensureDir("./logs");
 await setup({
   handlers: {
     console: new ConsoleHandler("DEBUG"),
-    file: new handlers.FileHandler("INFO", {
-      filename: `monitor-logs/${formatLogFileName()}${
+    file: new handlers.FileHandler("WARNING", {
+      filename: `logs/${formatLogFileName()}${
         DEBUG ? ".debug" : ""
       }.log`,
       mode: "a", // 'a', 'w', 'x'
       formatter: fileFormatter,
     }),
-    fileRotating: new handlers.RotatingFileHandler("INFO", {
+    fileRotating: new handlers.RotatingFileHandler("WARNING", {
       maxBytes: 1024 * 10,
       maxBackupCount: 10,
-      filename: `monitor-logs/${formatLogFileName()}${
+      filename: `logs/${formatLogFileName()}${
         DEBUG ? ".debug" : ""
       }.log`,
       mode: "a", // 'a', 'w', 'x'
