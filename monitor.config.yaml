@@ -1,4 +1,4 @@
-log_level: DEBUG
+log_level: $
 run_every: 30000
 request_timeout: 10000
 requests:

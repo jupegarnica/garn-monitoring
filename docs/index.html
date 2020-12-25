@@ -29,7 +29,7 @@ cd garn<span class="token operator">-</span>monitoring
 <h3 id="ci">CI<a class="anchor" href="#ci">§</a></h3>
 <p>Run it every hour with google actions. It takes aprox 744 min / month.  (FREE 2000 min / month)</p>
 <p>Go to <a href="https://github.com/:userName/:repoName/settings/secrets/actions">https://github.com/:userName/:repoName/settings/secrets/actions</a> to configure your smtp settings</p>
-<pre class="language-yml"><code class="language-yml"><span class="token comment"># monitor.yaml</span>
+<pre class="language-yml"><code class="language-yml"><span class="token comment"># monitor.config.yaml</span>
 <span class="token key atrule">SMTP_HOST</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_HOST <span class="token punctuation">}</span><span class="token punctuation">}</span>
 <span class="token key atrule">SMTP_PORT</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_PORT <span class="token punctuation">}</span><span class="token punctuation">}</span>
 <span class="token key atrule">SMTP_USERNAME</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_USERNAME <span class="token punctuation">}</span><span class="token punctuation">}</span>

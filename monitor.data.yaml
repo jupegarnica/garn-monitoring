@@ -139,12 +139,12 @@ requests:
     lastDelay: 2
     daysMonitored: 9
   'GET http://jupegarnica.com/random':
-    updateAt: 1608541408437
+    updateAt: 1608920664254
     createdAt: 1608145980838
-    totalRequests: 34
-    totalFailed: 34
+    totalRequests: 40
+    totalFailed: 40
     downtimePercentage: 1
-    totalDelay: 10287
-    averageDelay: 302.55882352941177
-    lastDelay: 401
-    daysMonitored: 4
+    totalDelay: 13669
+    averageDelay: 341.725
+    lastDelay: 317
+    daysMonitored: 8

@@ -29,7 +29,7 @@ function getRequests(): Request[] {
 }
 async function getOrCreateConfig(): Promise<Config> {
   let conf: Config;
-  const confFile = `./monitor${DEBUG ? ".debug" : ""}.yaml`;
+  const confFile = `./monitor.config${DEBUG ? ".debug" : ""}.yaml`;
   try {
     conf = await readYaml(confFile);
     // throw new Error("");
@@ -50,13 +50,13 @@ async function getOrCreateConfig(): Promise<Config> {
       },
     };
 
-    await writeYaml("./monitor.yaml", conf);
+    await writeYaml("./monitor.config.yaml", conf);
   }
 
   if (!conf.requests?.length) {
     console.log(
       colors.red(
-        "No requests configured, add them to monitor.yaml",
+        "No requests configured, add them to monitor.config.yaml",
       ),
     );
 
