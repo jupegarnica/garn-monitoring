@@ -1,13 +1,32 @@
-log_level: $
-run_every: 30000
-request_timeout: 10000
 requests:
-  - http://jupegarnica.com/random
-  # - http://jupegarnica.com/404
+ - http://jupegarnica.com
+
+ # Or the same using a request schema
+ - method: GET
+   url: http://jupegarnica.com
+
+
+ - method: 'POST'
+   url: http://localhost:8000/post
+   data: hello
+   headers:
+     content-type: text/plain
+
+ - method: 'PATCH'
+   headers:
+     content-type: application/json
+   url: http://localhost:8000/post
+   data:
+     title: hello
+     body: lorem ipsum
+
+run_every: 60000
+log_level: ${{ LOG_LEVEL  }}
+request_timeout: 10000
 smtp:
-  host: '${{SMTP_HOST}}'
-  username: '${{SMTP_USERNAME}}'
-  password: '${{SMTP_PASSWORD}}'
-  port: '${{SMTP_PORT}}'
-  from: '${{SMTP_FROM}}'
-  to: '${{SMTP_TO}}'
+  host: ${{ SMTP_HOST  }}
+  port: ${{ SMTP_PORT  }}
+  username: ${{ SMTP_USERNAME  }}
+  from: ${{ SMTP_FROM  }}
+  to: ${{ SMTP_TO  }}
+  password: ${{ SMTP_PASSWORD  }}

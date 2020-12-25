@@ -4,6 +4,7 @@ export { format } from 'https://deno.land/std@0.81.0/datetime/mod.ts';
 export {
     ensureDir,
     ensureFile,
+    existsSync,
   } from 'https://deno.land/std@0.81.0/fs/mod.ts';
 export {
   readYaml,

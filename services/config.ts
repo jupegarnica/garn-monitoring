@@ -1,57 +1,49 @@
 import {
   readYaml,
-  writeYaml,
+  existsSync,
   config,
   colors,
 } from "../deps.ts";
+import { fetchAndCopy } from "./helpers.ts";
 import type { Config, LogLevel, Request } from "./models.ts";
 
 config({ safe: false, export: true });
 export const DEBUG = Deno.env.get("DEBUG");
 export const DEBUG_EMAIL = Deno.env.get("DEBUG_EMAIL") ? true : false;
 
-const askFor = (input: string, o = "") => {
-  console.log(colors.yellow(input));
-  return prompt("", o) || o;
-};
+// const askFor = (input: string, o = "") => {
+//   console.log(colors.yellow(input));
+//   return prompt("", o) || o;
+// };
 
-function getRequests(): Request[] {
-  const output = [];
+// function getRequests(): Request[] {
+//   const output = [];
 
-  do {
-    let url = askFor("url?");
-    url = url?.match(/^https?:\/\//) ? url : "http://" + url;
-    output.push(url);
-    console.log(colors.yellow("another url?"));
-  } while (confirm());
+//   do {
+//     let url = askFor("url?");
+//     url = url?.match(/^https?:\/\//) ? url : "http://" + url;
+//     output.push(url);
+//     console.log(colors.yellow("another url?"));
+//   } while (confirm());
 
-  return output;
-}
+//   return output;
+// }
 async function getOrCreateConfig(): Promise<Config> {
-  let conf: Config;
   const confFile = `./monitor.config${DEBUG ? ".debug" : ""}.yaml`;
-  try {
-    conf = await readYaml(confFile);
-    // throw new Error("");
-  } catch (error) {
-    // if (error instanceof Deno.errors.NotFound) {
-    conf = {
-      log_level: "NOTSET", // DEFAULT
-      run_every: 1000 * 60, // DEFAULT
-      request_timeout: 1000 * 10, // DEFAULT
-      requests: getRequests(),
-      smtp: {
-        host: askFor("smtp host?", "${{SMTP_HOST}}"),
-        username: askFor("smtp username?", "${{SMTP_USERNAME}}"),
-        password: askFor("smtp password?", "${{SMTP_PASSWORD}}"),
-        port: askFor("smtp port?", "${{SMTP_PORT}}"),
-        from: askFor("smtp from?", "${{SMTP_FROM}}"),
-        to: askFor("smtp to?", "${{SMTP_TO}}"),
-      },
-    };
 
-    await writeYaml("./monitor.config.yaml", conf);
+  if (!existsSync(confFile)) {
+    await fetchAndCopy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/example.config.yaml',confFile);
+    console.log(
+     colors.bold( colors.yellow(
+        `${confFile}  created. Please fill it`.toUpperCase(),
+      )),
+    );
+
+    // Deno.exit(1);
+
   }
+
+  const conf: Config = await readYaml(confFile);
 
   if (!conf.requests?.length) {
     console.log(
