@@ -17,7 +17,7 @@ git clone git@github.com:jupegarnica/garn-monitoring.git
 cd garn-monitoring
 ```
 
-1. Fill `config.yaml`
+1. Fill `monitor.config.yaml`
 2. Optionally create `.env` based on `.env.example`
 3. Run it `deno run -A --unstable app.ts`
 4. Or run it once `deno run -A --unstable app.ts --once`
