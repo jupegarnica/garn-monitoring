@@ -95,12 +95,14 @@ export async function fetchAndCopy(
 
     console.log(path, 'backup created');
   } catch (error) {
-    console.log(path + ' not found', error.message);
+    // console.log(path + ' not found', error.message);
   }
   const fileText = await fetch(url).then((r) => r.text());
   const encoder = new TextEncoder();
   const encoded = encoder.encode(fileText);
   await Deno.writeFile(path, encoded, options);
+  console.log('Configuration file created at ', path);
+
 }
 
 export function parseNumberToString(

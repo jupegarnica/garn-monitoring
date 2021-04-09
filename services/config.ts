@@ -1,11 +1,12 @@
 import {
   readYaml,
-  // existsSync,
   colors,
   parse,
   config,
   Path
 } from '../deps.ts';
+
+  import {fetchAndCopy} from './helpers.ts'
 import type { Config, LogLevel } from './models.ts';
 
 config({ safe: false, export: true });
@@ -16,18 +17,27 @@ export const DEBUG_EMAIL = Deno.env.get('DEBUG_EMAIL')
 
 const args = parse(Deno.args);
 
+const init = args.init;
+
+if (init) {
+  await fetchAndCopy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/example.config.yaml', init || 'monitor.config.yaml');
+  Deno.exit(0);
+
+}
 export const once = args.once;
 
 async function getConfig(): Promise<Config> {
-
   if (!args.config) {
     console.log(
-      colors.bold(colors.yellow(`--config flag is required.\nRun as: $ monitor --config monitor.config.yml`)),
+      colors.bold(
+        colors.yellow(
+          `--config flag is required.\nRun as: $ monitor --config monitor.config.yml`,
+        ),
+      ),
     );
     return Deno.exit(1);
-
   }
-  const path = new Path(Deno.cwd())
+  const path = new Path(Deno.cwd());
   path.push(args.config);
   const confFile = path.toString();
 
@@ -48,7 +58,7 @@ async function getConfig(): Promise<Config> {
       ),
     );
 
-   return Deno.exit(1);
+    return Deno.exit(1);
   }
   return conf;
 }
