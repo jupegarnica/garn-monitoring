@@ -28,7 +28,7 @@ requests:
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }}
-request_timeout: 11000
+request_timeout: 2000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

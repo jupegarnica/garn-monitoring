@@ -167,3 +167,35 @@ Error: invalid cmd
     at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
     at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
 
+2021-04-09 15:32 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 78.6%
+Delay/av.: 2006.0ms / 2649.9ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-09 15:32 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:34 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 80.0%
+Delay/av.: 2009.0ms / 2607.1ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
