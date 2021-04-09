@@ -1,0 +1,11 @@
+2021-04-09 15:40 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 85.7%
+Delay/av.: 2010.0ms / 2436.1ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+

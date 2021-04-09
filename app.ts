@@ -1,24 +1,10 @@
-import { parse } from "./deps.ts";
-import { PROCESS_TIMEOUT, RUN_EVERY, once } from "./services/config.ts";
+import {  RUN_EVERY, once } from "./services/config.ts";
 import { runEvery, wait,ask } from "./services/helpers.ts";
 import { monitor } from "./services/monitor.ts";
 import { sendInBulk } from "./services/mailer.ts";
 import { logger } from "./services/logger.ts";
 
 
-// const run = async () => {
-//   const id = setTimeout(() => {
-//     logger.critical(
-//       "PROCESS KILL BY TIMEOUT " + PROCESS_TIMEOUT,
-//     );
-//     Deno.exit(0);
-//   }, PROCESS_TIMEOUT);
-//   await monitor();
-
-//   logger.debug("All requests finished");
-//   clearTimeout(id);
-//   await sendInBulk();
-// };
 
 const run = async () => {
   await monitor();

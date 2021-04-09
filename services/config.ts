@@ -88,6 +88,6 @@ export const REQUESTS: any[] = conf.requests.map((req: any) =>
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
 export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 10s
 export const SMTP = conf.smtp;
-export const PROCESS_TIMEOUT =
-  1000 + REQUEST_TIMEOUT * conf.requests?.length;
+// export const PROCESS_TIMEOUT =
+//   1000 + REQUEST_TIMEOUT * conf.requests?.length;
 export default conf;
