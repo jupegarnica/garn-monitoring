@@ -8,7 +8,8 @@ import {
   Status,
 } from "https://deno.land/x/oak@v6.3.2/mod.ts";
 import { wait } from "../services/helpers.ts";
-import { logger } from "../services/logger.ts";
+// import { logger } from "../services/logger.ts";
+const logger = console
 
 function notFound(context: Context) {
   context.response.status = Status.NotFound;
