@@ -1,31 +1,31 @@
 requests:
   'GET http://jupegarnica.com':
-    updateAt: 1608922180473
+    updateAt: 1617969734623
     createdAt: 1608921760656
-    totalRequests: 16
+    totalRequests: 24
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 3785
-    averageDelay: 236.5625
-    lastDelay: 175
-    daysMonitored: 0
+    totalDelay: 5889
+    averageDelay: 245.375
+    lastDelay: 147
+    daysMonitored: 104
   'POST http://localhost:8000/post':
-    updateAt: 1608922180494
+    updateAt: 1617969734649
     createdAt: 1608921760866
-    totalRequests: 8
-    totalFailed: 8
+    totalRequests: 12
+    totalFailed: 12
     downtimePercentage: 1
-    totalDelay: 23
-    averageDelay: 2.875
+    totalDelay: 28
+    averageDelay: 2.3333333333333335
     lastDelay: 3
-    daysMonitored: 0
+    daysMonitored: 104
   'PATCH http://localhost:8000/post':
-    updateAt: 1608922180501
+    updateAt: 1617969734662
     createdAt: 1608921760874
-    totalRequests: 8
-    totalFailed: 8
+    totalRequests: 12
+    totalFailed: 12
     downtimePercentage: 1
-    totalDelay: 7
-    averageDelay: 0.875
+    totalDelay: 11
+    averageDelay: 0.9166666666666666
     lastDelay: 1
-    daysMonitored: 0
+    daysMonitored: 104

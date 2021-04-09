@@ -1,11 +1,10 @@
 import { parse } from "./deps.ts";
-import { PROCESS_TIMEOUT, RUN_EVERY } from "./services/config.ts";
+import { PROCESS_TIMEOUT, RUN_EVERY, once } from "./services/config.ts";
 import { runEvery, wait,ask } from "./services/helpers.ts";
 import { monitor } from "./services/monitor.ts";
 import { sendInBulk } from "./services/mailer.ts";
 import { logger } from "./services/logger.ts";
 
-const { once } = parse(Deno.args);
 
 const run = async () => {
   const id = setTimeout(() => {

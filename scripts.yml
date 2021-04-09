@@ -15,9 +15,9 @@ scripts:
     cmd: deno run -A https://deno.land/x/udd@0.4.0/main.ts deps.ts
     watch: false
   start:
-    cmd: deno run -A --unstable app.ts
+    cmd: deno run -A --unstable app.ts --config monitor.config.yml
     watch: true
-  once: deno run -A --unstable app.ts --once
+  once: deno run -A --unstable app.ts --config monitor.config.yml --once
   format: deno fmt *.ts
   json: deno run --allow-read --allow-net test/json.server.ts
   server:

@@ -1,0 +1,122 @@
+2021-04-09 13:57 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 2.7ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:57 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 0.8ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:57 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:27:5
+    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:26:3
+
+2021-04-09 13:57 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 2.5ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:57 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 0.9ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:57 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:27:5
+    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:26:3
+
+2021-04-09 13:57 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 0.0ms / 2.3ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:22021-04-09 14:02 ERROR   
+❌ fail from POST http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 3.0ms / 2.3ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 14:02 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 1.0ms / 0.9ms
+Monitored during 104 days
+TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 14:02 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
