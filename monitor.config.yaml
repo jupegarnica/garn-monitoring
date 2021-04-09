@@ -1,5 +1,5 @@
 requests:
-#  - http://jupegarnica.com
+ - http://jupegarnica.com
 
 #  # Or the same using a request schema
 #  - method: GET
@@ -28,7 +28,7 @@ requests:
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }}
-request_timeout: 2000
+request_timeout: 11000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

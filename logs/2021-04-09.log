@@ -1,256 +1,169 @@
-2021-04-09 13:57 ERROR   
-❌ fail from POST http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 1.0ms / 2.7ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 13:57 ERROR   
-❌ fail from PATCH http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 0.0ms / 0.8ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 13:57 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:27:5
-    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:26:3
-
-2021-04-09 13:57 ERROR   
-❌ fail from POST http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 1.0ms / 2.5ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 13:57 ERROR   
-❌ fail from PATCH http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 2.0ms / 0.9ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 13:57 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:27:5
-    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:26:3
-
-2021-04-09 13:57 ERROR   
-❌ fail from POST http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 0.0ms / 2.3ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:22021-04-09 14:02 ERROR   
-❌ fail from POST http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 3.0ms / 2.3ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 14:02 ERROR   
-❌ fail from PATCH http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 1.0ms / 0.9ms
-Monitored during 104 days
-TypeError: error sending request for url (http://localhost:8000/post): error trying to connect: tcp connect error: Connection refused (os error 111)
-    at handleError (deno:core/core.js:186:12)
-    at jsonOpParseResult (deno:core/core.js:356:9)
-    at asyncHandle (deno:core/core.js:223:40)
-    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
-    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
-
-2021-04-09 14:02 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:07 ERROR   
-❌ fail from POST http://localhost:8000/timeout
-
-Downtime 100.0%
-Delay/av.: 3.0ms / 3.0ms
-Monitored during 0 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:07 ERROR   
-❌ fail from PATCH http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 2.0ms / 1.0ms
-Monitored during 104 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:07 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:08 ERROR   
-❌ fail from POST http://localhost:8000/timeout
-
-Downtime 100.0%
-Delay/av.: 3.0ms / 3.0ms
-Monitored during 0 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:08 ERROR   
-❌ fail from PATCH http://localhost:8000/post
-
-Downtime 100.0%
-Delay/av.: 2.0ms / 1.1ms
-Monitored during 104 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:08 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:09 ERROR   
-❌ fail from POST http://localhost:8000/timeout
-
-Downtime 100.0%
-Delay/av.: 6.0ms / 4.0ms
-Monitored during 0 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:09 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:09 ERROR   
-❌ fail from POST http://localhost:8000/timeout
-
-Downtime 100.0%
-Delay/av.: 6.0ms / 4.5ms
-Monitored during 0 days
-Error: Request failed with status code 405
-    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
-    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
-    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
-
-2021-04-09 14:09 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:42 ERROR   
-Error sending email
-Error: invalid cmd
-    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
-    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
-    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
-    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
-
-2021-04-09 14:43 ERROR   
+2021-04-09 14:59 ERROR   
 ❌ fail from GET http://localhost:8000/timeout
 
-Downtime 50.0%
-Delay/av.: 2005.0ms / 4517.0ms
+Downtime 80.0%
+Delay/av.: 2005.0ms / 3009.4ms
 Monitored during 0 days
 TIMEOUT 2000
 
-2021-04-09 14:43 ERROR   
+2021-04-09 14:59 ERROR   
 Error sending email
 Error: invalid cmd
     at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
     at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
     at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
     at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
-    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
-    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:26:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:30:3
+
+2021-04-09 15:05 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 83.3%
+Delay/av.: 0.0ms / 2507.8ms
+Monitored during 0 days
+TypeError: ky is not a function
+    at request (file:///home/juanperez/dev/garn-monitoring/services/request.ts:6:1)
+    at monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:1)
+    at run (file:///home/juanperez/dev/garn-monitoring/app.ts:24:1)
+    at file:///home/juanperez/dev/garn-monitoring/app.ts:30:1
+
+2021-04-09 15:05 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:07 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 85.7%
+Delay/av.: 1.0ms / 2149.7ms
+Monitored during 0 days
+TypeError: ky is not a function
+    at request (file:///home/juanperez/dev/garn-monitoring/services/request.ts:8:1)
+    at monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:1)
+    at run (file:///home/juanperez/dev/garn-monitoring/app.ts:24:1)
+    at file:///home/juanperez/dev/garn-monitoring/app.ts:30:1
+
+2021-04-09 15:08 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:09 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 87.5%
+Delay/av.: 2.0ms / 1881.3ms
+Monitored during 0 days
+TypeError: `input` must be a string, URL, or Request
+    at new Ky (https://unpkg.com/ky@0.27.0/index.js:206:10)
+    at ky (https://unpkg.com/ky@0.27.0/index.js:475:33)
+    at request (file:///home/juanperez/dev/garn-monitoring/services/request.ts:8:1)
+    at monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:1)
+    at run (file:///home/juanperez/dev/garn-monitoring/app.ts:24:1)
+    at file:///home/juanperez/dev/garn-monitoring/app.ts:30:1
+
+2021-04-09 15:09 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:25 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 88.9%
+Delay/av.: 2008.0ms / 1895.3ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-09 15:26 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:26 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.0%
+Delay/av.: 2007.0ms / 1906.5ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-09 15:27 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:29 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.9%
+Delay/av.: 2007.0ms / 1915.6ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-09 15:29 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:29 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
+
+2021-04-09 15:31 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:129:1)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:1)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:58:1)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:28:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:25:1)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:29:1
 

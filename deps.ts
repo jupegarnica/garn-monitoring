@@ -23,6 +23,6 @@ export type { LogRecord } from 'https://deno.land/std@0.81.0/log/logger.ts';
 export { SmtpClient } from 'https://deno.land/x/smtp@v0.6.0/mod.ts';
 
 export { difference } from 'https://deno.land/std@0.81.0/datetime/mod.ts';
-export { soxa } from 'https://deno.land/x/soxa@1.4/mod.ts';
-
+// export { soxa } from 'https://deno.land/x/soxa@1.4/mod.ts';
+export {default as ky} from 'https://unpkg.com/ky/index.js';
 export { Path } from 'https://deno.land/x/path@v2.2.0/mod.ts';

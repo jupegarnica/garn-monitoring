@@ -6,17 +6,23 @@ import { sendInBulk } from "./services/mailer.ts";
 import { logger } from "./services/logger.ts";
 
 
-const run = async () => {
-  const id = setTimeout(() => {
-    logger.critical(
-      "PROCESS KILL BY TIMEOUT " + PROCESS_TIMEOUT,
-    );
-    Deno.exit(0);
-  }, PROCESS_TIMEOUT);
-  await monitor();
+// const run = async () => {
+//   const id = setTimeout(() => {
+//     logger.critical(
+//       "PROCESS KILL BY TIMEOUT " + PROCESS_TIMEOUT,
+//     );
+//     Deno.exit(0);
+//   }, PROCESS_TIMEOUT);
+//   await monitor();
 
+//   logger.debug("All requests finished");
+//   clearTimeout(id);
+//   await sendInBulk();
+// };
+
+const run = async () => {
+  await monitor();
   logger.debug("All requests finished");
-  clearTimeout(id);
   await sendInBulk();
 };
 
@@ -26,7 +32,6 @@ if (once) {
   await runEvery(async () => {
     await run();
     logger.debug(`Waiting until next round in ${RUN_EVERY}ms`,`ENTER to run request`);
-    // await wait(1000)
     await Promise.race([
       wait(RUN_EVERY),
       ask('...'),
