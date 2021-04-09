@@ -7,20 +7,17 @@
 ```sh
 mkdir monitoring && cd monitoring
 deno install -Af --unstable -n monitor https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts
-monitor
+monitor --config monitor.config.yaml
 ```
 
-## Clone locally
+## once
+
+
+Run only once:
 
 ```sh
-git clone git@github.com:jupegarnica/garn-monitoring.git
-cd garn-monitoring
+monitor --config monitor.config.yaml --once
 ```
-
-1. Fill `monitor.config.yaml`
-2. Optionally create `.env` based on `.env.example`
-3. Run it `deno run -A --unstable app.ts`
-4. Or run it once `deno run -A --unstable app.ts --once`
 
 ### CI
 
@@ -38,9 +35,9 @@ SMTP_TO: ${{ secrets.SMTP_TO }}
 SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
 
 ```
-a
 
-### Docker support
+
+### Run in Docker
 
 Watch docker-compose.yml
 

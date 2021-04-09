@@ -26,22 +26,23 @@ scripts:
     # watch: true
     env:
       DEBUG: true
-  install: denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
-  test:
-    desc: server watch mode
-    cmd: |
-      deno run -A test/oak.server.ts &
-      sleep 5
-      denon run install
-      denon run -A --unstable app.ts --once
-    env:
-      DEBUG: true
-      # DEBUG_EMAIL: true
-    # watch: true
-    unstable: true
+  install: deno install -f -A --unstable -n monitor app.ts
+  # install: denon -v || deno install -qAf --unstable https://deno.land/x/denon@2.4.4/denon.ts
+  # test:
+  #   desc: server watch mode
+  #   cmd: |
+  #     deno run -A test/oak.server.ts &
+  #     sleep 5
+  #     denon run install
+  #     denon run -A --unstable app.ts --once
+  #   env:
+  #     DEBUG: true
+  #     # DEBUG_EMAIL: true
+  #   # watch: true
+  #   unstable: true
   dev:
     desc: watch mode
-    cmd: deno run -A --unstable app.ts --once
+    cmd: deno run -A --unstable app.ts --config monitor.config.yml --once
     watch: true
     # unstable: true
     env:
