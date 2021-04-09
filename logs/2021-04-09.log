@@ -9,3 +9,217 @@ TimeoutError: Request timed out
     at fire (deno:runtime/js/11_timers.js:445:7)
     at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
 
+2021-04-09 15:42 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 86.4%
+Delay/av.: 2005.0ms / 2416.5ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 87.0%
+Delay/av.: 2.0ms / 2311.5ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 87.5%
+Delay/av.: 1.0ms / 2215.3ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 88.0%
+Delay/av.: 2.0ms / 2126.7ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 88.5%
+Delay/av.: 1.0ms / 2045.0ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 88.9%
+Delay/av.: 1.0ms / 1969.3ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 89.3%
+Delay/av.: 3.0ms / 1899.0ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 89.7%
+Delay/av.: 0.0ms / 1833.6ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.0%
+Delay/av.: 1.0ms / 1772.5ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.3%
+Delay/av.: 1.0ms / 1715.3ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.6%
+Delay/av.: 1.0ms / 1661.8ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 90.9%
+Delay/av.: 1.0ms / 1611.4ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 91.2%
+Delay/av.: 1.0ms / 1564.1ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 91.4%
+Delay/av.: 1.0ms / 1519.4ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 91.7%
+Delay/av.: 1.0ms / 1477.2ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-09 13:44 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 91.9%
+Delay/av.: 0.0ms / 1437.3ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (2021-04-09 13:45 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 93.0%
+Delay/av.: 2.0ms / 1236.9ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+

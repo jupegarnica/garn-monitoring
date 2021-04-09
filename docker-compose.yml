@@ -3,18 +3,17 @@ version: '3'
 services:
   strapi:
     container_name: garn-monitoring
-    image:  hayd/alpine-deno:1.5.4
-    environment:
-      SMTP_HOST: ${SMTP_HOST}
-      SMTP_PORT: ${SMTP_PORT}
-      SMTP_USERNAME: ${SMTP_USERNAME}
-      SMTP_PASSWORD: ${SMTP_PASSWORD}
-      SMTP_FROM: ${SMTP_FROM}
-      SMTP_TO: ${SMTP_TO}
-      LOG_LEVEL: ${LOG_LEVEL}
+    image:  hayd/alpine-deno:1.8.3
+    # environment:
+    #   SMTP_HOST: ${SMTP_HOST}
+    #   SMTP_PORT: ${SMTP_PORT}
+    #   SMTP_USERNAME: ${SMTP_USERNAME}
+    #   SMTP_PASSWORD: ${SMTP_PASSWORD}
+    #   SMTP_FROM: ${SMTP_FROM}
+    #   SMTP_TO: ${SMTP_TO}
+    #   LOG_LEVEL: ${LOG_LEVEL}
     working_dir: /app
-    command: deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --config monitor.config.yaml
-    # command: deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --once --config monitor.config.yaml
-    # command: deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --once
+    # command: deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --config monitor.config.yaml
+    command: deno run -A --unstable https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/app.ts --once --config monitor.config.yaml
     volumes:
       - .:/app
