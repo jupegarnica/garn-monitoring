@@ -1,28 +1,34 @@
 requests:
- - http://jupegarnica.com
+#  - http://jupegarnica.com
 
- # Or the same using a request schema
- - method: GET
-   url: http://jupegarnica.com
+#  # Or the same using a request schema
+#  - method: GET
+#    url: http://jupegarnica.com
 
 
- - method: 'POST'
-   url: http://localhost:8000/post
+#  - method: 'POST'
+#    url: http://localhost:8000/post
+#    data: hello
+#    headers:
+#      content-type: text/plain
+
+ - method: 'GET'
+   url: http://localhost:8000/timeout
    data: hello
    headers:
      content-type: text/plain
 
- - method: 'PATCH'
-   headers:
-     content-type: application/json
-   url: http://localhost:8000/post
-   data:
-     title: hello
-     body: lorem ipsum
+#  - method: 'PATCH'
+#    headers:
+#      content-type: application/json
+#    url: http://localhost:8000/post
+#    data:
+#      title: hello
+#      body: lorem ipsum
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }}
-request_timeout: 10000
+request_timeout: 2000
 smtp:
   host: ${{ SMTP_HOST  }}
   port: ${{ SMTP_PORT  }}

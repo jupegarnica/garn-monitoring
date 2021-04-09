@@ -120,3 +120,137 @@ Error: invalid cmd
     at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
     at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
 
+2021-04-09 14:07 ERROR   
+❌ fail from POST http://localhost:8000/timeout
+
+Downtime 100.0%
+Delay/av.: 3.0ms / 3.0ms
+Monitored during 0 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:07 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 1.0ms
+Monitored during 104 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:07 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
+2021-04-09 14:08 ERROR   
+❌ fail from POST http://localhost:8000/timeout
+
+Downtime 100.0%
+Delay/av.: 3.0ms / 3.0ms
+Monitored during 0 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:08 ERROR   
+❌ fail from PATCH http://localhost:8000/post
+
+Downtime 100.0%
+Delay/av.: 2.0ms / 1.1ms
+Monitored during 104 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:08 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
+2021-04-09 14:09 ERROR   
+❌ fail from POST http://localhost:8000/timeout
+
+Downtime 100.0%
+Delay/av.: 6.0ms / 4.0ms
+Monitored during 0 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:09 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
+2021-04-09 14:09 ERROR   
+❌ fail from POST http://localhost:8000/timeout
+
+Downtime 100.0%
+Delay/av.: 6.0ms / 4.5ms
+Monitored during 0 days
+Error: Request failed with status code 405
+    at createError (https://deno.land/x/soxa@1.4/src/core/createError.ts:14:17)
+    at settle (https://deno.land/x/soxa@1.4/src/core/settle.ts:9:12)
+    at https://deno.land/x/soxa@1.4/src/adapters/fetchAdapter.ts:62:13
+
+2021-04-09 14:09 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
+2021-04-09 14:42 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+
+2021-04-09 14:43 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 50.0%
+Delay/av.: 2005.0ms / 4517.0ms
+Monitored during 0 days
+TIMEOUT 2000
+
+2021-04-09 14:43 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.6.0/smtp.ts:130:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:108:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.6.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/juanperez/dev/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:20:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:24:3
+

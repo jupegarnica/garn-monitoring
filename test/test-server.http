@@ -4,3 +4,7 @@ content-type: application/json
 {
     "a":2
 }
+
+###
+GET http://localhost:8000/timeout
+content-type: application/json
