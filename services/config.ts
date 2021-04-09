@@ -54,7 +54,7 @@ async function getConfig(): Promise<Config> {
   if (!conf.requests?.length) {
     console.log(
       colors.red(
-        'No requests configured, add them to monitor.config.yaml',
+        `No requests configured, add them to ${args.config}`,
       ),
     );
 
