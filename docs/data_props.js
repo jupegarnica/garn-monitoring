@@ -54,7 +54,7 @@ export default {
                 'sidebar',
                 'prev_next'
             ],
-            port: 8000,
+            port: 8888,
             root: '',
             serve: true,
             srcDir: 'web',

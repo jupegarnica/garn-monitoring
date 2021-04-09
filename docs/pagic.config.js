@@ -56,5 +56,5 @@ export default {
         editOnGitHub: true,
         backToTop: true,
     },
-    port: 8000,
+    port: 8888,
 };

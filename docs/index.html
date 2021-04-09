@@ -11,23 +11,22 @@
   </script>
 </head><body><header><h1 class="hide_on_mobile"><a href="">Pagic template docs</a></h1><nav><ul><li class="show_on_mobile flex_center"><a class="czs-menu-l" href="#" style="background-image:url(&quot;assets/czs-menu-l.svg&quot;)"></a></li><li class="show_on_mobile"><h1 class="mobile_title"><a href="">Pagic template docs</a></h1></li><li class="hide_on_mobile"><a href="/data.html">Data</a></li><li class="hide_on_mobile"><a href="/index.html">Readme</a></li><li style="flex-grow:1"></li><li class="hide_on_mobile"><a href="https://jupegarnica.com/">About</a></li><li class="flex_center"><a class="czs-github-logo" href="https://github.com/jupegarnica/garn-monitoring" target="_blank" style="background-image:url(&quot;assets/czs-github-logo.svg&quot;)"></a></li><li class="toggle_dark flex_center"><span class="czs-sun" style="background-image:url(&quot;assets/czs-sun.svg&quot;)"></span><span class="czs-sun-l" style="background-image:url(&quot;assets/czs-sun-l.svg&quot;)"></span><span class="czs-moon" style="background-image:url(&quot;assets/czs-moon.svg&quot;)"></span><span class="czs-moon-l" style="background-image:url(&quot;assets/czs-moon-l.svg&quot;)"></span></li></ul></nav></header><section class="main"><div class="main_article"><article><h1>garn-monitoring</h1>
 <h3 id="get-an-email-when-your-sites-are-down">Get an email when your sites are down<a class="anchor" href="#get-an-email-when-your-sites-are-down">§</a></h3>
+<h2 id="install">install<a class="anchor" href="#install">§</a></h2>
+<pre class="language-autoit"><code class="language-autoit">deno install <span class="token operator">-</span>Af <span class="token operator">-</span><span class="token operator">-</span>unstable <span class="token operator">-</span>n monitor https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>raw<span class="token punctuation">.</span>githubusercontent<span class="token punctuation">.</span>com<span class="token operator">/</span>jupegarnica<span class="token operator">/</span>garn<span class="token operator">-</span>monitoring<span class="token operator">/</span>master<span class="token operator">/</span>app<span class="token punctuation">.</span>ts
+
+</code></pre>
+<h2 id="init-configuration">init configuration<a class="anchor" href="#init-configuration">§</a></h2>
+<pre class="language-autoit"><code class="language-autoit">monitor <span class="token operator">-</span><span class="token operator">-</span>init monitor<span class="token punctuation">.</span>config<span class="token punctuation">.</span>yaml
+</code></pre>
 <h2 id="usage">Usage<a class="anchor" href="#usage">§</a></h2>
-<pre class="language-autoit"><code class="language-autoit">mkdir monitoring <span class="token operator">&amp;</span><span class="token operator">&amp;</span> cd monitoring
-deno install <span class="token operator">-</span>Af <span class="token operator">-</span><span class="token operator">-</span>unstable <span class="token operator">-</span>n monitor https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>raw<span class="token punctuation">.</span>githubusercontent<span class="token punctuation">.</span>com<span class="token operator">/</span>jupegarnica<span class="token operator">/</span>garn<span class="token operator">-</span>monitoring<span class="token operator">/</span>master<span class="token operator">/</span>app<span class="token punctuation">.</span>ts
-monitor
+<pre class="language-autoit"><code class="language-autoit">monitor <span class="token operator">-</span><span class="token operator">-</span>config monitor<span class="token punctuation">.</span>config<span class="token punctuation">.</span>yaml
 </code></pre>
-<h2 id="clone-locally">Clone locally<a class="anchor" href="#clone-locally">§</a></h2>
-<pre class="language-autoit"><code class="language-autoit">git clone git<span class="token variable">@github</span><span class="token punctuation">.</span>com<span class="token punctuation">:</span>jupegarnica<span class="token operator">/</span>garn<span class="token operator">-</span>monitoring<span class="token punctuation">.</span>git
-cd garn<span class="token operator">-</span>monitoring
+<h2 id="once">once<a class="anchor" href="#once">§</a></h2>
+<p>Run only once:</p>
+<pre class="language-autoit"><code class="language-autoit">monitor <span class="token operator">-</span><span class="token operator">-</span>config monitor<span class="token punctuation">.</span>config<span class="token punctuation">.</span>yaml <span class="token operator">-</span><span class="token operator">-</span>once
 </code></pre>
-<ol>
-<li>Fill <code>config.yaml</code></li>
-<li>Optionally create <code>.env</code> based on <code>.env.example</code></li>
-<li>Run it <code>deno run -A --unstable app.ts</code></li>
-<li>Or run it once <code>deno run -A --unstable app.ts --once</code></li>
-</ol>
 <h3 id="ci">CI<a class="anchor" href="#ci">§</a></h3>
-<p>Run it every hour with google actions. It takes aprox 744 min / month.  (FREE 2000 min / month)</p>
+<p>Run it every hour with google actions. It takes aprox 744 min / month. (FREE 2000 min / month)</p>
 <p>Go to <a href="https://github.com/:userName/:repoName/settings/secrets/actions">https://github.com/:userName/:repoName/settings/secrets/actions</a> to configure your smtp settings</p>
 <pre class="language-yml"><code class="language-yml"><span class="token comment"># monitor.config.yaml</span>
 <span class="token key atrule">SMTP_HOST</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_HOST <span class="token punctuation">}</span><span class="token punctuation">}</span>
@@ -36,10 +35,8 @@ cd garn<span class="token operator">-</span>monitoring
 <span class="token key atrule">SMTP_FROM</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_FROM <span class="token punctuation">}</span><span class="token punctuation">}</span>
 <span class="token key atrule">SMTP_TO</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_TO <span class="token punctuation">}</span><span class="token punctuation">}</span>
 <span class="token key atrule">SMTP_PASSWORD</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SMTP_PASSWORD <span class="token punctuation">}</span><span class="token punctuation">}</span>
-
 </code></pre>
-<p>a</p>
-<h3 id="docker-support">Docker support<a class="anchor" href="#docker-support">§</a></h3>
+<h3 id="run-in-docker">Run in Docker<a class="anchor" href="#run-in-docker">§</a></h3>
 <p>Watch docker-compose.yml</p>
 <pre class="language-autoit"><code class="language-autoit">docker<span class="token operator">-</span>compose up
-</code></pre></article></div><div class="main_toc_container nav_link_container"><div class="main_toc"><aside><nav class="toc"><ol><li><a href="#get-an-email-when-your-sites-are-down">Get an email when your sites are down</a></li><li><a href="#usage">Usage</a></li><li><a href="#clone-locally">Clone locally</a><ol><li><a href="#ci">CI</a></li><li><a href="#docker-support">Docker support</a></li></ol></li></ol></nav></aside></div></div></section><footer>Powered by <a href="https://github.com/xcatliu/pagic" target="_blank">Pagic</a></footer><div class="tools flex_center hide_on_mobile"><a class="czs-pen button" href="https://github.com/jupegarnica/garn-monitoring/edit/master/web/index.md" target="_blank" style="background-image:url(&quot;assets/czs-pen.svg&quot;)"></a><a class="czs-angle-up-l button" href="#" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></a></div><script src="https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js"></script><script src="https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script type="module" src="index.js"></script></body></html>
+</code></pre></article></div><div class="main_toc_container nav_link_container"><div class="main_toc"><aside><nav class="toc"><ol><li><a href="#get-an-email-when-your-sites-are-down">Get an email when your sites are down</a></li><li><a href="#install">install</a></li><li><a href="#init-configuration">init configuration</a></li><li><a href="#usage">Usage</a></li><li><a href="#once">once</a><ol><li><a href="#ci">CI</a></li><li><a href="#run-in-docker">Run in Docker</a></li></ol></li></ol></nav></aside></div></div></section><footer>Powered by <a href="https://github.com/xcatliu/pagic" target="_blank">Pagic</a></footer><div class="tools flex_center hide_on_mobile"><a class="czs-pen button" href="https://github.com/jupegarnica/garn-monitoring/edit/master/web/index.md" target="_blank" style="background-image:url(&quot;assets/czs-pen.svg&quot;)"></a><a class="czs-angle-up-l button" href="#" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></a></div><script src="https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js"></script><script src="https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script type="module" src="index.js"></script></body></html>

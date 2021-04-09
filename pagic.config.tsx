@@ -62,5 +62,5 @@ export default {
     backToTop: true,
   },
 
-  port: 8000,
+  port: 8888,
 };
