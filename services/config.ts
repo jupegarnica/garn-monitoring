@@ -6,7 +6,6 @@ import {
   config,
   Path
 } from '../deps.ts';
-// import { fetchAndCopy } from "./helpers.ts";
 import type { Config, LogLevel } from './models.ts';
 
 config({ safe: false, export: true });
@@ -49,7 +48,7 @@ async function getConfig(): Promise<Config> {
       ),
     );
 
-    Deno.exit(1);
+   return Deno.exit(1);
   }
   return conf;
 }
