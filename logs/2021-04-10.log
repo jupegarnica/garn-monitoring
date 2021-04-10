@@ -22,3 +22,96 @@ TypeError: error sending request for url (http://localhost:8000/timeout): error 
     at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
     at handleAsyncMsgFromRust (deno:core/core.js:207:32)
 
+2021-04-10 09:50 ERROR   
+❌ fail from GET https://valencia.io
+
+Downtime 100.0%
+Delay/av.: 1093.0ms / 1093.0ms
+Monitored during 0 days
+TypeError: error sending request for url (https://valencia.io/): error trying to connect: invalid certificate: CertNotValidForName
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-10 09:50 ERROR   
+❌ fail from GET https://datsme.life
+
+Downtime 100.0%
+Delay/av.: 2008.0ms / 2008.0ms
+Monitored during 0 days
+TimeoutError: Request timed out
+    at https://unpkg.com/ky@0.27.0/index.js:135:11
+    at fire (deno:runtime/js/11_timers.js:445:7)
+    at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
+
+2021-04-10 09:50 ERROR   
+❌ fail from GET https://shop.datsme.life
+
+Downtime 100.0%
+Delay/av.: 797.0ms / 797.0ms
+Monitored during 0 days
+TypeError: error sending request for url (https://shop.datsme.life/): error trying to connect: invalid certificate: UnknownIssuer
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-10 09:50 ERROR   
+❌ fail from GET https://shop.datsme.life:444
+
+Downtime 100.0%
+Delay/av.: 397.0ms / 397.0ms
+Monitored during 0 days
+HTTPError: Not Found
+    at fn (https://unpkg.com/ky@0.27.0/index.js:279:11)
+    at async Ky._retry (https://unpkg.com/ky@0.27.0/index.js:374:11)
+    at async monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:8:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:17:5
+    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:16:3
+
+2021-04-10 09:50 ERROR   
+❌ fail from GET https://valencia.io
+
+Downtime 100.0%
+Delay/av.: 1161.0ms / 1127.0ms
+Monitored during 0 days
+TypeError: error sending request for url (https://valencia.io/): error trying to connect: invalid certificate: CertNotValidForName
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-10 09:51 ERROR   
+❌ fail from GET https://shop.datsme.life
+
+Downtime 100.0%
+Delay/av.: 616.0ms / 706.5ms
+Monitored during 0 days
+TypeError: error sending request for url (https://shop.datsme.life/): error trying to connect: invalid certificate: UnknownIssuer
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
+2021-04-10 09:51 ERROR   
+❌ fail from GET https://shop.datsme.life:444
+
+Downtime 100.0%
+Delay/av.: 442.0ms / 419.5ms
+Monitored during 0 days
+HTTPError: Not Found
+    at fn (https://unpkg.com/ky@0.27.0/index.js:279:11)
+    at async Ky._retry (https://unpkg.com/ky@0.27.0/index.js:374:11)
+    at async monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:1)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:8:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:17:5
+    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:16:3
+

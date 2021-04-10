@@ -6,7 +6,8 @@ name: Cron monitor
 on:
   workflow_dispatch:
   schedule:
-  - cron: "0 * * * *" # every hour - aprox 744 min / month
+  # - cron: "0 * * * *" # every hour - aprox 744 min / month
+  - cron: "0 8 * * *" # every day at 8:00 am
 
 jobs:
   monitor:
@@ -28,7 +29,7 @@ jobs:
           deno-version: v1.5.4
 
       - name: Run monitoring
-        run: deno run -A --unstable app.ts --once
+        run: deno run -A --unstable app.ts --once --config monitor-ci.config.yaml
       - name: push
         uses: github-actions-x/commit@v2.7
         with:
