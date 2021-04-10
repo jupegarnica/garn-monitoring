@@ -50,24 +50,24 @@ requests:
     lastDelay: 2
     daysMonitored: 0
   'GET https://jupegarnica.com':
-    updateAt: 1618041697918
+    updateAt: 1618042191142
     createdAt: 1618041034026
-    totalRequests: 8
+    totalRequests: 9
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 1838
-    averageDelay: 229.75
-    lastDelay: 342
+    totalDelay: 1938
+    averageDelay: 215.33333333333334
+    lastDelay: 100
     daysMonitored: 0
   'GET https://juanchorro.com':
-    updateAt: 1618041698998
+    updateAt: 1618042191350
     createdAt: 1618041035496
-    totalRequests: 8
+    totalRequests: 9
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 7999
-    averageDelay: 999.875
-    lastDelay: 1021
+    totalDelay: 8185
+    averageDelay: 909.4444444444445
+    lastDelay: 186
     daysMonitored: 0
   'GET https://valencia.io':
     updateAt: 1618041059296
@@ -80,14 +80,14 @@ requests:
     lastDelay: 1161
     daysMonitored: 0
   'GET https://datsme.life':
-    updateAt: 1618041703343
+    updateAt: 1618042194792
     createdAt: 1618041038650
-    totalRequests: 7
+    totalRequests: 8
     totalFailed: 2
-    downtimePercentage: 0.2857142857142857
-    totalDelay: 20854
-    averageDelay: 2979.1428571428573
-    lastDelay: 3916
+    downtimePercentage: 0.25
+    totalDelay: 24228
+    averageDelay: 3028.5
+    lastDelay: 3374
     daysMonitored: 0
   'GET https://shop.datsme.life':
     updateAt: 1618041169039
@@ -110,14 +110,14 @@ requests:
     lastDelay: 468
     daysMonitored: 0
   'GET http://valencia.io':
-    updateAt: 1618041699394
+    updateAt: 1618042191400
     createdAt: 1618041127880
-    totalRequests: 6
+    totalRequests: 7
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 2546
-    averageDelay: 424.3333333333333
-    lastDelay: 361
+    totalDelay: 2580
+    averageDelay: 368.57142857142856
+    lastDelay: 34
     daysMonitored: 0
   'GET http://shop.datsme.life':
     updateAt: 1618041255664
