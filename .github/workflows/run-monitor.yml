@@ -26,7 +26,7 @@ jobs:
       - name: Setup Deno
         uses: denolib/setup-deno@v2.3.0
         with:
-          deno-version: v1.5.4
+          deno-version: v1.8.3
 
       - name: Run monitoring
         run: deno run -A --unstable app.ts --once --config monitor-ci.config.yaml
@@ -35,8 +35,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
-          commit-message: 'new log'
+          commit-message: 'new run'
           force-add: 'false'
-          files: logs/*
-          name:  monitor
+          files: '*'
+          name:  gh-actions
           email: ${{ secrets.SMTP_TO }}

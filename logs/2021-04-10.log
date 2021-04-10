@@ -115,3 +115,16 @@ HTTPError: Not Found
     at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
     at async file:///home/juanperez/dev/garn-monitoring/app.ts:16:3
 
+2021-04-10 08:02 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 92.3%
+Delay/av.: 2.0ms / 1339.8ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+
