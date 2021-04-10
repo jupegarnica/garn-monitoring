@@ -17,7 +17,7 @@ import {
   // textColor,
 } from "./helpers.ts";
 import { addLogToQueue } from "./mailer.ts";
-import { DEBUG, DEBUG_EMAIL, LOG_LEVEL } from "./config.ts";
+import { DEBUG, DEBUG_EMAIL, LOG_LEVEL, LOGS_DIR } from "./config.ts";
 
 const emailFormatter = ({
   datetime,
@@ -119,7 +119,7 @@ const fileFormatter = ({
 };
 
 const fileHandler = new handlers.FileHandler("WARNING", {
-  filename: `logs/${formatLogFileName()}${
+  filename: `${LOGS_DIR}/${formatLogFileName()}${
     DEBUG ? ".debug" : ""
   }.log`,
   mode: "a", // 'a', 'w', 'x'
@@ -128,7 +128,7 @@ const fileHandler = new handlers.FileHandler("WARNING", {
 
 export const flushLogs = fileHandler.flush.bind(fileHandler);
 
-await ensureDir("./logs");
+await ensureDir(LOGS_DIR);
 await setup({
   handlers: {
     console: new ConsoleHandler("DEBUG"),
@@ -136,7 +136,7 @@ await setup({
     fileRotating: new handlers.RotatingFileHandler("WARNING", {
       maxBytes: 1024 * 10,
       maxBackupCount: 10,
-      filename: `logs/${formatLogFileName()}${
+      filename: `${LOGS_DIR}/${formatLogFileName()}${
         DEBUG ? ".debug" : ""
       }.log`,
       mode: "a", // 'a', 'w', 'x'

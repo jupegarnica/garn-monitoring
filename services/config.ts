@@ -100,4 +100,6 @@ export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 10s
 export const SMTP = conf.smtp;
 // export const PROCESS_TIMEOUT =
 //   1000 + REQUEST_TIMEOUT * conf.requests?.length;
+export const LOGS_DIR = conf.logs_dir ?? 'logs';
+
 export default conf;

@@ -22,6 +22,7 @@ requests:
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }} # DEBUG, INFO, WARNING, ERROR, CRITICAL
+logs_dir: 'logs'
 request_timeout: 10000
 smtp:
   host: ${{ SMTP_HOST  }}

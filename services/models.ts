@@ -13,6 +13,7 @@ export type LogLevel =
 export interface Config {
   requests: Request[];
   log_level: LogLevel;
+  logs_dir: string;
   run_every: number;
   request_timeout: number;
   smtp: {

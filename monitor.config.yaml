@@ -28,6 +28,7 @@ requests:
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }}
+logs_dir: '.'
 request_timeout: 2000
 smtp:
   host: ${{ SMTP_HOST  }}
