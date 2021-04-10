@@ -2,7 +2,7 @@ import {  RUN_EVERY, once } from "./services/config.ts";
 import { runEvery, wait,ask } from "./services/helpers.ts";
 import { monitor } from "./services/monitor.ts";
 import { sendInBulk } from "./services/mailer.ts";
-import { logger } from "./services/logger.ts";
+import { logger,flushLogs } from "./services/logger.ts";
 
 
 
@@ -20,6 +20,7 @@ if (once) {
     // logger.debug(`Waiting until next round in ${RUN_EVERY}ms`);
     // await wait(RUN_EVERY);
     logger.debug(`Waiting until next round in ${RUN_EVERY}ms`,`ENTER to run request`);
+    flushLogs();
     await Promise.race([
       wait(RUN_EVERY),
       ask('...'),

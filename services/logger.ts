@@ -118,17 +118,21 @@ const fileFormatter = ({
   return text + "\n";
 };
 
+const fileHandler = new handlers.FileHandler("WARNING", {
+  filename: `logs/${formatLogFileName()}${
+    DEBUG ? ".debug" : ""
+  }.log`,
+  mode: "a", // 'a', 'w', 'x'
+  formatter: fileFormatter,
+})
+
+export const flushLogs = fileHandler.flush.bind(fileHandler);
+
 await ensureDir("./logs");
 await setup({
   handlers: {
     console: new ConsoleHandler("DEBUG"),
-    file: new handlers.FileHandler("WARNING", {
-      filename: `logs/${formatLogFileName()}${
-        DEBUG ? ".debug" : ""
-      }.log`,
-      mode: "a", // 'a', 'w', 'x'
-      formatter: fileFormatter,
-    }),
+    file: fileHandler,
     fileRotating: new handlers.RotatingFileHandler("WARNING", {
       maxBytes: 1024 * 10,
       maxBackupCount: 10,
