@@ -30,7 +30,7 @@ async function getConfig(): Promise<Config> {
   if (!args.config) {
     console.log(
       colors.bold(
-        colors.yellow(
+        colors.red(
           `--config flag is required.\nRun as: $ monitor --config monitor.config.yml`,
         ),
       ),
@@ -98,8 +98,7 @@ export const REQUESTS: any[] = conf.requests.map((req: any) =>
 export const RUN_EVERY = conf.run_every || 1000 * 60 * 1; // 1 min
 export const REQUEST_TIMEOUT = conf.request_timeout || 1000 * 10; // 10s
 export const SMTP = conf.smtp;
-// export const PROCESS_TIMEOUT =
-//   1000 + REQUEST_TIMEOUT * conf.requests?.length;
+
 export const LOGS_DIR = conf.logs_dir ?? 'logs';
 
 export default conf;

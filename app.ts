@@ -17,8 +17,6 @@ if (once) {
 } else {
   await runEvery(async () => {
     await run();
-    // logger.debug(`Waiting until next round in ${RUN_EVERY}ms`);
-    // await wait(RUN_EVERY);
     logger.debug(`Waiting until next round in ${RUN_EVERY}ms`,`ENTER to run request`);
     flushLogs();
     await Promise.race([
