@@ -9,3 +9,16 @@ TimeoutError: Request timed out
     at fire (deno:runtime/js/11_timers.js:445:7)
     at handleTimerMacrotask (deno:runtime/js/11_timers.js:305:7)
 
+2021-04-10 09:10 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 92.2%
+Delay/av.: 314.0ms / 1360.7ms
+Monitored during 0 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at handleError (deno:core/core.js:186:12)
+    at jsonOpParseResult (deno:core/core.js:356:9)
+    at asyncHandle (deno:core/core.js:223:40)
+    at Array.asyncHandlers.<computed> (deno:core/core.js:238:9)
+    at handleAsyncMsgFromRust (deno:core/core.js:207:32)
+

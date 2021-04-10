@@ -19,6 +19,7 @@ scripts:
     watch: true
   once: deno run -A --unstable app.ts --config monitor.config.yaml --once
   format: deno fmt *.ts
+  lint: deno lint *.ts
   json: deno run --allow-read --allow-net test/json.server.ts
   server:
     cmd: deno run -A test/oak.server.ts
