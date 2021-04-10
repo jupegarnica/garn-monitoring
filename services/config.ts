@@ -3,10 +3,10 @@ import {
   colors,
   parse,
   config,
-  Path
+  Path,
 } from '../deps.ts';
 
-  import {fetchAndCopy} from './helpers.ts'
+import { fetchAndCopy } from './helpers.ts';
 import type { Config, LogLevel } from './models.ts';
 
 config({ safe: false, export: true });
@@ -20,20 +20,21 @@ const args = parse(Deno.args);
 const init = args.init;
 
 if (init) {
-  await fetchAndCopy('https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/example.config.yaml', init || 'monitor.config.yaml');
+  await fetchAndCopy(
+    'https://raw.githubusercontent.com/jupegarnica/garn-monitoring/master/example.config.yaml',
+    init || 'monitor.config.yaml',
+  );
   Deno.exit(0);
-
 }
 export const once = args.once;
 
 async function getConfig(): Promise<Config> {
   if (!args.config) {
     console.log(
-      colors.bold(
-        colors.red(
-          `--config flag is required.\nRun as: $ monitor --config monitor.config.yml`,
-        ),
-      ),
+      colors.bold(colors.red(`--config flag is required.`)),
+    );
+    console.log(
+      `Run as: \n$ monitor --config monitor.config.yml`,
     );
     return Deno.exit(1);
   }
@@ -43,7 +44,7 @@ async function getConfig(): Promise<Config> {
 
   if (!path.exists) {
     console.log(
-      colors.bold(colors.yellow(`${confFile} not found`)),
+      colors.bold(colors.red(`${confFile} not found`)),
     );
 
     return Deno.exit(1);
@@ -53,8 +54,10 @@ async function getConfig(): Promise<Config> {
 
   if (!conf.requests?.length) {
     console.log(
-      colors.red(
-        `No requests configured, add them to ${args.config}`,
+      colors.bold(
+        colors.red(
+          `No requests configured, add them to ${args.config}`,
+        ),
       ),
     );
 
