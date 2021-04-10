@@ -12,6 +12,13 @@ requests:
 #    headers:
 #      content-type: text/plain
 
+# - method: 'GET'
+#    url: http://localhost:8000/timeout
+#    timeout: 1000
+#    data: hello
+#    headers:
+#      content-type: text/plain
+
 #  - method: PATCH
 #    headers:
 #      content-type: application/json

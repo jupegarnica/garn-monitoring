@@ -14,6 +14,7 @@ requests:
 
  - method: 'GET'
    url: http://localhost:8000/timeout
+   timeout: 1000
    data: hello
    headers:
      content-type: text/plain
@@ -28,7 +29,7 @@ requests:
 
 run_every: 60000
 log_level: ${{ LOG_LEVEL  }}
-logs_dir: '.'
+logs_dir: 'logs'
 request_timeout: 2000
 smtp:
   host: ${{ SMTP_HOST  }}
