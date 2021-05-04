@@ -24,5 +24,5 @@ export { SmtpClient } from "https://deno.land/x/smtp@v0.7.0/mod.ts";
 
 export { difference } from "https://deno.land/std@0.92.0/datetime/mod.ts";
 // export { soxa } from 'https://deno.land/x/soxa@1.4/mod.ts';
-export { default as ky } from "https://unpkg.com/ky/index.js";
+export { default as ky } from "https://deno.land/x/ky@v0.23.0/index.js";
 export { Path } from "https://deno.land/x/path@v2.2.0/mod.ts";

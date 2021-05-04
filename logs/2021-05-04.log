@@ -1,0 +1,18 @@
+2021-05-04 10:55 ERROR   
+❌ fail from GET http://localhost:8000/timeout
+
+Downtime 92.4%
+Delay/av.: 310.0ms / 1324.2ms
+Monitored during 24 days
+TypeError: error sending request for url (http://localhost:8000/timeout): error trying to connect: tcp connect error: Connection refused (os error 111)
+    at unwrapOpResult (deno:core/core.js:99:13)
+    at async mainFetch (deno:op_crates/fetch/26_fetch.js:165:18)
+    at async fetch (deno:op_crates/fetch/26_fetch.js:295:22)
+    at async fn (https://deno.land/x/ky@v0.23.0/index.js:299:19)
+    at async Ky._retry (https://deno.land/x/ky@v0.23.0/index.js:406:11)
+    at async monitor (file:///home/juanperez/dev/garn-monitoring/services/monitor.ts:63:24)
+    at async run (file:///home/juanperez/dev/garn-monitoring/app.ts:8:3)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:17:5
+    at async runEvery (file:///home/juanperez/dev/garn-monitoring/services/helpers.ts:81:5)
+    at async file:///home/juanperez/dev/garn-monitoring/app.ts:16:3
+

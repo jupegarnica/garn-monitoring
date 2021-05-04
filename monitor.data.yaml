@@ -1,14 +1,14 @@
 requests:
   'GET http://jupegarnica.com':
-    updateAt: 1618041760055
+    updateAt: 1620118582911
     createdAt: 1608921760656
-    totalRequests: 83
+    totalRequests: 85
     totalFailed: 1
-    downtimePercentage: 0.012048192771084338
-    totalDelay: 21619
-    averageDelay: 260.4698795180723
-    lastDelay: 439
-    daysMonitored: 105
+    downtimePercentage: 0.011764705882352941
+    totalDelay: 22563
+    averageDelay: 265.4470588235294
+    lastDelay: 207
+    daysMonitored: 129
   'POST http://localhost:8000/post':
     updateAt: 1617970085223
     createdAt: 1608921760866
@@ -40,15 +40,15 @@ requests:
     lastDelay: 6
     daysMonitored: 0
   'GET http://localhost:8000/timeout':
-    updateAt: 1618041760088
+    updateAt: 1620118583245
     createdAt: 1617972139684
-    totalRequests: 65
-    totalFailed: 60
-    downtimePercentage: 0.9230769230769231
-    totalDelay: 87089
-    averageDelay: 1339.8307692307692
-    lastDelay: 2
-    daysMonitored: 0
+    totalRequests: 67
+    totalFailed: 62
+    downtimePercentage: 0.9253731343283582
+    totalDelay: 87714
+    averageDelay: 1309.1641791044776
+    lastDelay: 315
+    daysMonitored: 24
   'GET https://jupegarnica.com':
     updateAt: 1618041697918
     createdAt: 1618041034026
