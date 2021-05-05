@@ -1,0 +1,10 @@
+2021-05-05 08:22 ERROR   
+Error sending email
+Error: invalid cmd
+    at SmtpClient.assertCode (https://deno.land/x/smtp@v0.7.0/smtp.ts:140:13)
+    at SmtpClient._connect (https://deno.land/x/smtp@v0.7.0/smtp.ts:118:10)
+    at async SmtpClient.connect (https://deno.land/x/smtp@v0.7.0/smtp.ts:60:5)
+    at async sendInBulk (file:///home/runner/work/garn-monitoring/garn-monitoring/services/mailer.ts:29:7)
+    at async run (file:///home/runner/work/garn-monitoring/garn-monitoring/app.ts:10:3)
+    at async file:///home/runner/work/garn-monitoring/garn-monitoring/app.ts:14:3
+
