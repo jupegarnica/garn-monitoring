@@ -50,25 +50,25 @@ requests:
     lastDelay: 315
     daysMonitored: 24
   'GET https://jupegarnica.com':
-    updateAt: 1626683139794
+    updateAt: 1626769229955
     createdAt: 1618041034026
-    totalRequests: 109
+    totalRequests: 110
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 26921
-    averageDelay: 246.9816513761468
-    lastDelay: 242
-    daysMonitored: 100
+    totalDelay: 27164
+    averageDelay: 246.94545454545454
+    lastDelay: 243
+    daysMonitored: 101
   'GET https://juanchorro.com':
-    updateAt: 1626683140082
+    updateAt: 1626769230218
     createdAt: 1618041035496
-    totalRequests: 109
+    totalRequests: 110
     totalFailed: 1
-    downtimePercentage: 0.009174311926605505
-    totalDelay: 50035
-    averageDelay: 459.0366972477064
-    lastDelay: 271
-    daysMonitored: 100
+    downtimePercentage: 0.00909090909090909
+    totalDelay: 50269
+    averageDelay: 456.9909090909091
+    lastDelay: 234
+    daysMonitored: 101
   'GET https://valencia.io':
     updateAt: 1618041059296
     createdAt: 1618041036617
@@ -80,15 +80,15 @@ requests:
     lastDelay: 1161
     daysMonitored: 0
   'GET https://datsme.life':
-    updateAt: 1626683142151
+    updateAt: 1626769232384
     createdAt: 1618041038650
-    totalRequests: 108
+    totalRequests: 109
     totalFailed: 2
-    downtimePercentage: 0.018518518518518517
-    totalDelay: 299517
-    averageDelay: 2773.3055555555557
-    lastDelay: 1880
-    daysMonitored: 100
+    downtimePercentage: 0.01834862385321101
+    totalDelay: 301585
+    averageDelay: 2766.8348623853212
+    lastDelay: 2068
+    daysMonitored: 101
   'GET https://shop.datsme.life':
     updateAt: 1618041169039
     createdAt: 1618041039480
@@ -110,15 +110,15 @@ requests:
     lastDelay: 468
     daysMonitored: 0
   'GET http://valencia.io':
-    updateAt: 1626683140258
+    updateAt: 1626769230293
     createdAt: 1618041127880
-    totalRequests: 107
+    totalRequests: 108
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 14852
-    averageDelay: 138.80373831775702
-    lastDelay: 139
-    daysMonitored: 100
+    totalDelay: 14880
+    averageDelay: 137.77777777777777
+    lastDelay: 28
+    daysMonitored: 101
   'GET http://shop.datsme.life':
     updateAt: 1618041255664
     createdAt: 1618041255664
@@ -150,12 +150,12 @@ requests:
     lastDelay: 5901
     daysMonitored: 0
   'GET https://garn.dev':
-    updateAt: 1626683140105
+    updateAt: 1626769230245
     createdAt: 1620202947494
-    totalRequests: 76
+    totalRequests: 77
     totalFailed: 0
     downtimePercentage: 0
-    totalDelay: 663
-    averageDelay: 8.723684210526315
-    lastDelay: 8
+    totalDelay: 669
+    averageDelay: 8.688311688311689
+    lastDelay: 6
     daysMonitored: 75
